@@ -20,4 +20,6 @@ the two selectors at the bottom choose the digit to append: zero, a keypad digit
 
 ![digit input selectors](images/digit-input-selectors.png)
 
+progress is in [JOURNAL.md](JOURNAL.md)
+
 made for Hack Club Half Life, week 5
