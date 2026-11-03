@@ -31,3 +31,21 @@ the storage schematic includes the selectors, decoupling capacitors and power co
 ![digit input selectors](images/digit-input-selectors.png)
 
 ![register bit lane](images/register-bit-lane.png)
+
+## Drew the shared decimal adder
+
+2026-11-03, 4 hours
+
+i drew the arithmetic section and connected it to the three number registers. two HC283 adders handle the binary sum and decimal correction. for 9+9, the circuit stores 8 in the current digit and carries 1 into the next.
+
+subtraction uses the same adder by selecting the nine’s complement of the second digit and starting with carry set to 1. i added a register to keep the carry and track zero, negative results and numbers that are too large.
+
+i checked the arithmetic using KiCad’s exported connections, including carries across digits, negative subtraction and Clear/reset. these checks use simulated control signals. the controller, keypad and display-driver circuits still need drawing, and nothing has been built yet.
+
+![shared decimal adder](images/shared-decimal-adder.png)
+
+![decimal adder detail](images/decimal-adder-detail.png)
+
+![arithmetic flags](images/arithmetic-flags.png)
+
+![registers linked](images/registers-linked.png)
