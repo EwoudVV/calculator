@@ -12,7 +12,7 @@ i've drawn the number registers, shared decimal adder, digit sequencer and main 
 
 i checked the drawn connections from an accepted command through to the display update, including negative results, rounding, overflow, divide-by-zero and Clear. the tests still supply keypad and entry commands. the keypad scanner, entry controls, display drivers, clock source and power-on reset circuit still need drawing
 
-i'll reuse the breadboards and 5V supply from my Ben Eater computer, with some extra male-to-male jumpers. the design is getting large, so the complete parts cost and breadboard space need checking before ordering anything
+i'll reuse the breadboards and 5V supply from my Ben Eater computer, with some extra male-to-male jumpers. sharing control gates removed 18 chips, but the current design still exceeds the existing plank and $100 target. the [parts and space check](BUILD.md) shows what is included and what still needs reducing
 
 open [calculator.kicad_pro](calculator.kicad_pro) in KiCad 10. the number registers link to the arithmetic, timing and main-controller sheets. nothing has been built yet
 
