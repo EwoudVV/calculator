@@ -1,0 +1,3093 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+          (uuid 75418c5e-e8d2-5e47-a5a1-b9e027934e70) (paper "A2")
+          (title_block (title "Calculator - display latch timing") (date "2026-11-04") (rev "working")
+            (comment 1 "Fixed clocked timing. Macro-state decoder, keypad and display drivers pending."))
+          (lib_symbols (symbol "74xx:74LS138"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -7.62 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS138"
+			(at -7.62 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS138"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Decoder 3 to 8 active low outputs"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TTL DECOD DECOD8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "DIP?16*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LS138_1_0"
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 5.08)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -12.7 -10.16 0)
+				(length 5.08)
+				(name "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(name "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 5.08)
+				(name "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(name "O7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -17.78 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 -7.62 180)
+				(length 5.08)
+				(name "O6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 -5.08 180)
+				(length 5.08)
+				(name "O5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "O4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "O3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "O2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "O1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output output_low
+				(at 12.7 7.62 180)
+				(length 5.08)
+				(name "O0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 15.24 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS138_1_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "74xx:74LS157"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -7.62 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS157"
+			(at -7.62 -21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS157"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad 2 to 1 line Multiplexer"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TTL MUX MUX2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "DIP?16*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LS157_1_0"
+			(pin input line
+				(at -12.7 -15.24 0)
+				(length 5.08)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 15.24 0)
+				(length 5.08)
+				(name "I0a"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 12.7 0)
+				(length 5.08)
+				(name "I1a"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 15.24 180)
+				(length 5.08)
+				(name "Za"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 5.08)
+				(name "I0b"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "I1b"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 5.08)
+				(name "Zb"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "Zc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 5.08)
+				(name "I1c"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "I0c"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -7.62 180)
+				(length 5.08)
+				(name "Zd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -10.16 0)
+				(length 5.08)
+				(name "I1d"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(name "I0d"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -12.7 -17.78 0)
+				(length 5.08)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 22.86 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS157_1_1"
+			(rectangle
+				(start -7.62 17.78)
+				(end 7.62 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "74xx:74LS174"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -7.62 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS174"
+			(at -7.62 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS174"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex D-type Flip-Flop, reset"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TTL REG REG6 DFF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "DIP?16*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LS174_1_0"
+			(pin input line
+				(at -12.7 -12.7 0)
+				(length 5.08)
+				(name "~{Mr}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 10.16 180)
+				(length 5.08)
+				(name "Q0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 10.16 0)
+				(length 5.08)
+				(name "D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 5.08)
+				(name "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 5.08)
+				(name "Q1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "Q2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20.32 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(name "Cp"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "Q3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "Q4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 5.08)
+				(name "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "Q5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 17.78 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS174_1_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 7.62 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "74xx:74LS04"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TTL not inv"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LS04_1_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS04_2_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS04_3_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS04_4_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS04_5_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS04_6_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS04_7_0"
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS04_7_1"
+			(rectangle
+				(start -5.08 7.62)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "74xx:74LS08"
+		(body_styles demorgan)
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS08"
+			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad And2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TTL and2"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "DIP*W7.62mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74LS08_1_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7934 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_1_2"
+			(arc
+				(start -3.81 3.81)
+				(mid -2.589 0)
+				(end -3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy -0.635 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+					(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+					(xy -0.635 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input inverted
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -7.62 -2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_2_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7934 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_2_2"
+			(arc
+				(start -3.81 3.81)
+				(mid -2.589 0)
+				(end -3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy -0.635 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+					(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+					(xy -0.635 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input inverted
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -7.62 -2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_3_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7934 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_3_2"
+			(arc
+				(start -3.81 3.81)
+				(mid -2.589 0)
+				(end -3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy -0.635 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+					(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+					(xy -0.635 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -7.62 -2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_4_1"
+			(arc
+				(start 0 3.81)
+				(mid 3.7934 0)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_4_2"
+			(arc
+				(start -3.81 3.81)
+				(mid -2.589 0)
+				(end -3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy -0.635 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+					(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+					(xy -0.635 -3.81)
+				)
+				(stroke
+					(width -25.4)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -7.62 -2.54 0)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_5_0"
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74LS08_5_1"
+			(rectangle
+				(start -5.08 7.62)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+          (hierarchical_label "BANK_CLK" (shape input) (at 20.32 17.78 0) (effects (font (size 1 1)) (justify right)) (uuid 257f0f55-6518-529a-ac92-bb37de328022)) (wire (pts (xy 20.3200 17.7800) (xy 33.0200 17.7800)) (stroke (width 0) (type default)) (uuid 571c609e-1639-51ca-96b1-50f461ffed5e)) (label "BANK_CLK"  (at 33.0200 17.7800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f105d83e-4720-5e2f-a788-3dd88486bf1d)) (hierarchical_label "+5V" (shape input) (at 20.32 22.86 0) (effects (font (size 1 1)) (justify right)) (uuid dfff47ea-1102-58e0-a708-97ecaa69c2cb)) (wire (pts (xy 20.3200 22.8600) (xy 33.0200 22.8600)) (stroke (width 0) (type default)) (uuid b9f06139-cded-59c2-b17d-3205c9686b21)) (label "+5V"  (at 33.0200 22.8600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 802add78-cdab-5ffe-8644-281a72d4a9d3)) (hierarchical_label "GND" (shape input) (at 20.32 27.94 0) (effects (font (size 1 1)) (justify right)) (uuid d577d778-317b-5789-9ac8-3d6cdc461297)) (wire (pts (xy 20.3200 27.9400) (xy 33.0200 27.9400)) (stroke (width 0) (type default)) (uuid d381250c-b1e8-566b-9e3e-5526b5c850db)) (label "GND"  (at 33.0200 27.9400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid accc5637-eb6d-54b9-9d3f-bd4d6dc87a27)) (symbol (lib_id "74xx:74LS138") (at 91.44 68.58 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 9045b964-b950-5a63-b549-48f8cdefb84f)
+          (property "Reference" "U402" (at 68.58 38.099999999999994 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "CD74HC138E" (at 68.58 40.63999999999999 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 91.44 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/gpn/cd74hc138" (at 91.44 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 4cf05b26-ea16-5de4-90c7-969b5ea87fe2)) (pin "2" (uuid 6da5b57d-fc80-513d-9548-b309eacc25dd)) (pin "3" (uuid d492e09d-5bb4-533f-86eb-7255deb1d4e5)) (pin "4" (uuid 96736cab-8291-5035-ba06-c6dae7e4297e)) (pin "5" (uuid 11112cb3-baa9-55b5-9d4d-fd06bef43b1a)) (pin "6" (uuid a6d6f0e0-3b69-5ba4-8fae-e92c4c17c481)) (pin "7" (uuid 7c8300b7-1e0a-50d0-9c57-d23c74b34db8)) (pin "8" (uuid c1ed3cf3-9ec9-554a-9492-53bb968fb8e5)) (pin "9" (uuid fdb3d290-d2e1-5b1c-a01f-13d4ffab78b6)) (pin "10" (uuid 954589aa-bc58-5177-a1c2-4c04b580ecc9)) (pin "11" (uuid c3d8f66c-7ede-576d-bba4-176b43c06dbc)) (pin "12" (uuid f1c512d6-b576-5310-8092-87a1d4951f23)) (pin "13" (uuid 4ce39c8e-5504-54a9-a2c1-6da0ad376c3b)) (pin "14" (uuid 10fc1445-2b46-5a43-99a2-3c9a7e6776eb)) (pin "15" (uuid 661eaa34-39e4-5db9-8f0d-7e5e4752f822)) (pin "16" (uuid 57833fcd-b595-546b-8944-ee3a89f95d71))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U402") (unit 1))))) (wire (pts (xy 78.7400 60.9600) (xy 71.1200 60.9600)) (stroke (width 0) (type default)) (uuid 9c10ce95-acc7-5186-84bf-5ed467b10598)) (global_label "DIGIT_INDEX_0" (shape bidirectional) (at 71.1200 60.9600 180) (effects (font (size 1 1)) (justify right)) (uuid 1d1005e7-083f-5635-b2eb-9bd9406b02da)) (wire (pts (xy 78.7400 63.5000) (xy 71.1200 63.5000)) (stroke (width 0) (type default)) (uuid ecacd584-baec-5a75-94bb-391c3959793e)) (global_label "DIGIT_INDEX_1" (shape bidirectional) (at 71.1200 63.5000 180) (effects (font (size 1 1)) (justify right)) (uuid 07929b3a-dca1-5a1e-8537-c0d6258af12e)) (wire (pts (xy 78.7400 66.0400) (xy 71.1200 66.0400)) (stroke (width 0) (type default)) (uuid 72fc395c-fffa-57ea-a229-c5d7a3bb4f1a)) (global_label "DIGIT_INDEX_2" (shape bidirectional) (at 71.1200 66.0400 180) (effects (font (size 1 1)) (justify right)) (uuid f89ea703-f951-5182-864a-bf9ba952b354)) (wire (pts (xy 78.7400 78.7400) (xy 71.1200 78.7400)) (stroke (width 0) (type default)) (uuid c08e71ae-9151-5bc5-9a5c-6c140a914561)) (label "DISPLAY_PREP_N"  (at 71.1200 78.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid fca8598e-2d9c-555d-8ca9-18633fb964be)) (wire (pts (xy 78.7400 76.2000) (xy 71.1200 76.2000)) (stroke (width 0) (type default)) (uuid 4dca7a34-941d-5956-b617-e2b13b78d589)) (label "GND"  (at 71.1200 76.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid d62fbb9b-5652-5c02-aae0-10c6a8ba269e)) (wire (pts (xy 78.7400 73.6600) (xy 71.1200 73.6600)) (stroke (width 0) (type default)) (uuid a54f16de-6817-5201-8b63-506a66a22800)) (label "+5V"  (at 71.1200 73.6600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid b635783b-57f4-5518-a3ca-1c88c5f90b83)) (no_connect (at 104.14 78.74) (uuid 890a74b5-3a5a-5224-8f47-a502114ec373)) (wire (pts (xy 91.4400 86.3600) (xy 91.4400 91.4400)) (stroke (width 0) (type default)) (uuid aa8349b2-5eb7-578c-bec3-c6c1ea4be620)) (label "GND"  (at 91.4400 91.4400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 44c65890-2c50-51d0-a15c-447d3b3af519)) (no_connect (at 104.14 76.2) (uuid bc6b7175-352f-501f-ab9c-17eb4052ad02)) (wire (pts (xy 104.1400 73.6600) (xy 111.7600 73.6600)) (stroke (width 0) (type default)) (uuid aa1571cd-66eb-5715-a806-cfcc18db3789)) (label "D5_N"  (at 111.7600 73.6600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1e979ec6-5fa5-560e-93ed-0471bfc544a9)) (wire (pts (xy 104.1400 71.1200) (xy 111.7600 71.1200)) (stroke (width 0) (type default)) (uuid b68e6c1f-842b-5c96-94cd-fcf2b78eea3d)) (label "D4_N"  (at 111.7600 71.1200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d741bcdb-10f2-5ed0-85a3-ea4f047887ea)) (wire (pts (xy 104.1400 68.5800) (xy 111.7600 68.5800)) (stroke (width 0) (type default)) (uuid ce7c632e-51de-5b47-9aaa-25203745f223)) (label "D3_N"  (at 111.7600 68.5800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 10586828-b25a-54dc-9c25-44ea02de04a1)) (wire (pts (xy 104.1400 66.0400) (xy 111.7600 66.0400)) (stroke (width 0) (type default)) (uuid 48efb718-c09b-51ca-8f53-318c7c2b507c)) (label "D2_N"  (at 111.7600 66.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 89923b49-4c34-5847-bc80-1e8313dea7b5)) (wire (pts (xy 104.1400 63.5000) (xy 111.7600 63.5000)) (stroke (width 0) (type default)) (uuid 0745be22-6ec4-528d-bd31-c4ca390960fe)) (label "D1_N"  (at 111.7600 63.5000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f6b0eb5d-038a-51eb-a39d-b44688708d73)) (wire (pts (xy 104.1400 60.9600) (xy 111.7600 60.9600)) (stroke (width 0) (type default)) (uuid e20da316-5670-5ae7-9737-48245fa1c27c)) (label "D0_N"  (at 111.7600 60.9600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7dc595d6-32eb-5d95-970c-04800a856b37)) (wire (pts (xy 91.4400 53.3400) (xy 91.4400 48.2600)) (stroke (width 0) (type default)) (uuid b1dee1ee-9cdc-5f7f-9b66-59edbaf42f43)) (label "+5V"  (at 91.4400 48.2600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ed004663-07e7-5c17-92b8-98b12f58e6bc)) (symbol (lib_id "Device:C") (at 121.92 104.14 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e3e8889c-ae80-55f6-bfdf-5f70e6b74567)
+          (property "Reference" "C402" (at 116.84 95.25 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 116.84 97.79 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 121.92 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 121.92 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 2e7f470d-bae4-5db1-a323-8bac3fac60b9)) (pin "2" (uuid 8d7fa277-50eb-5103-b48e-7e5d74a81df0))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C402") (unit 1))))) (wire (pts (xy 121.9200 100.3300) (xy 121.9200 95.2500)) (stroke (width 0) (type default)) (uuid 4bd8bcb7-07d2-54ac-978f-5a18364440bf)) (label "+5V"  (at 121.9200 95.2500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f9ffc2aa-8642-59ad-898e-c216d21ac052)) (wire (pts (xy 121.9200 107.9500) (xy 121.9200 113.0300)) (stroke (width 0) (type default)) (uuid 1ecfa36a-d88f-559e-9b47-28a28ec63e24)) (label "GND"  (at 121.9200 113.0300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d2f6f419-e1e7-5548-b459-ce0a792303e9)) (symbol (lib_id "74xx:74LS157") (at 226.06 68.58 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8bd49fd5-a7f9-5f23-9112-3facca141478)
+          (property "Reference" "U403" (at 203.2 38.099999999999994 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "CD74HC157E" (at 203.2 40.63999999999999 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 226.06 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc157.pdf" (at 226.06 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 78da6096-2a64-5adc-abcc-37ae47bbf6e4)) (pin "2" (uuid 7c214fa3-27f4-54c7-9954-940141767900)) (pin "3" (uuid da8cfc1d-04d8-5432-bbcc-4023a35f1102)) (pin "4" (uuid fe1e8f85-9adf-527a-ae09-6f069d3a09b8)) (pin "5" (uuid 12d8ab94-baa4-5df9-a59f-74860efe8938)) (pin "6" (uuid 53a85064-82db-57a5-8835-9f8b7b6f0aec)) (pin "7" (uuid 4b0cdc62-2a98-5b1f-b893-2ab0047e630b)) (pin "8" (uuid e01a6300-9f8d-5a52-88e0-95c4b1703a63)) (pin "9" (uuid 81ad0d8b-93c5-5a44-b320-c32beab372a5)) (pin "10" (uuid 0f4cbbf4-f456-5a4f-84dd-a264e72f3d88)) (pin "11" (uuid 4fe900b0-879c-5eba-a963-6d8374bc977e)) (pin "12" (uuid a2352ad2-0ced-5cbd-98e9-de2e5a09baff)) (pin "13" (uuid 047e889a-8c2e-5627-bc1f-35d945853776)) (pin "14" (uuid c7e0643b-c893-5989-8e05-354cad7221ac)) (pin "15" (uuid 7754451f-d53b-5168-b9d7-51306010f8a4)) (pin "16" (uuid 072956e8-e852-51d4-bf11-5c270ef548f2))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U403") (unit 1))))) (wire (pts (xy 213.3600 83.8200) (xy 205.7400 83.8200)) (stroke (width 0) (type default)) (uuid a7cf66a7-38d7-51bb-a790-412ee19b9674)) (global_label "FRACTIONAL" (shape bidirectional) (at 205.7400 83.8200 180) (effects (font (size 1 1)) (justify right)) (uuid 12154463-1905-537e-b72f-34efd5554a52)) (wire (pts (xy 213.3600 53.3400) (xy 205.7400 53.3400)) (stroke (width 0) (type default)) (uuid b8c8c5e5-ca5d-55cb-b954-b6221e9b3fee)) (label "+5V"  (at 205.7400 53.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 062c27eb-6357-5ded-ad16-f0af22c2f0e2)) (wire (pts (xy 213.3600 55.8800) (xy 205.7400 55.8800)) (stroke (width 0) (type default)) (uuid aa96eda2-5a0e-5d99-81f0-2bf7f124d124)) (label "D0_N"  (at 205.7400 55.8800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 3365d1fe-eb9e-593f-a146-224c8332452d)) (wire (pts (xy 238.7600 53.3400) (xy 246.3800 53.3400)) (stroke (width 0) (type default)) (uuid afb8c5eb-6350-5cb5-8d9f-9af916305207)) (label "OPEN_D_N_0"  (at 246.3800 53.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6be20b31-110f-5d2a-9750-8371eaa40fbe)) (wire (pts (xy 213.3600 60.9600) (xy 205.7400 60.9600)) (stroke (width 0) (type default)) (uuid 60dc1782-b2eb-5c49-8318-c2f05e03e85b)) (label "+5V"  (at 205.7400 60.9600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 1bd66087-3b14-5490-acb4-901885ca7bf4)) (wire (pts (xy 213.3600 63.5000) (xy 205.7400 63.5000)) (stroke (width 0) (type default)) (uuid b8a93add-bf76-5bde-a69e-e34477cfee24)) (label "D1_N"  (at 205.7400 63.5000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 9eebc963-5508-53ba-939b-51127aba9a64)) (wire (pts (xy 238.7600 60.9600) (xy 246.3800 60.9600)) (stroke (width 0) (type default)) (uuid e1b94f58-3199-5e8f-ad22-ec002e74a5fc)) (label "OPEN_D_N_1"  (at 246.3800 60.9600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f031468c-4a52-5021-8031-460c55528703)) (wire (pts (xy 226.0600 93.9800) (xy 226.0600 99.0600)) (stroke (width 0) (type default)) (uuid 9c771ffd-29ed-5a5d-a66f-2208587a88bf)) (label "GND"  (at 226.0600 99.0600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1360238b-f2ae-50b8-9f33-0ea86dd44321)) (wire (pts (xy 238.7600 68.5800) (xy 246.3800 68.5800)) (stroke (width 0) (type default)) (uuid 291ef849-076f-590d-8f8e-7b82496c069a)) (label "OPEN_D_N_2"  (at 246.3800 68.5800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8282e08d-8a9f-5f72-bbf8-3a86ce065a56)) (wire (pts (xy 213.3600 71.1200) (xy 205.7400 71.1200)) (stroke (width 0) (type default)) (uuid 8b3c70cf-8f74-536d-8428-c5fa2c0e254f)) (label "D2_N"  (at 205.7400 71.1200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid a801f59f-8d39-5e9e-bf0e-f5e0935d99af)) (wire (pts (xy 213.3600 68.5800) (xy 205.7400 68.5800)) (stroke (width 0) (type default)) (uuid 578a7497-2ab3-5e0f-8f43-18690881b313)) (label "D0_N"  (at 205.7400 68.5800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 823d1a1b-42aa-5408-9f0e-fcb3d49bafbf)) (wire (pts (xy 238.7600 76.2000) (xy 246.3800 76.2000)) (stroke (width 0) (type default)) (uuid 60a9f7bf-84de-5995-9210-b76edc899896)) (label "OPEN_D_N_3"  (at 246.3800 76.2000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 12c6a619-56b1-512c-b5b7-29c8abbe927a)) (wire (pts (xy 213.3600 78.7400) (xy 205.7400 78.7400)) (stroke (width 0) (type default)) (uuid ec64b947-9ca8-5ddf-a051-1e5cac9421b6)) (label "D3_N"  (at 205.7400 78.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 8bbbae36-3d25-52a5-950e-95524d4de22a)) (wire (pts (xy 213.3600 76.2000) (xy 205.7400 76.2000)) (stroke (width 0) (type default)) (uuid f9f8cebb-588b-5391-abae-73c5dc3862d3)) (label "D1_N"  (at 205.7400 76.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 7f4f2147-c548-5d00-994a-56cd3d468899)) (wire (pts (xy 213.3600 86.3600) (xy 205.7400 86.3600)) (stroke (width 0) (type default)) (uuid b1b0b88f-f756-58eb-beea-3d372150536f)) (label "GND"  (at 205.7400 86.3600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid bce09ebb-d70c-5c6d-8cd7-865ca3d5f652)) (wire (pts (xy 226.0600 45.7200) (xy 226.0600 40.6400)) (stroke (width 0) (type default)) (uuid 2a2ade0e-17e3-58e3-9eb7-2f859a3535d3)) (label "+5V"  (at 226.0600 40.6400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ccea5383-d71e-500d-9150-65ba1ada3af3)) (symbol (lib_id "Device:C") (at 256.54 104.14 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 1ecbe3e6-0927-507e-ba8a-7a6159eabe75)
+          (property "Reference" "C403" (at 251.46 95.25 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 251.46 97.79 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 256.54 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 256.54 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 00a4d92d-f7d6-5ef0-a762-db9624c1190e)) (pin "2" (uuid a8a1c5c5-3b3a-5346-897e-b4f3d6f1466c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C403") (unit 1))))) (wire (pts (xy 256.5400 100.3300) (xy 256.5400 95.2500)) (stroke (width 0) (type default)) (uuid fc25f0f7-39d3-51e0-a721-193ba8ac85a3)) (label "+5V"  (at 256.5400 95.2500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a61bed80-b04b-5a57-bd27-20c0a9af0565)) (wire (pts (xy 256.5400 107.9500) (xy 256.5400 113.0300)) (stroke (width 0) (type default)) (uuid d4d60fe9-fa58-5508-9d0a-739eb9c00f7a)) (label "GND"  (at 256.5400 113.0300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid bfc0be34-cb19-5da2-8180-ec6e52c31413)) (symbol (lib_id "74xx:74LS157") (at 360.68 68.58 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 53aadec3-eec0-558e-9cff-a5271b72dcf4)
+          (property "Reference" "U404" (at 337.82 38.099999999999994 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "CD74HC157E" (at 337.82 40.63999999999999 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 360.68 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc157.pdf" (at 360.68 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 47c485c3-2d81-5198-8677-722e8c01ea9c)) (pin "2" (uuid 680a86a1-f89c-5510-869a-3fe625ed34b3)) (pin "3" (uuid 67d6cbaa-6880-5dab-8d7a-682f533ac990)) (pin "4" (uuid d639c2d3-178a-5472-96b5-e1025af1ba32)) (pin "5" (uuid 50b336de-fedc-52e9-8d29-2d6a6abe9e8f)) (pin "6" (uuid d405b2ed-084c-543a-a739-3de098fd6ae8)) (pin "7" (uuid a1755746-1125-5412-b4c8-333fbdd735ad)) (pin "8" (uuid c6fcf6a6-b417-521e-bf0d-c7ea323db04f)) (pin "9" (uuid c1f7f6c8-cd15-5237-a26f-516c3943ab6d)) (pin "10" (uuid 8bcbdfb3-9c6f-5bfd-9f0d-6e855fc8975a)) (pin "11" (uuid 27a16d28-c05d-5b4e-b7ac-b4ade56254f0)) (pin "12" (uuid 84dff10f-e445-5e0d-9b43-1f2470b72c49)) (pin "13" (uuid a9242f62-a81f-56a6-a3bc-9786e5b12618)) (pin "14" (uuid a8df13b3-ba5b-54d2-947f-f15cdf0ff029)) (pin "15" (uuid f8b341d0-744e-56e9-8ab4-68a36efe8063)) (pin "16" (uuid 0fccadcf-1472-5a10-b7c6-888641fc3c62))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U404") (unit 1))))) (wire (pts (xy 347.9800 83.8200) (xy 340.3600 83.8200)) (stroke (width 0) (type default)) (uuid 5e003242-179f-5dee-ad22-3b38d6155f6e)) (global_label "FRACTIONAL" (shape bidirectional) (at 340.3600 83.8200 180) (effects (font (size 1 1)) (justify right)) (uuid 4dc8c569-c381-58e1-8c00-dff9fbc7deaf)) (wire (pts (xy 347.9800 53.3400) (xy 340.3600 53.3400)) (stroke (width 0) (type default)) (uuid e61ad637-7677-5873-9a26-6cf9f37944f9)) (label "D2_N"  (at 340.3600 53.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 2aa59473-eee0-5531-b842-66314610e16a)) (wire (pts (xy 347.9800 55.8800) (xy 340.3600 55.8800)) (stroke (width 0) (type default)) (uuid f5f71c0e-b252-5cc0-ac2b-3b36bb89021b)) (label "D4_N"  (at 340.3600 55.8800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 7a4ad201-f3a3-59c3-92b6-b7b07d960317)) (wire (pts (xy 373.3800 53.3400) (xy 381.0000 53.3400)) (stroke (width 0) (type default)) (uuid 62cca4ca-2986-5993-8542-f0b01ce4f132)) (label "OPEN_D_N_4"  (at 381.0000 53.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid aff0d4c4-9202-5f08-a211-ba6d16544a37)) (wire (pts (xy 347.9800 60.9600) (xy 340.3600 60.9600)) (stroke (width 0) (type default)) (uuid b2dc45d0-d555-56d5-b81e-2fd79a9715b7)) (label "D3_N"  (at 340.3600 60.9600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 4f89d6ef-2f07-5989-b456-b6e068ae31b5)) (wire (pts (xy 347.9800 63.5000) (xy 340.3600 63.5000)) (stroke (width 0) (type default)) (uuid 1fc1c950-d52f-50b1-9103-a92a5fc5df49)) (label "D5_N"  (at 340.3600 63.5000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 24c19e9f-b01c-5539-8226-923234fecb03)) (wire (pts (xy 373.3800 60.9600) (xy 381.0000 60.9600)) (stroke (width 0) (type default)) (uuid 1c21f392-98b5-548c-8d67-242e4b29584e)) (label "OPEN_D_N_5"  (at 381.0000 60.9600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c196ed4d-34ae-5d19-8387-ead413b70384)) (wire (pts (xy 360.6800 93.9800) (xy 360.6800 99.0600)) (stroke (width 0) (type default)) (uuid 84d3c212-ea08-5f59-ac7c-79bb4317ab8d)) (label "GND"  (at 360.6800 99.0600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9eb4232f-817a-5d11-bda1-f48df15e5cae)) (no_connect (at 373.38 68.58) (uuid 0d8fb38e-f196-57c6-a77a-337c82a2d799)) (wire (pts (xy 347.9800 71.1200) (xy 340.3600 71.1200)) (stroke (width 0) (type default)) (uuid 34ca995f-cc29-5f66-96ec-cf71da1502de)) (label "GND"  (at 340.3600 71.1200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid f982bb24-8d7b-5eb8-bc47-f1bfac06e3dd)) (wire (pts (xy 347.9800 68.5800) (xy 340.3600 68.5800)) (stroke (width 0) (type default)) (uuid f56895be-4aef-578d-8999-d6c3d667f54c)) (label "GND"  (at 340.3600 68.5800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid c542e834-3837-5500-be3f-08b396927499)) (no_connect (at 373.38 76.2) (uuid 580738fd-ee24-5b15-b477-93490ffcbd9f)) (wire (pts (xy 347.9800 78.7400) (xy 340.3600 78.7400)) (stroke (width 0) (type default)) (uuid ecb300f6-a82b-5f90-ac6d-7718f16f347e)) (label "GND"  (at 340.3600 78.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 067d4491-700d-5190-b3cb-858938b34fb4)) (wire (pts (xy 347.9800 76.2000) (xy 340.3600 76.2000)) (stroke (width 0) (type default)) (uuid 470cd297-e17c-5248-8788-d639edca0224)) (label "GND"  (at 340.3600 76.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 88309632-2831-5561-a739-11cdcc5c317e)) (wire (pts (xy 347.9800 86.3600) (xy 340.3600 86.3600)) (stroke (width 0) (type default)) (uuid 387c458b-8751-5ea0-b51f-3e57f92fd2f2)) (label "GND"  (at 340.3600 86.3600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 0a860f15-b2b7-59fd-8e64-569844a4f97c)) (wire (pts (xy 360.6800 45.7200) (xy 360.6800 40.6400)) (stroke (width 0) (type default)) (uuid bed26717-060a-5e15-92de-3cfc93d0b026)) (label "+5V"  (at 360.6800 40.6400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f449b6d5-f83f-5229-ba82-a5842421f39d)) (symbol (lib_id "Device:C") (at 391.16 104.14 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3b2fa14a-d209-578b-9b99-e1556a27fe9c)
+          (property "Reference" "C404" (at 386.08000000000004 95.25 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 386.08000000000004 97.79 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 391.16 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 391.16 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 1d414699-f2b2-5051-99bf-fa140f57daaa)) (pin "2" (uuid a7b00021-8c4c-529a-a268-bbe936b02d5f))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C404") (unit 1))))) (wire (pts (xy 391.1600 100.3300) (xy 391.1600 95.2500)) (stroke (width 0) (type default)) (uuid 01ee1152-cbd6-5b9b-8cfe-30d83010776c)) (label "+5V"  (at 391.1600 95.2500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4b39a5df-0d69-5b35-9cfd-f90dd616af3d)) (wire (pts (xy 391.1600 107.9500) (xy 391.1600 113.0300)) (stroke (width 0) (type default)) (uuid 2e0b917d-44c9-518a-957c-090d9b11d80d)) (label "GND"  (at 391.1600 113.0300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ad6b8322-2a4a-5443-b98c-285446ec7b55)) (symbol (lib_id "74xx:74LS174") (at 495.3 68.58 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid eb9b2b2c-77ca-512e-9eb8-fc11e00731ab)
+          (property "Reference" "U407" (at 472.44 38.099999999999994 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC174N" (at 472.44 40.63999999999999 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 495.3 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc174.pdf" (at 495.3 68.58 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f47343c4-fac4-5797-b05b-bbbe540418de)) (pin "2" (uuid 2ea2f69b-3419-58d1-a4cd-5957685d8a90)) (pin "3" (uuid aa02f4e6-66d9-5900-999b-107ab0e43cc1)) (pin "4" (uuid 3493f3cd-aadd-5c03-9dbd-a8e904b09ee4)) (pin "5" (uuid 8c61067b-28df-51d9-b023-bbb39bade69c)) (pin "6" (uuid ab1b461a-f226-5131-9623-ba231a091430)) (pin "7" (uuid e6f9393a-8e10-5e38-b9bb-fa072d1c8c13)) (pin "8" (uuid 16dca33d-ba3d-5415-ab60-f7feee377941)) (pin "9" (uuid 3dd113ac-58ec-5a4b-8864-b1428a5d033e)) (pin "10" (uuid 17fad8c9-2a8b-5fb1-94b7-82257ed063ff)) (pin "11" (uuid 7f9ab937-ea34-5ddc-9555-32ff6a0b0762)) (pin "12" (uuid e24ae525-56b3-5dd5-adda-207c4652ffe5)) (pin "13" (uuid a24f915d-1ea6-54c1-b58b-7d1669274d67)) (pin "14" (uuid 68ba8ab9-47c0-5db3-a191-ef638233a421)) (pin "15" (uuid 4f55862d-be4b-5810-8973-9468143ec576)) (pin "16" (uuid ef75fcb3-8803-53fc-8651-ae663ab6f65f))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U407") (unit 1))))) (wire (pts (xy 482.6000 81.2800) (xy 474.9800 81.2800)) (stroke (width 0) (type default)) (uuid 7eff5fcf-bc22-5933-88a7-3e56fedf599c)) (global_label "POWER_RESET_N" (shape bidirectional) (at 474.9800 81.2800 180) (effects (font (size 1 1)) (justify right)) (uuid 29c113fb-556e-5f71-b9f7-ad07d8920ef8)) (wire (pts (xy 508.0000 58.4200) (xy 515.6200 58.4200)) (stroke (width 0) (type default)) (uuid f3d938a2-9488-5a12-a386-a0a9ef82537a)) (label "LATCH_OPEN_0"  (at 515.6200 58.4200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 775007b3-e0d2-5b62-9c84-6a6c45b5eb4f)) (wire (pts (xy 482.6000 58.4200) (xy 474.9800 58.4200)) (stroke (width 0) (type default)) (uuid 0f57267b-fced-548a-973a-b55ebc3e02bc)) (label "OPEN_D_0"  (at 474.9800 58.4200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 13099d48-f7b5-5d27-b90e-818143667b83)) (wire (pts (xy 482.6000 60.9600) (xy 474.9800 60.9600)) (stroke (width 0) (type default)) (uuid 3c0cf32d-782a-5d12-acd7-a2733360fb0a)) (label "OPEN_D_1"  (at 474.9800 60.9600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 2175fc00-6906-5489-aff5-94ab11743e04)) (wire (pts (xy 508.0000 60.9600) (xy 515.6200 60.9600)) (stroke (width 0) (type default)) (uuid 3f533eea-6f8b-537e-bcea-ae88fd7be4fd)) (label "LATCH_OPEN_1"  (at 515.6200 60.9600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0250cdcb-158f-5907-b563-0f75c8506702)) (wire (pts (xy 482.6000 63.5000) (xy 474.9800 63.5000)) (stroke (width 0) (type default)) (uuid b62fd8bc-48c2-51ca-bb1a-ceb4975435d4)) (label "OPEN_D_2"  (at 474.9800 63.5000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid c3f94270-9e6a-5f6e-aac9-c840462218d6)) (wire (pts (xy 508.0000 63.5000) (xy 515.6200 63.5000)) (stroke (width 0) (type default)) (uuid bdcfcbd1-9ee7-557f-b387-3cf27461f3f7)) (label "LATCH_OPEN_2"  (at 515.6200 63.5000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 86a7cbbb-01a0-5696-a9e3-dbc1917cd963)) (wire (pts (xy 495.3000 88.9000) (xy 495.3000 93.9800)) (stroke (width 0) (type default)) (uuid 44e3a7cd-45c5-5c33-96d2-8e8ca7f6ddbf)) (label "GND"  (at 495.3000 93.9800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid cd14a130-8d20-5f34-8641-bed8a0304ca1)) (wire (pts (xy 482.6000 76.2000) (xy 474.9800 76.2000)) (stroke (width 0) (type default)) (uuid 6a58e977-8143-5ac4-aa9c-a6f968f68aec)) (label "BANK_CLK"  (at 474.9800 76.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid bb58afc4-ad30-5464-a5e3-055a0123785b)) (wire (pts (xy 508.0000 66.0400) (xy 515.6200 66.0400)) (stroke (width 0) (type default)) (uuid ed493fc6-0e77-5279-9ddf-e10da26df3ad)) (label "LATCH_OPEN_3"  (at 515.6200 66.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2b47b7d0-3c9d-5936-b561-b534d4cdc49c)) (wire (pts (xy 482.6000 66.0400) (xy 474.9800 66.0400)) (stroke (width 0) (type default)) (uuid 46e62fa4-d900-5df9-adf1-e3be1908df2c)) (label "OPEN_D_3"  (at 474.9800 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 174df8ef-2408-52e3-874a-59b17c13e775)) (wire (pts (xy 508.0000 68.5800) (xy 515.6200 68.5800)) (stroke (width 0) (type default)) (uuid 0d20e0a4-d970-5f3f-a531-6a52e75dab88)) (label "LATCH_OPEN_4"  (at 515.6200 68.5800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid b7c95af0-4187-576e-b080-2fe9051dc9ba)) (wire (pts (xy 482.6000 68.5800) (xy 474.9800 68.5800)) (stroke (width 0) (type default)) (uuid 834648be-7e4d-5d96-a973-260aede85318)) (label "OPEN_D_4"  (at 474.9800 68.5800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 3a621137-91c3-5b1d-9802-93ae755fb5dc)) (wire (pts (xy 482.6000 71.1200) (xy 474.9800 71.1200)) (stroke (width 0) (type default)) (uuid 0069da01-4d9b-5d9f-aa5f-f4d70447063b)) (label "OPEN_D_5"  (at 474.9800 71.1200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 113ee07c-5854-56c7-928c-a10df83a62df)) (wire (pts (xy 508.0000 71.1200) (xy 515.6200 71.1200)) (stroke (width 0) (type default)) (uuid 558ca403-6701-5d15-a6cd-18d9a1cfafd5)) (label "LATCH_OPEN_5"  (at 515.6200 71.1200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 5385cb84-215a-5fa0-836c-b355061645a1)) (wire (pts (xy 495.3000 50.8000) (xy 495.3000 45.7200)) (stroke (width 0) (type default)) (uuid 6496d1e5-2ac9-52a3-a442-026a87451374)) (label "+5V"  (at 495.3000 45.7200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3a50d803-00cd-562b-be93-2570c1e916ee)) (symbol (lib_id "Device:C") (at 525.78 104.14 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 9ff2c3cb-c82e-59f5-a01d-7f2f98748fa6)
+          (property "Reference" "C407" (at 520.6999999999999 95.25 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 520.6999999999999 97.79 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 525.78 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 525.78 104.14 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d79ff496-4d6a-59c0-865e-dd92e237078e)) (pin "2" (uuid 805b68b5-a344-508c-8309-8419f30bcc84))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C407") (unit 1))))) (wire (pts (xy 525.7800 100.3300) (xy 525.7800 95.2500)) (stroke (width 0) (type default)) (uuid 27150d06-983c-516c-8488-e22fe26c0c47)) (label "+5V"  (at 525.7800 95.2500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 78e09d06-dc27-5e44-a303-fcf1c4ae2c8a)) (wire (pts (xy 525.7800 107.9500) (xy 525.7800 113.0300)) (stroke (width 0) (type default)) (uuid fa9a23e9-e5ed-5603-91c4-e7bd90877bd0)) (label "GND"  (at 525.7800 113.0300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 31538d98-467b-56d0-b451-1ef65e4480dc)) (text "Decode the internal digit" (at 63.5 17.78 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 38d9b0c5-b0fa-5b16-a650-84aa5e82d8fe)) (text "Whole numbers offset by two positions; division uses all six" (at 198.12 17.78 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid d03ee400-795b-518b-8fe7-72a031311d8b)) (text "Clocked latch controls" (at 467.36 17.78 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid a6672412-892b-5eb7-a9d3-6987dc105508)) (text "LE LOW opens a CD4511 latch. LE HIGH holds the saved digit." (at 20.32 307.34 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid b80afe1a-b31b-546c-8fdb-96abfac70a04)) (text "PREP edge opens; OPEN edge closes; CLOSE holds; ROTATE moves the source." (at 20.32 317.5 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid 994e91fa-69ab-5985-bb24-6e3ea82a2072)) (text "Internal digits 6 and 7 never open a physical display latch." (at 20.32 327.66 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid 4c285969-4c6b-57e9-a4fe-1b9aaae8fd39)) (text "Display drivers, segment resistors and LEDs are not on this sheet yet." (at 20.32 337.82 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid 0ff58b87-b44e-5474-ba24-942e918d6cfc)) (symbol (lib_id "74xx:74LS04") (at 63.5 144.78 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ec79e608-b178-580a-9664-32e8ea332d84)
+          (property "Reference" "U401" (at 58.42 135.89 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 58.42 138.42999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 63.5 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 63.5 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid badfb250-02c2-5751-a5ca-6190ec70029b)) (pin "2" (uuid b5e6c0e0-026d-5a01-88fa-b4df0705aa77))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U401") (unit 1))))) (wire (pts (xy 55.8800 144.7800) (xy 48.2600 144.7800)) (stroke (width 0) (type default)) (uuid c4a91cee-381d-5ee2-ba87-5e0052d7a537)) (global_label "DISPLAY_PREP" (shape bidirectional) (at 48.2600 144.7800 180) (effects (font (size 1 1)) (justify right)) (uuid c0976ecc-d0f3-5f43-b37f-89e796b01082)) (wire (pts (xy 71.1200 144.7800) (xy 78.7400 144.7800)) (stroke (width 0) (type default)) (uuid 96f9ec77-c9fe-58fe-b50e-a930b01c2133)) (label "DISPLAY_PREP_N"  (at 78.7400 144.7800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ba41ca5b-9102-59d1-b9ec-3c736d9c3f7d)) (symbol (lib_id "74xx:74LS04") (at 154.94 144.78 0) (unit 2)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 942d005b-1fa2-5d13-84b5-01ed02c91ee0)
+          (property "Reference" "U401" (at 149.85999999999999 135.89 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 149.85999999999999 138.42999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 154.94 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 154.94 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "3" (uuid b64248be-ea12-5685-8685-ee189ddd9a34)) (pin "4" (uuid c42cf26c-e830-5f93-aef3-54ce617a9355))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U401") (unit 2))))) (wire (pts (xy 147.3200 144.7800) (xy 139.7000 144.7800)) (stroke (width 0) (type default)) (uuid ce3f0203-acd3-5b20-95a8-1410706c876a)) (label "OPEN_D_N_0"  (at 139.7000 144.7800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid b5e09084-8114-51d1-8622-b73494a3efc9)) (wire (pts (xy 162.5600 144.7800) (xy 170.1800 144.7800)) (stroke (width 0) (type default)) (uuid 9341deb7-0755-5c12-9398-c119948bab4e)) (label "OPEN_D_0"  (at 170.1800 144.7800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3ced4289-209e-58bd-b5d3-a4712b510cce)) (symbol (lib_id "74xx:74LS04") (at 246.38 144.78 0) (unit 3)
+          (in_bom yes) (on_board yes) (dnp no) (uuid a4a48845-ac5e-56a7-93ea-d1bdf19c3715)
+          (property "Reference" "U401" (at 241.29999999999998 135.89 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 241.29999999999998 138.42999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 246.38 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 246.38 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "5" (uuid b7c24bf6-b1cc-5ec7-aa07-5d3a1b410c43)) (pin "6" (uuid 86be547a-6c40-50fb-8d52-44389e6fda61))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U401") (unit 3))))) (wire (pts (xy 238.7600 144.7800) (xy 231.1400 144.7800)) (stroke (width 0) (type default)) (uuid e613f8f1-f664-5cbc-90b8-667a1850f302)) (label "LATCH_OPEN_0"  (at 231.1400 144.7800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid f99d204b-7ea2-5890-a585-7c385b6d914c)) (wire (pts (xy 254.0000 144.7800) (xy 261.6200 144.7800)) (stroke (width 0) (type default)) (uuid 19dc8995-089f-54ea-993b-bf373f03af64)) (global_label "DISPLAY_LE_N_0" (shape bidirectional) (at 261.6200 144.7800 0) (effects (font (size 1 1)) (justify left)) (uuid 26f5e77c-094b-51ac-ae8f-6c2e0870fdf0)) (symbol (lib_id "74xx:74LS04") (at 337.82 144.78 0) (unit 4)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 0e951661-158c-5f4c-992a-ad28b9c0a3c9)
+          (property "Reference" "U401" (at 332.74 135.89 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 332.74 138.42999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 337.82 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 337.82 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "8" (uuid fe5a3128-1899-513f-baf1-80cb1e614438)) (pin "9" (uuid b87dc1f7-67c2-5e83-bcbc-dc168600a65a))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U401") (unit 4))))) (wire (pts (xy 345.4400 144.7800) (xy 353.0600 144.7800)) (stroke (width 0) (type default)) (uuid 3a34d822-861d-5088-8282-5df036a04bd3)) (label "OPEN_D_1"  (at 353.0600 144.7800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid b60e8901-af02-5699-851f-cc252b391eec)) (wire (pts (xy 330.2000 144.7800) (xy 322.5800 144.7800)) (stroke (width 0) (type default)) (uuid 7a49ce86-1371-531f-a3e9-5a5f51ee3d77)) (label "OPEN_D_N_1"  (at 322.5800 144.7800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 63b053d2-00aa-55c8-9cbc-6945354099c3)) (symbol (lib_id "74xx:74LS04") (at 429.26 144.78 0) (unit 5)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 40698113-e526-5f00-ac2e-6dfcf886043f)
+          (property "Reference" "U401" (at 424.18 135.89 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 424.18 138.42999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 429.26 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 429.26 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "10" (uuid ff53e346-838e-5841-975c-ccc2fe67bfb6)) (pin "11" (uuid e5fe1d12-0cd3-52dc-b565-7e7e098f20e1))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U401") (unit 5))))) (wire (pts (xy 436.8800 144.7800) (xy 444.5000 144.7800)) (stroke (width 0) (type default)) (uuid b89d3204-2518-567b-a1a6-788cec21fd93)) (global_label "DISPLAY_LE_N_1" (shape bidirectional) (at 444.5000 144.7800 0) (effects (font (size 1 1)) (justify left)) (uuid f8c21b78-b9ae-5559-ac36-732a11b82df0)) (wire (pts (xy 421.6400 144.7800) (xy 414.0200 144.7800)) (stroke (width 0) (type default)) (uuid 7f6b2e6e-ffb7-52bd-9636-3d35eb9b4650)) (label "LATCH_OPEN_1"  (at 414.0200 144.7800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 91aad35d-b7b5-5502-8a27-ec4c22c6fc5a)) (symbol (lib_id "74xx:74LS04") (at 520.7 144.78 0) (unit 6)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3668ee68-d748-53e3-a477-73eec30565e3)
+          (property "Reference" "U401" (at 515.62 135.89 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 515.62 138.42999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 520.7 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 520.7 144.78 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "12" (uuid 20f332c6-ea90-54c2-961c-01cb25b8e8da)) (pin "13" (uuid 04181a06-4200-5aba-ae4c-6ea920573f62))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U401") (unit 6))))) (wire (pts (xy 528.3200 144.7800) (xy 535.9400 144.7800)) (stroke (width 0) (type default)) (uuid 20e5f8e7-a7ac-5d47-9ded-adb5a7d0bbde)) (label "OPEN_D_2"  (at 535.9400 144.7800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6b69f9d2-0aee-5d84-913f-5ea245719386)) (wire (pts (xy 513.0800 144.7800) (xy 505.4600 144.7800)) (stroke (width 0) (type default)) (uuid 05c16686-ab28-5148-a5cb-8af109808ca1)) (label "OPEN_D_N_2"  (at 505.4600 144.7800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid a939f120-cd7c-51cc-a75b-d17b0b3c960f)) (symbol (lib_id "74xx:74LS04") (at 63.5 175.26 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 21484b3b-2ad7-5a01-88e1-4883a7d36aff)
+          (property "Reference" "U405" (at 58.42 166.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 58.42 168.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 63.5 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 63.5 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid e3fea68d-cdcb-592c-8159-7fd0d07fe63a)) (pin "2" (uuid 7279664e-2444-5bbf-a773-3247dd3df3e0))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U405") (unit 1))))) (wire (pts (xy 55.8800 175.2600) (xy 48.2600 175.2600)) (stroke (width 0) (type default)) (uuid f843f377-2b82-5a4e-9169-89f0a1711e74)) (label "LATCH_OPEN_2"  (at 48.2600 175.2600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid d290a31b-c7cb-5ee1-9a7e-b109d0b49f7e)) (wire (pts (xy 71.1200 175.2600) (xy 78.7400 175.2600)) (stroke (width 0) (type default)) (uuid 2cd5f9e7-c440-5058-92aa-9a68029ccfe3)) (global_label "DISPLAY_LE_N_2" (shape bidirectional) (at 78.7400 175.2600 0) (effects (font (size 1 1)) (justify left)) (uuid f36ded2b-c231-587f-b701-41e2cfa344f9)) (symbol (lib_id "74xx:74LS04") (at 154.94 175.26 0) (unit 2)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ecd508d9-ed7a-5740-a9e1-d226a119c463)
+          (property "Reference" "U405" (at 149.85999999999999 166.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 149.85999999999999 168.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 154.94 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 154.94 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "3" (uuid 1cb172d0-6ce7-51ee-832a-9586aa98b9c2)) (pin "4" (uuid 23f728cd-930c-56d2-a7cb-d8a77e659a7c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U405") (unit 2))))) (wire (pts (xy 147.3200 175.2600) (xy 139.7000 175.2600)) (stroke (width 0) (type default)) (uuid 49d82031-7bf0-5752-853d-c52454bc9fa1)) (label "OPEN_D_N_3"  (at 139.7000 175.2600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid dec3b064-38a4-5ba9-b15d-d6a5f164dc4a)) (wire (pts (xy 162.5600 175.2600) (xy 170.1800 175.2600)) (stroke (width 0) (type default)) (uuid f7df6b2e-0c1f-5c9d-838b-dc19d6b20728)) (label "OPEN_D_3"  (at 170.1800 175.2600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 12699961-1927-5395-945e-0cf8ada8ca50)) (symbol (lib_id "74xx:74LS04") (at 246.38 175.26 0) (unit 3)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 35faa62e-9dd8-5709-9a38-3b082d377549)
+          (property "Reference" "U405" (at 241.29999999999998 166.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 241.29999999999998 168.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 246.38 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 246.38 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "5" (uuid 68be6136-d44b-533b-bfe0-dacee3bcc429)) (pin "6" (uuid 10dfe63c-6d37-5f99-942b-9733b397ee2e))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U405") (unit 3))))) (wire (pts (xy 238.7600 175.2600) (xy 231.1400 175.2600)) (stroke (width 0) (type default)) (uuid 160d567e-6bbc-58fa-a879-cba52b28ba9a)) (label "LATCH_OPEN_3"  (at 231.1400 175.2600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 4596cdfa-fba7-5191-a3dc-52ab3623830e)) (wire (pts (xy 254.0000 175.2600) (xy 261.6200 175.2600)) (stroke (width 0) (type default)) (uuid e97bf454-43fe-5cf8-8017-d52f58b068f5)) (global_label "DISPLAY_LE_N_3" (shape bidirectional) (at 261.6200 175.2600 0) (effects (font (size 1 1)) (justify left)) (uuid e87760cd-1d27-5329-aaba-5ebd6e5cc7c2)) (symbol (lib_id "74xx:74LS04") (at 337.82 175.26 0) (unit 4)
+          (in_bom yes) (on_board yes) (dnp no) (uuid f2add8db-afdd-5ef9-bcfe-e2f771c70c2b)
+          (property "Reference" "U405" (at 332.74 166.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 332.74 168.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 337.82 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 337.82 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "8" (uuid 3b6e1c75-5738-5f7f-b7b5-c9a07da9d09d)) (pin "9" (uuid d8413b27-71bb-5fa8-92d1-dd5f9ce6c592))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U405") (unit 4))))) (wire (pts (xy 345.4400 175.2600) (xy 353.0600 175.2600)) (stroke (width 0) (type default)) (uuid 9c66a2fc-0e48-5207-98e2-e03b6e0c941a)) (label "OPEN_D_4"  (at 353.0600 175.2600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4e0cab50-ff18-554a-8a8f-b2febdd328cd)) (wire (pts (xy 330.2000 175.2600) (xy 322.5800 175.2600)) (stroke (width 0) (type default)) (uuid 1f66b0f8-364c-5809-b30e-5c5e1217e033)) (label "OPEN_D_N_4"  (at 322.5800 175.2600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid bbf7167f-a547-5d5a-82a4-b96d37e1d912)) (symbol (lib_id "74xx:74LS04") (at 429.26 175.26 0) (unit 5)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 74ac9a8d-286a-57d9-822f-08ba1dfe477a)
+          (property "Reference" "U405" (at 424.18 166.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 424.18 168.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 429.26 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 429.26 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "10" (uuid eb7d658d-832b-5fa7-a929-498f552670fe)) (pin "11" (uuid ef857113-d07e-5a5f-a271-93916d12b80d))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U405") (unit 5))))) (wire (pts (xy 436.8800 175.2600) (xy 444.5000 175.2600)) (stroke (width 0) (type default)) (uuid cd9aae0c-2072-5e3e-9a11-735fd4fee5b4)) (global_label "DISPLAY_LE_N_4" (shape bidirectional) (at 444.5000 175.2600 0) (effects (font (size 1 1)) (justify left)) (uuid 0eb3b2f7-a744-5727-9c94-cfb6fab88931)) (wire (pts (xy 421.6400 175.2600) (xy 414.0200 175.2600)) (stroke (width 0) (type default)) (uuid e63d0d2b-193d-5f74-a257-a1c7a9c7c80f)) (label "LATCH_OPEN_4"  (at 414.0200 175.2600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 3ffff7ec-4a20-56ef-8f02-96a5fca989cb)) (symbol (lib_id "74xx:74LS04") (at 520.7 175.26 0) (unit 6)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3d6d9bba-6f3b-5d21-b460-87daedaba511)
+          (property "Reference" "U405" (at 515.62 166.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 515.62 168.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 520.7 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 520.7 175.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "12" (uuid 1afb82d3-f381-5819-a1b8-fd5fc3fb3e20)) (pin "13" (uuid 0c5b1e1d-038a-5fd0-97a4-042e9e34bf49))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U405") (unit 6))))) (wire (pts (xy 528.3200 175.2600) (xy 535.9400 175.2600)) (stroke (width 0) (type default)) (uuid 92754b00-54a2-5278-a23b-623ec4b539d7)) (label "OPEN_D_5"  (at 535.9400 175.2600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid afebb5a5-fd47-5bde-ae1d-ab5b906797f1)) (wire (pts (xy 513.0800 175.2600) (xy 505.4600 175.2600)) (stroke (width 0) (type default)) (uuid 84a15a98-7f7e-527b-bfa3-fb2085cffdbe)) (label "OPEN_D_N_5"  (at 505.4600 175.2600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 5bcb40ce-c1c1-5252-85a0-bb19a52bac97)) (symbol (lib_id "74xx:74LS04") (at 63.5 205.74 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ee75de91-6987-5e7f-abdc-0db7786f5d38)
+          (property "Reference" "U406" (at 58.42 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 58.42 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 63.5 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 63.5 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d6c75f79-2f16-50dd-9ddd-f0743b7d46bb)) (pin "2" (uuid 3fc08853-718a-52c7-8f01-1b785fcc1296))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U406") (unit 1))))) (wire (pts (xy 55.8800 205.7400) (xy 48.2600 205.7400)) (stroke (width 0) (type default)) (uuid 6dfe525c-d81b-5e93-b167-5b83578d3cf8)) (label "LATCH_OPEN_5"  (at 48.2600 205.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 024fb46d-121a-5863-bb00-f923ec836f43)) (wire (pts (xy 71.1200 205.7400) (xy 78.7400 205.7400)) (stroke (width 0) (type default)) (uuid 77b504a9-3b88-5414-b7fa-8877f59f93b7)) (global_label "DISPLAY_LE_N_5" (shape bidirectional) (at 78.7400 205.7400 0) (effects (font (size 1 1)) (justify left)) (uuid a59602c9-8761-54ee-b050-84cc5477fbba)) (symbol (lib_id "74xx:74LS04") (at 154.94 205.74 0) (unit 2)
+          (in_bom yes) (on_board yes) (dnp no) (uuid f0aad444-37e6-5558-9316-e0ccfab476f6)
+          (property "Reference" "U406" (at 149.85999999999999 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 149.85999999999999 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 154.94 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 154.94 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "3" (uuid 367a598b-10bf-5ea7-870e-3d20934243b5)) (pin "4" (uuid 0e8162b9-0d7c-5287-b103-4df97aca20cb))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U406") (unit 2))))) (wire (pts (xy 147.3200 205.7400) (xy 139.7000 205.7400)) (stroke (width 0) (type default)) (uuid 8b5346f5-03ac-5a9d-ab75-417cb711db01)) (global_label "GLOBAL_BLANK" (shape bidirectional) (at 139.7000 205.7400 180) (effects (font (size 1 1)) (justify right)) (uuid ddeedd3d-da42-568f-a285-39e49a8249d8)) (wire (pts (xy 162.5600 205.7400) (xy 170.1800 205.7400)) (stroke (width 0) (type default)) (uuid 184d02c6-3f9b-59b9-a04c-f2ba0e272e74)) (label "DISPLAY_VISIBLE"  (at 170.1800 205.7400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ed805e50-9a89-5dff-ba7f-772b93b12f33)) (symbol (lib_id "74xx:74LS08") (at 246.38 205.74 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e4357e39-d87f-5d42-934c-9d4ede76e4d2)
+          (property "Reference" "U408" (at 241.29999999999998 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 241.29999999999998 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 246.38 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 246.38 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 039f3854-efd2-54f2-b6fe-382a9b8a6f09)) (pin "2" (uuid 94507adf-b785-5e42-ad8a-c0f283d3502e)) (pin "3" (uuid 9070c100-ceca-5e25-80f6-e5fd9278e367))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U408") (unit 1))))) (wire (pts (xy 238.7600 203.2000) (xy 231.1400 203.2000)) (stroke (width 0) (type default)) (uuid 68fac625-028f-5f11-b3da-8cdff99136f5)) (label "DISPLAY_VISIBLE"  (at 231.1400 203.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid fae8037a-b06d-566b-9e2a-f11922ce770c)) (wire (pts (xy 238.7600 208.2800) (xy 231.1400 208.2800)) (stroke (width 0) (type default)) (uuid 5bae3ae2-416f-5a25-a636-668e8743da3a)) (global_label "FRACTIONAL" (shape bidirectional) (at 231.1400 208.2800 180) (effects (font (size 1 1)) (justify right)) (uuid 0b3a8cf8-0de2-537d-b16c-d656e7d86016)) (wire (pts (xy 254.0000 205.7400) (xy 261.6200 205.7400)) (stroke (width 0) (type default)) (uuid 5cbdb2f9-2c4d-5af3-946a-09e0b1c5c8b6)) (global_label "DISPLAY_BL_N_0" (shape bidirectional) (at 261.6200 205.7400 0) (effects (font (size 1 1)) (justify left)) (uuid 113e97b5-3f2b-5b64-8e7a-53f01a1cbbd2)) (symbol (lib_id "74xx:74LS08") (at 337.82 205.74 0) (unit 2)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ef0335db-9c86-58e4-8d2d-02de9ad42763)
+          (property "Reference" "U408" (at 332.74 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 332.74 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 337.82 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 337.82 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "4" (uuid c2c6f8fa-9ddf-5795-9586-ca07c07edf27)) (pin "5" (uuid 406cbab0-d447-5f70-bf1c-8345fd1005e4)) (pin "6" (uuid 7e083ead-dbf5-57e2-bc9a-cceb9298be75))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U408") (unit 2))))) (wire (pts (xy 330.2000 203.2000) (xy 322.5800 203.2000)) (stroke (width 0) (type default)) (uuid 93ca0670-aebc-59ac-bcab-333ca6fdcbee)) (label "DISPLAY_VISIBLE"  (at 322.5800 203.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 7a129f6c-8dd2-5fd5-b203-9c18b17fe433)) (wire (pts (xy 330.2000 208.2800) (xy 322.5800 208.2800)) (stroke (width 0) (type default)) (uuid d966f6f3-3652-5874-b222-720e88c16742)) (global_label "FRACTIONAL" (shape bidirectional) (at 322.5800 208.2800 180) (effects (font (size 1 1)) (justify right)) (uuid 18e07431-ea8c-580d-9041-2b9464ea0de2)) (wire (pts (xy 345.4400 205.7400) (xy 353.0600 205.7400)) (stroke (width 0) (type default)) (uuid 9efdbd28-249c-5395-ad89-9576d038dbf2)) (global_label "DISPLAY_BL_N_1" (shape bidirectional) (at 353.0600 205.7400 0) (effects (font (size 1 1)) (justify left)) (uuid b88c4a91-f9fd-507b-b39c-a90663357bbc)) (symbol (lib_id "74xx:74LS08") (at 429.26 205.74 0) (unit 3)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 077e4c87-52cb-5037-aba6-c43c6c0738f2)
+          (property "Reference" "U408" (at 424.18 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 424.18 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 429.26 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 429.26 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "8" (uuid 48d2cfac-a357-5eaf-956b-d74769701fba)) (pin "9" (uuid 3ead8bbc-abfb-5795-a725-25f48784491e)) (pin "10" (uuid d0657f8c-ac41-577f-b640-f56332e355e7))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U408") (unit 3))))) (wire (pts (xy 436.8800 205.7400) (xy 444.5000 205.7400)) (stroke (width 0) (type default)) (uuid 5c0ed8fb-8b0d-5afb-94c6-5bc4579f41b9)) (global_label "DISPLAY_BL_N_2" (shape bidirectional) (at 444.5000 205.7400 0) (effects (font (size 1 1)) (justify left)) (uuid 5f864531-2336-5ad9-b81b-baaeb943a2d9)) (wire (pts (xy 421.6400 203.2000) (xy 414.0200 203.2000)) (stroke (width 0) (type default)) (uuid f56f2575-6587-56a3-90bf-ffb2e5353829)) (label "DISPLAY_VISIBLE"  (at 414.0200 203.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 47fddd68-969b-52aa-bf70-0f7067063f17)) (wire (pts (xy 421.6400 208.2800) (xy 414.0200 208.2800)) (stroke (width 0) (type default)) (uuid 6836a9b4-c1aa-5408-a6fd-064e89509176)) (label "+5V"  (at 414.0200 208.2800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 8940f69c-faa5-5ba2-b79d-1442662cd853)) (symbol (lib_id "74xx:74LS08") (at 520.7 205.74 0) (unit 4)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c3a65fc0-a989-5a4c-94d0-e7a5e37ed4f5)
+          (property "Reference" "U408" (at 515.62 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 515.62 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 520.7 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 520.7 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "11" (uuid d252d3b0-5243-5942-bd6f-62a86865416c)) (pin "12" (uuid b97de854-3fa2-53c8-8f00-b7de0e4b5a13)) (pin "13" (uuid fe717297-5ba6-5c7c-ae76-32a0bdcb8ee4))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U408") (unit 4))))) (wire (pts (xy 528.3200 205.7400) (xy 535.9400 205.7400)) (stroke (width 0) (type default)) (uuid 0f4e5c4d-c56e-5415-93f2-da958954febe)) (global_label "DISPLAY_BL_N_3" (shape bidirectional) (at 535.9400 205.7400 0) (effects (font (size 1 1)) (justify left)) (uuid b6ddb73f-61e0-5111-aeb8-4ad7ad03988f)) (wire (pts (xy 513.0800 203.2000) (xy 505.4600 203.2000)) (stroke (width 0) (type default)) (uuid 940e8d3a-225c-5349-b737-c55cf9b646d2)) (label "DISPLAY_VISIBLE"  (at 505.4600 203.2000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid c6695a95-0b6c-5540-8619-3acb6d9e371f)) (wire (pts (xy 513.0800 208.2800) (xy 505.4600 208.2800)) (stroke (width 0) (type default)) (uuid b03382ea-275b-5fd3-a216-cfad7910106d)) (label "+5V"  (at 505.4600 208.2800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid a9db6ac9-d2b2-5dfc-8234-a6b1a38b13bb)) (symbol (lib_id "74xx:74LS08") (at 63.5 236.22 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 7fa9755d-1ec1-599c-b6d1-17a652aee13f)
+          (property "Reference" "U409" (at 58.42 227.32999999999998 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 58.42 229.86999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 63.5 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 63.5 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 4299c756-ce1c-58ee-8bb2-9b6d958ca935)) (pin "2" (uuid b8cd4519-4c4e-559a-a709-868de3c8a2cd)) (pin "3" (uuid 680eef49-92f5-5568-b1d1-213e55d206f9))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U409") (unit 1))))) (wire (pts (xy 55.8800 233.6800) (xy 48.2600 233.6800)) (stroke (width 0) (type default)) (uuid ef6257f9-911b-5172-ab61-0f403ffc388f)) (label "DISPLAY_VISIBLE"  (at 48.2600 233.6800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 2e95eaf7-5a44-5d9f-982c-62f802dd7e4b)) (wire (pts (xy 55.8800 238.7600) (xy 48.2600 238.7600)) (stroke (width 0) (type default)) (uuid 32c9bef9-785f-51eb-b77b-a48b87f377ad)) (label "+5V"  (at 48.2600 238.7600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 6b12a534-591d-5388-a9f9-acbf5a175c3e)) (wire (pts (xy 71.1200 236.2200) (xy 78.7400 236.2200)) (stroke (width 0) (type default)) (uuid f004b896-73dc-5086-b38c-06e962dfedbd)) (global_label "DISPLAY_BL_N_4" (shape bidirectional) (at 78.7400 236.2200 0) (effects (font (size 1 1)) (justify left)) (uuid 350cd3db-25e5-5f7d-935a-48686cd02b49)) (symbol (lib_id "74xx:74LS08") (at 154.94 236.22 0) (unit 2)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 7e4adc66-5abc-5220-9dc9-8f13ac1b2a23)
+          (property "Reference" "U409" (at 149.85999999999999 227.32999999999998 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 149.85999999999999 229.86999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 154.94 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 154.94 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "4" (uuid 23b37bc2-7905-5cb3-b52d-0ec84af129d5)) (pin "5" (uuid 7666d3b0-7ae7-5e7b-b7b3-e3783578b8e6)) (pin "6" (uuid 226591fb-2b0f-51a6-b201-9dc3b7a3c371))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U409") (unit 2))))) (wire (pts (xy 147.3200 233.6800) (xy 139.7000 233.6800)) (stroke (width 0) (type default)) (uuid 732d0ac9-d4f7-53ef-bb18-791c7038bbaf)) (label "DISPLAY_VISIBLE"  (at 139.7000 233.6800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid fcea257e-1598-5295-9f49-fa889fd288e9)) (wire (pts (xy 147.3200 238.7600) (xy 139.7000 238.7600)) (stroke (width 0) (type default)) (uuid b91502cb-3cfb-5eaf-91d2-a0a34e26febe)) (label "+5V"  (at 139.7000 238.7600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 5bb54687-99ae-5c94-bf16-8e6fecaa6657)) (wire (pts (xy 162.5600 236.2200) (xy 170.1800 236.2200)) (stroke (width 0) (type default)) (uuid d48873c3-8c66-5afe-9af1-affe6a0feb7b)) (global_label "DISPLAY_BL_N_5" (shape bidirectional) (at 170.1800 236.2200 0) (effects (font (size 1 1)) (justify left)) (uuid dae8bb45-22c1-57ce-9eaa-17e415bd19f4)) (symbol (lib_id "74xx:74LS08") (at 246.38 236.22 0) (unit 3)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b17cebf6-3127-5cb2-896f-08694947cfe4)
+          (property "Reference" "U409" (at 241.29999999999998 227.32999999999998 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 241.29999999999998 229.86999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 246.38 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 246.38 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "8" (uuid 51910631-411a-5a16-a56f-1932be23ae82)) (pin "9" (uuid e0367c2c-ee16-5491-889d-68d361553fdc)) (pin "10" (uuid 0678ae9c-9b1d-556f-8b83-e61c8211563d))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U409") (unit 3))))) (wire (pts (xy 254.0000 236.2200) (xy 261.6200 236.2200)) (stroke (width 0) (type default)) (uuid 61a3f792-1677-56a8-bb6c-248acd2d3f2c)) (global_label "DISPLAY_DP" (shape bidirectional) (at 261.6200 236.2200 0) (effects (font (size 1 1)) (justify left)) (uuid 5e50fb73-8ba5-5541-902b-7cc4433aa76e)) (wire (pts (xy 238.7600 233.6800) (xy 231.1400 233.6800)) (stroke (width 0) (type default)) (uuid 10659acd-88f4-5e86-880c-5c37562af162)) (label "DISPLAY_VISIBLE"  (at 231.1400 233.6800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 05a87fd1-a8b6-5be9-9276-b738e3f4b372)) (wire (pts (xy 238.7600 238.7600) (xy 231.1400 238.7600)) (stroke (width 0) (type default)) (uuid 9d73854f-c97b-58ce-bee9-e4816e489b47)) (global_label "FRACTIONAL" (shape bidirectional) (at 231.1400 238.7600 180) (effects (font (size 1 1)) (justify right)) (uuid 40305d18-56db-5667-8b14-eeb9be50bbc5)) (symbol (lib_id "74xx:74LS04") (at 337.82 236.22 0) (unit 3)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 5383dd97-327a-5c43-bccc-4f141b8e7369)
+          (property "Reference" "U406" (at 332.74 227.32999999999998 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 332.74 229.86999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 337.82 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 337.82 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "5" (uuid 94b10584-c79a-5050-9580-84a22ac8c981)) (pin "6" (uuid 752e73e2-ef20-5e5a-a711-108138a214b5))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U406") (unit 3))))) (wire (pts (xy 330.2000 236.2200) (xy 322.5800 236.2200)) (stroke (width 0) (type default)) (uuid 252e3379-cd83-5b34-87e2-950cc99bd3bd)) (label "GND"  (at 322.5800 236.2200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 83283de4-230d-54db-85c4-efb7fde432b2)) (no_connect (at 345.44 236.22) (uuid 3d8e2d04-2b43-5fb8-8db6-5604e0388a63)) (symbol (lib_id "74xx:74LS04") (at 429.26 236.22 0) (unit 4)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 386483bd-9286-5e1e-ab35-36c4fc2403f5)
+          (property "Reference" "U406" (at 424.18 227.32999999999998 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 424.18 229.86999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 429.26 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 429.26 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "8" (uuid 07d224e7-bbc7-56ce-b9b1-4512a11951ba)) (pin "9" (uuid eb83b01a-7ef4-5486-a82a-f718c54f1e14))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U406") (unit 4))))) (no_connect (at 436.88 236.22) (uuid ba1e94d0-6d89-5806-a562-d60803446b86)) (wire (pts (xy 421.6400 236.2200) (xy 414.0200 236.2200)) (stroke (width 0) (type default)) (uuid 7e6e021f-2211-55a2-8a34-ceccdf281dc2)) (label "GND"  (at 414.0200 236.2200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid dc7c2f5a-adfb-5a9b-8b20-f48c18fd53ac)) (symbol (lib_id "74xx:74LS04") (at 520.7 236.22 0) (unit 5)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 0fe4d203-5c29-586a-a77c-b53a2eef85fb)
+          (property "Reference" "U406" (at 515.62 227.32999999999998 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 515.62 229.86999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 520.7 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 520.7 236.22 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "10" (uuid 023e5467-0b12-5943-982a-6ffb2ad0b941)) (pin "11" (uuid 40102875-eaa6-5882-aed3-50f2eba78df0))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U406") (unit 5))))) (no_connect (at 528.32 236.22) (uuid 918b0fc9-45b5-54ae-b14f-9deb4df32df0)) (wire (pts (xy 513.0800 236.2200) (xy 505.4600 236.2200)) (stroke (width 0) (type default)) (uuid 12af250b-d11b-5dac-a50f-ef1dc0d90cda)) (label "GND"  (at 505.4600 236.2200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 477c5f96-c8b3-5181-aa56-962d3856da31)) (symbol (lib_id "74xx:74LS04") (at 63.5 266.7 0) (unit 6)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 6c8dfe28-45dd-5c78-aaf9-110441672ccf)
+          (property "Reference" "U406" (at 58.42 257.81 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 58.42 260.35 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 63.5 266.7 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf" (at 63.5 266.7 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "12" (uuid 0afe659e-dc62-5965-bfb5-9acad95ce902)) (pin "13" (uuid 83f11f84-a263-5aaa-bee5-d546bead19a3))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U406") (unit 6))))) (no_connect (at 71.12 266.7) (uuid d182c332-bbe7-5975-bfc9-96d6024292dc)) (wire (pts (xy 55.8800 266.7000) (xy 48.2600 266.7000)) (stroke (width 0) (type default)) (uuid 14be6581-fcab-5731-a986-f1df3c6a0a1a)) (label "GND"  (at 48.2600 266.7000 0) (effects (font (size 1 1)) (justify right bottom)) (uuid dd224576-3794-5a55-96a6-54474d7df911)) (symbol (lib_id "74xx:74LS08") (at 154.94 266.7 0) (unit 4)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 606eb4da-346b-59b1-a5d9-1a801a370edd)
+          (property "Reference" "U409" (at 149.85999999999999 257.81 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 149.85999999999999 260.35 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 154.94 266.7 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf" (at 154.94 266.7 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "11" (uuid d0a3d174-518e-5bdf-8859-0afd7d0015d4)) (pin "12" (uuid 76bc50a9-1497-532c-b61c-89305752ca06)) (pin "13" (uuid 89f02a12-d600-50ef-bbf9-5ef8b8a468e2))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U409") (unit 4))))) (no_connect (at 162.56 266.7) (uuid 6c9d2e2e-3e18-5cde-80e8-ad29d798726c)) (wire (pts (xy 147.3200 264.1600) (xy 139.7000 264.1600)) (stroke (width 0) (type default)) (uuid d0a644a6-04a0-5940-ac5c-a241dcab9b8f)) (label "GND"  (at 139.7000 264.1600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 3bdf3859-9323-539e-94ed-e89c0bce2057)) (wire (pts (xy 147.3200 269.2400) (xy 139.7000 269.2400)) (stroke (width 0) (type default)) (uuid 85365cfb-7d7e-54e0-8a57-e07b72d197e9)) (label "GND"  (at 139.7000 269.2400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid fa8cb89e-830f-52aa-b7ec-4bef2d7cdc1d)) (text "Gate power and local decoupling" (at 20.32 355.6 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid 8f30bac2-e5b5-57dd-b678-1a7a4ed4e5f2)) (symbol (lib_id "74xx:74LS04") (at 38.1 377.19 0) (unit 7)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 4b715bee-eade-535d-84a7-ad7ad4d7c516)
+          (property "Reference" "U401" (at 33.02 364.49 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 33.02 367.03000000000003 0) (effects (font (size 1.1 1.1)) (justify left) (hide yes)))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 38.1 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 38.1 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "7" (uuid be2dfae9-d6e5-5df5-97fb-a6f913518331)) (pin "14" (uuid fff5dcf3-d22f-5550-b2b9-a048a6f3b8ab))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U401") (unit 7))))) (wire (pts (xy 38.1000 389.8900) (xy 38.1000 394.9700)) (stroke (width 0) (type default)) (uuid 04645025-96d9-599b-8eaa-881b9a4353ba)) (label "GND"  (at 38.1000 394.9700 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dbf69e85-a802-5cb7-b22e-56bf4a32d3a3)) (wire (pts (xy 38.1000 364.4900) (xy 38.1000 359.4100)) (stroke (width 0) (type default)) (uuid cb66897f-18bb-537d-8fa1-a5b23b177bc7)) (label "+5V"  (at 38.1000 359.4100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e68e175d-23f5-553f-a4d3-4ce42f46cb4e)) (symbol (lib_id "Device:C") (at 58.42 379.73 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 1f29125a-6421-5f65-8249-0b579a3b55e5)
+          (property "Reference" "C401" (at 53.34 370.84000000000003 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 53.34 373.38000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 58.42 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 58.42 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 4a04e782-1028-50b4-8c8d-9a142113e365)) (pin "2" (uuid 622591b9-2b72-5bad-827f-ec622c9bac8a))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C401") (unit 1))))) (wire (pts (xy 58.4200 375.9200) (xy 58.4200 370.8400)) (stroke (width 0) (type default)) (uuid ad48741c-9f51-5281-8063-51bcd18a59bd)) (label "+5V"  (at 58.4200 370.8400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d8bf60e7-35d7-5b40-831d-27db2f8a4648)) (wire (pts (xy 58.4200 383.5400) (xy 58.4200 388.6200)) (stroke (width 0) (type default)) (uuid 53ef4262-753d-589f-878f-8570c71842b1)) (label "GND"  (at 58.4200 388.6200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4fe8b008-1e10-521a-ab3f-90d5e0a9f97b)) (symbol (lib_id "74xx:74LS04") (at 101.6 377.19 0) (unit 7)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8b749e2a-8e6b-5209-971f-13b0b848e1b0)
+          (property "Reference" "U405" (at 96.52 364.49 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 96.52 367.03000000000003 0) (effects (font (size 1.1 1.1)) (justify left) (hide yes)))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 101.6 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 101.6 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "7" (uuid 8ed7e182-9f9e-5a8a-a081-894c56ceedae)) (pin "14" (uuid e141d22e-1059-5849-9951-5279dc938508))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U405") (unit 7))))) (wire (pts (xy 101.6000 389.8900) (xy 101.6000 394.9700)) (stroke (width 0) (type default)) (uuid ea4d5008-0a75-5da0-bae9-00c09f00a167)) (label "GND"  (at 101.6000 394.9700 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4c0fb2bd-c1d1-5ba5-abde-7dce16041acf)) (wire (pts (xy 101.6000 364.4900) (xy 101.6000 359.4100)) (stroke (width 0) (type default)) (uuid f4b09bd0-6424-59ee-938a-6709a14c00bc)) (label "+5V"  (at 101.6000 359.4100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e4fcdf31-e8fd-55a9-b93f-412c4f8f5497)) (symbol (lib_id "Device:C") (at 121.91999999999999 379.73 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b7a88b7c-c57d-5f1f-9b28-3765255b1168)
+          (property "Reference" "C405" (at 116.83999999999999 370.84000000000003 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 116.83999999999999 373.38000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 121.91999999999999 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 121.91999999999999 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 8094ec4f-ecf6-5de2-8b82-3621ec80bf33)) (pin "2" (uuid 8ac70acb-76a3-5a92-afae-7f57b5fc2af4))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C405") (unit 1))))) (wire (pts (xy 121.9200 375.9200) (xy 121.9200 370.8400)) (stroke (width 0) (type default)) (uuid d61446d2-e8e8-5878-91e7-3e64c881984e)) (label "+5V"  (at 121.9200 370.8400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e6eb4d49-c786-53f5-bd5e-40d64e78245c)) (wire (pts (xy 121.9200 383.5400) (xy 121.9200 388.6200)) (stroke (width 0) (type default)) (uuid 5a4f3bc5-c26c-59ff-82a3-2034353e1b71)) (label "GND"  (at 121.9200 388.6200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6b1b50a7-a8f7-5dfb-9f84-62e405a378f6)) (symbol (lib_id "74xx:74LS04") (at 165.1 377.19 0) (unit 7)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 60099e9a-2e9c-5725-aeeb-531af202d3f4)
+          (property "Reference" "U406" (at 160.01999999999998 364.49 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC04N" (at 160.01999999999998 367.03000000000003 0) (effects (font (size 1.1 1.1)) (justify left) (hide yes)))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 165.1 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 165.1 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "7" (uuid 53c06fb3-e9bf-5dcb-b9f1-6fe70c065496)) (pin "14" (uuid b3763807-0b35-5d12-b9f7-d8585b5aa494))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U406") (unit 7))))) (wire (pts (xy 165.1000 389.8900) (xy 165.1000 394.9700)) (stroke (width 0) (type default)) (uuid 892eb773-178b-535e-804f-dad4a2a1752a)) (label "GND"  (at 165.1000 394.9700 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 21774cd4-ac11-5166-892e-1b4ee1ef5375)) (wire (pts (xy 165.1000 364.4900) (xy 165.1000 359.4100)) (stroke (width 0) (type default)) (uuid 7dfc63f1-73fd-5dfc-97f8-89130c81a847)) (label "+5V"  (at 165.1000 359.4100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d1eceb48-3098-5fe9-8cfc-6b6b41f3f620)) (symbol (lib_id "Device:C") (at 185.42 379.73 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8512a02e-e7bf-5898-8dac-3b31f0be5fa1)
+          (property "Reference" "C406" (at 180.33999999999997 370.84000000000003 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 180.33999999999997 373.38000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 185.42 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 185.42 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 45b9d983-ce6d-5f15-a6ea-23348c01cf87)) (pin "2" (uuid e19f1d3b-19b3-5479-b4c7-2ca7151cc0c7))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C406") (unit 1))))) (wire (pts (xy 185.4200 375.9200) (xy 185.4200 370.8400)) (stroke (width 0) (type default)) (uuid 4c05d085-a359-5ed9-aba4-c709ba697415)) (label "+5V"  (at 185.4200 370.8400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 12288402-5612-5acc-8184-37d826800a8d)) (wire (pts (xy 185.4200 383.5400) (xy 185.4200 388.6200)) (stroke (width 0) (type default)) (uuid 68237705-8962-51b6-b4f4-8bd0658a8a4f)) (label "GND"  (at 185.4200 388.6200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 76dc8581-66c1-5299-9ed1-5094a27de191)) (symbol (lib_id "74xx:74LS08") (at 228.6 377.19 0) (unit 5)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 2f01ecd0-00a2-58fa-8127-4607bbeac358)
+          (property "Reference" "U408" (at 223.51999999999998 364.49 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 223.51999999999998 367.03000000000003 0) (effects (font (size 1.1 1.1)) (justify left) (hide yes)))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 228.6 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 228.6 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "7" (uuid 569884db-fab6-5c88-9bc6-130045840a5b)) (pin "14" (uuid 1a2779e5-aa49-5fba-84d1-218ebdbd5d3b))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U408") (unit 5))))) (wire (pts (xy 228.6000 389.8900) (xy 228.6000 394.9700)) (stroke (width 0) (type default)) (uuid c0eb53d5-edaf-5f53-bf01-1335454112ef)) (label "GND"  (at 228.6000 394.9700 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f8dda02f-8651-54b8-baa4-53227d9012da)) (wire (pts (xy 228.6000 364.4900) (xy 228.6000 359.4100)) (stroke (width 0) (type default)) (uuid 9c89cf8c-50d8-56eb-b579-a67542e7fff6)) (label "+5V"  (at 228.6000 359.4100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 012ce310-ba0d-51aa-9fc9-239b6d63cc35)) (symbol (lib_id "Device:C") (at 248.92 379.73 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 9a60ebd0-7e0a-5d7a-a19d-a24ec00d43a5)
+          (property "Reference" "C408" (at 243.83999999999997 370.84000000000003 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 243.83999999999997 373.38000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 248.92 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 248.92 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid c0c75b99-bc2e-5543-baff-03e75f569518)) (pin "2" (uuid 403829f6-57a1-5d58-8d66-de22d809a636))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C408") (unit 1))))) (wire (pts (xy 248.9200 375.9200) (xy 248.9200 370.8400)) (stroke (width 0) (type default)) (uuid a5cf5e69-f662-5954-bdb7-bd4fb8f31c10)) (label "+5V"  (at 248.9200 370.8400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3e266bb1-5555-572d-9ec7-f35b6cae1694)) (wire (pts (xy 248.9200 383.5400) (xy 248.9200 388.6200)) (stroke (width 0) (type default)) (uuid add31400-8aea-5065-a7f4-2dac79952ea2)) (label "GND"  (at 248.9200 388.6200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 689183f6-80e5-5fea-9838-d6bf3094a938)) (symbol (lib_id "74xx:74LS08") (at 292.1 377.19 0) (unit 5)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 34bfd3a3-0973-577c-8351-175e2f1db0da)
+          (property "Reference" "U409" (at 287.02000000000004 364.49 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC08N" (at 287.02000000000004 367.03000000000003 0) (effects (font (size 1.1 1.1)) (justify left) (hide yes)))
+          (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 292.1 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 292.1 377.19 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "7" (uuid 7c57ca19-4ee1-561a-9e59-d9d564e38fd5)) (pin "14" (uuid b7b95663-a7e1-5bca-aef0-586f26f12827))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "U409") (unit 5))))) (wire (pts (xy 292.1000 389.8900) (xy 292.1000 394.9700)) (stroke (width 0) (type default)) (uuid 1308ebb1-4041-589c-b000-52949a5560e9)) (label "GND"  (at 292.1000 394.9700 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 637eaf18-a7c1-5188-8062-abb4d002f571)) (wire (pts (xy 292.1000 364.4900) (xy 292.1000 359.4100)) (stroke (width 0) (type default)) (uuid 84d66246-3cb7-5d36-bf3f-471f4a993583)) (label "+5V"  (at 292.1000 359.4100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0b3891cb-e421-5deb-8c93-c0c97704191e)) (symbol (lib_id "Device:C") (at 312.42 379.73 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid a2202764-2772-5159-aee6-c015ef48a4bf)
+          (property "Reference" "C409" (at 307.34000000000003 370.84000000000003 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 307.34000000000003 373.38000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "" (at 312.42 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 312.42 379.73 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d715a7c4-e994-5f51-905d-6055740036de)) (pin "2" (uuid dc06c54b-401d-5612-a8d2-c1c6dcb4b01a))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/f506ff45-14e0-518e-a8dd-10f6e29af7d0" (reference "C409") (unit 1))))) (wire (pts (xy 312.4200 375.9200) (xy 312.4200 370.8400)) (stroke (width 0) (type default)) (uuid 98f3bb2a-6d07-53a4-88fc-64c2ead6942c)) (label "+5V"  (at 312.4200 370.8400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f84e976c-53f2-5f75-ae1f-9470849eddb1)) (wire (pts (xy 312.4200 383.5400) (xy 312.4200 388.6200)) (stroke (width 0) (type default)) (uuid e1ce3ae4-2b3a-503a-aeb7-9a0bc7275744)) (label "GND"  (at 312.4200 388.6200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 409abd72-73f9-5dd9-8974-49979b2c7edb))
+          (embedded_fonts no))
