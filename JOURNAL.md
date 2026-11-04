@@ -73,3 +73,25 @@ i checked the exported circuit through calculations, clearing partway through an
 ![word sequencer](images/word-sequencer.png)
 
 ![registers linked](images/registers-linked.png)
+
+## Drew the main controller
+
+2026-11-04, 5 hours
+
+i drew the main controller that chooses what happens next. it waits for each eight-digit pass to finish, then uses carry, zero and overflow flags to choose the next step.
+
+multiplication loops through addition under that control circuit. division has counters for the quotient digit and current position, with branches to subtract, restore the remainder and round the answer. i also drew the display-format and error registers.
+
+i checked the controller using KiCad's exported connections, including full calculations, Clear partway through and starting again. the tests supply accepted keypad commands, and the drawn gates run the sequence after that.
+
+the keypad scanner, entry controls, display drivers, clock and power-on reset still need drawing. the design has grown a lot, so i need to check the full parts cost and breadboard space before building it.
+
+![main state counters](images/main-state-counters.png)
+
+![arithmetic branch gates](images/arithmetic-branch-gates.png)
+
+![division counters and display status](images/division-counters-status.png)
+
+![controller outputs](images/controller-outputs.png)
+
+![main controller](images/main-controller.png)
