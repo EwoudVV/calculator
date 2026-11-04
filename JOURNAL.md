@@ -49,3 +49,27 @@ i checked the arithmetic using KiCad’s exported connections, including carries
 ![arithmetic flags](images/arithmetic-flags.png)
 
 ![registers linked](images/registers-linked.png)
+
+## Drew the digit sequencer
+
+2026-11-04, 6 hours
+
+i drew the timing section that moves the calculator through each digit. two counters track the current step and digit position, so the adder gets eight digit steps before the controller moves on.
+
+i added the display latch controls too. they select one display position, let it take the digit, then close it before the number register shifts. whole-number results leave the two decimal positions blank, while division uses all six.
+
+connecting the gates exposed another Clear timing problem. resetting straight from the controller state could clear the number registers as a display latch closed. i added a flip-flop to delay reset by one clock and keep the digit data steady.
+
+i checked the exported circuit through calculations, clearing partway through and starting again. the main state decoder, keypad electronics, display drivers, clock source and power-on reset circuit still need drawing. nothing has been built yet.
+
+![phase and digit counters](images/sequencer-counters.png)
+
+![display latch register](images/display-latch-register.png)
+
+![clocked bank reset](images/clocked-bank-reset.png)
+
+![display timing](images/display-transfer.png)
+
+![word sequencer](images/word-sequencer.png)
+
+![registers linked](images/registers-linked.png)
