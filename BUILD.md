@@ -22,4 +22,4 @@ Ben Eater's [parts list](https://eater.net/8bit/parts) has 14 breadboards and mo
 
 the compacted circuit passed 4,593 state/flag/command checks, 272 complete calculations and 307 Clear/restart cases using KiCad's exported connections. keypad commands and the saved key digit still come from the test setup. physical timing and hardware have not been tested.
 
-the next design decision is whether to keep the existing plank and $100 as hard limits, or allow extra boards and spending. the current parts list is not ready to order.
+the existing 14 boards and $100 total are hard limits. the $100 includes the remaining parts, tax and shipping. the current circuit does not meet them, so the controller needs a deeper redesign before finishing the remaining circuits. the current parts list is not ready to order.
