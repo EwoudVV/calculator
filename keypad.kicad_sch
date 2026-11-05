@@ -1,0 +1,2260 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+          (uuid 2d39ffdf-dde2-53f3-9604-5f17094dfc81) (paper "A1")
+          (title_block (title "Calculator - buttons and key encoding") (date "2026-11-05") (rev "working")
+            (comment 1 "5V calculator PCB"))
+          (lib_symbols (symbol "Switch:SW_Push"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:D_Schottky"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_Schottky_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Schottky_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Comparator:LM393"
+		(pin_names
+			(offset 0.127)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 3.81 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cmp open collector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LM393_1_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+					(xy 2.286 -0.508)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM393_2_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+					(xy 2.286 -0.508)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM393_3_1"
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	) (symbol "74xx:74HC14"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC14"
+			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex inverter schmitt trigger"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "HCMOS not inverter"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "DIP*W7.62mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "74HC14_1_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC14_1_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74HC14_2_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC14_2_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74HC14_3_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC14_3_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74HC14_4_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC14_4_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74HC14_5_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC14_5_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74HC14_6_0"
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC14_6_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74HC14_7_0"
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "74HC14_7_1"
+			(rectangle
+				(start -5.08 7.62)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+          (text "Key 0" (at 35.56 43.18000000000001 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 89f65a17-20f4-57ea-9f34-67277be7070e)) (symbol (lib_id "Switch:SW_Push") (at 41.910000000000004 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 59ef3026-f360-5efb-8528-33bc55c9923f)
+          (property "Reference" "SW1" (at 36.830000000000005 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 36.830000000000005 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 41.910000000000004 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 41.910000000000004 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 7bc1c4d2-5caf-5fdc-bdca-3b15c69d887b)) (pin "2" (uuid c9bf116d-6acc-5dd3-83bc-337a413dd9ab))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW1") (unit 1))))) (wire (pts (xy 36.8300 66.0400) (xy 29.2100 66.0400)) (stroke (width 0) (type default)) (uuid ab02fce7-5e3f-54ad-bfbc-480fb4a0009a)) (label "BUTTON_0"  (at 29.2100 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid cac8992e-43f1-5418-8e4c-9e07e8692db6)) (wire (pts (xy 46.9900 66.0400) (xy 54.6100 66.0400)) (stroke (width 0) (type default)) (uuid 4e1b5e79-a35b-55a3-be79-954feef83385)) (global_label "GND" (shape bidirectional) (at 54.6100 66.0400 0) (effects (font (size 1 1)) (justify left)) (uuid 2b5e78fe-56ad-5048-8c46-083a50b3677a)) (symbol (lib_id "Device:R") (at 77.47 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 91c7b524-b9db-50a9-89c5-3fe13e7a792c)
+          (property "Reference" "R2020" (at 72.39 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 72.39 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 77.47 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 77.47 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid bc27fc48-ebac-5a36-ab0c-611851ada8d5)) (pin "2" (uuid f8ced230-903b-5dd9-9289-b4d5b2e6965d))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2020") (unit 1))))) (wire (pts (xy 77.4700 62.2300) (xy 77.4700 57.1500)) (stroke (width 0) (type default)) (uuid e123d496-5b45-5104-a492-485b2a0eac53)) (global_label "+5V" (shape bidirectional) (at 77.4700 57.1500 0) (effects (font (size 1 1)) (justify left)) (uuid 6f65ba45-a8ed-55e0-80ce-c7889773fc21)) (wire (pts (xy 77.4700 69.8500) (xy 77.4700 74.9300)) (stroke (width 0) (type default)) (uuid ee796d0e-4d16-5967-a79d-cd070f77f730)) (label "BUTTON_0"  (at 77.4700 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9965f25f-9178-534e-b6b4-f49a567d6906)) (symbol (lib_id "Device:R") (at 107.95 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 1620a8b1-b128-58e8-b5d3-c6f3a8206723)
+          (property "Reference" "R2021" (at 102.87 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 102.87 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 107.95 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 107.95 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 86bd8d7e-312f-5a49-8a1c-d202e049dd2c)) (pin "2" (uuid 4fc66d98-bcf6-5107-b35c-e2d54ec025f1))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2021") (unit 1))))) (wire (pts (xy 107.9500 62.2300) (xy 107.9500 57.1500)) (stroke (width 0) (type default)) (uuid 38a64ce9-af24-5953-b6e0-53314d3b96d9)) (label "BUTTON_0"  (at 107.9500 57.1500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a9ef8150-dfd5-54dd-b1fa-1d4eee0d8e00)) (wire (pts (xy 107.9500 69.8500) (xy 107.9500 74.9300)) (stroke (width 0) (type default)) (uuid f69aa4a4-4a8b-5888-8e92-1cbd436989fa)) (label "KEY_SENSE"  (at 107.9500 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f6c2d4f2-11f8-56c7-bc04-0573b6d174ec)) (text "Key 1" (at 233.68 43.18000000000001 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 1433d434-ac35-5057-9cce-9f734044a953)) (symbol (lib_id "Switch:SW_Push") (at 240.03 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c640ee02-3d5b-51af-be0f-2ee6bc4a1446)
+          (property "Reference" "SW2" (at 234.95 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 234.95 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 240.03 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 240.03 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 07b53ac9-8a4c-5f31-8727-c0d118984ba3)) (pin "2" (uuid 4cc9bc44-f1eb-5b85-ab5e-1ee54c90bca2))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW2") (unit 1))))) (wire (pts (xy 234.9500 66.0400) (xy 227.3300 66.0400)) (stroke (width 0) (type default)) (uuid f0e5ec9e-8a6b-5895-808a-8c74ddcf0bdf)) (label "BUTTON_1"  (at 227.3300 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid fa98b08b-7348-519c-a255-e1894d7f2ff5)) (wire (pts (xy 245.1100 66.0400) (xy 252.7300 66.0400)) (stroke (width 0) (type default)) (uuid 63727040-d06b-5bae-90f8-a249fb95d72d)) (global_label "GND" (shape bidirectional) (at 252.7300 66.0400 0) (effects (font (size 1 1)) (justify left)) (uuid 86686950-82d4-5792-bf6e-3ae522cc1df1)) (symbol (lib_id "Device:R") (at 275.59000000000003 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 5dc48d2a-3a4f-5cdb-9f12-9e9374a926b0)
+          (property "Reference" "R2022" (at 270.51000000000005 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 270.51000000000005 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 275.59000000000003 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 275.59000000000003 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 1d9de2ea-f8e8-58ae-af89-c03650f45b41)) (pin "2" (uuid a07c0c18-acd0-517b-9ace-01ec1ce0bb21))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2022") (unit 1))))) (wire (pts (xy 275.5900 62.2300) (xy 275.5900 57.1500)) (stroke (width 0) (type default)) (uuid bbf05942-c4f7-5d8e-ab7b-f4e6a5e41928)) (global_label "+5V" (shape bidirectional) (at 275.5900 57.1500 0) (effects (font (size 1 1)) (justify left)) (uuid 6dbe0efd-39c6-560c-aba3-aee7bb822045)) (wire (pts (xy 275.5900 69.8500) (xy 275.5900 74.9300)) (stroke (width 0) (type default)) (uuid 7c620ef1-4150-5206-9b76-5958c870be52)) (label "BUTTON_1"  (at 275.5900 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 42dfe54d-d590-58a5-bafc-1f6f7787162d)) (symbol (lib_id "Device:R") (at 306.07 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 856a5587-f9ab-5138-ab4e-6490c9d07311)
+          (property "Reference" "R2023" (at 300.99 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 300.99 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 306.07 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 306.07 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid ad371e52-9916-5717-989d-9601adb9e1b5)) (pin "2" (uuid 1ba9c13e-1bd2-5056-a518-c723f9444824))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2023") (unit 1))))) (wire (pts (xy 306.0700 62.2300) (xy 306.0700 57.1500)) (stroke (width 0) (type default)) (uuid d7df1977-f308-576a-81df-0cac6eab9c7b)) (label "BUTTON_1"  (at 306.0700 57.1500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1a5bc4ec-61f9-5294-b277-799fcb00ff9f)) (wire (pts (xy 306.0700 69.8500) (xy 306.0700 74.9300)) (stroke (width 0) (type default)) (uuid 1110853c-c930-522f-a83a-0b4fdc07e133)) (label "KEY_SENSE"  (at 306.0700 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f480a8f8-ba5b-57cc-981b-bd2a41730305)) (symbol (lib_id "Device:D_Schottky") (at 346.71000000000004 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ccae76c8-96e5-5fce-9541-7015951833c0)
+          (property "Reference" "D2004" (at 341.63000000000005 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 341.63000000000005 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 346.71000000000004 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 346.71000000000004 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 9227f0ab-1142-5907-af7f-f52bd2c41d74)) (pin "2" (uuid c411930b-18e6-599c-b2d8-fea130b86e87))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2004") (unit 1))))) (wire (pts (xy 342.9000 66.0400) (xy 335.2800 66.0400)) (stroke (width 0) (type default)) (uuid bd5b7806-ec81-5237-ac71-af5ecdff508f)) (label "BUTTON_1"  (at 335.2800 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 40b96872-91b8-5305-894f-ebeba20bfd74)) (wire (pts (xy 350.5200 66.0400) (xy 358.1400 66.0400)) (stroke (width 0) (type default)) (uuid 53918337-7e92-5e0f-9df5-23e0227002a9)) (label "KEY_CODE_N_0"  (at 358.1400 66.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8b9be6cc-f00d-5db4-904d-5c921186a81c)) (text "Key 2" (at 431.8 43.18000000000001 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid b7410da6-39ae-54f5-b5e2-1e21cb7f57c6)) (symbol (lib_id "Switch:SW_Push") (at 438.15000000000003 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 6d74e4ef-0abf-5c2a-9a79-2f3121cf90de)
+          (property "Reference" "SW3" (at 433.07000000000005 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 433.07000000000005 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 438.15000000000003 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 438.15000000000003 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid a658c53b-99f2-58d9-ae55-e719a15a5ce0)) (pin "2" (uuid c70b333a-031d-59b5-a69d-7d7aed18283c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW3") (unit 1))))) (wire (pts (xy 433.0700 66.0400) (xy 425.4500 66.0400)) (stroke (width 0) (type default)) (uuid 4989c43d-9a1c-5788-9904-f440a31b6a79)) (label "BUTTON_2"  (at 425.4500 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid ee2b072f-5f30-5d91-bcd7-1f2d318d506f)) (wire (pts (xy 443.2300 66.0400) (xy 450.8500 66.0400)) (stroke (width 0) (type default)) (uuid 90e00f15-a144-5d65-ab34-893476bfdfbd)) (global_label "GND" (shape bidirectional) (at 450.8500 66.0400 0) (effects (font (size 1 1)) (justify left)) (uuid 1b78d213-8bbe-5240-97f1-bd5cd4d69610)) (symbol (lib_id "Device:R") (at 473.71000000000004 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 105213a2-5c2e-5147-8e35-d55aede76337)
+          (property "Reference" "R2024" (at 468.63000000000005 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 468.63000000000005 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 473.71000000000004 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 473.71000000000004 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid a0e3265f-b1f2-5946-99de-9bcad1b7d018)) (pin "2" (uuid 4cee8e13-f1e8-5c00-ab81-0eef95de2b85))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2024") (unit 1))))) (wire (pts (xy 473.7100 62.2300) (xy 473.7100 57.1500)) (stroke (width 0) (type default)) (uuid 966b8adc-2cc4-5986-a48a-a249cfae02c5)) (global_label "+5V" (shape bidirectional) (at 473.7100 57.1500 0) (effects (font (size 1 1)) (justify left)) (uuid 6ebb9164-93f4-525c-8351-33d71cae9cb5)) (wire (pts (xy 473.7100 69.8500) (xy 473.7100 74.9300)) (stroke (width 0) (type default)) (uuid bb6388a7-5d51-5315-8a5c-3a7388a66262)) (label "BUTTON_2"  (at 473.7100 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2ff816da-c573-582d-a6af-fbccc617b2e3)) (symbol (lib_id "Device:R") (at 504.19 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b2ef408b-aca3-5f8b-a057-29f2e57c0f50)
+          (property "Reference" "R2025" (at 499.11 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 499.11 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 504.19 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 504.19 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d136fd57-b8da-5cee-9e90-ca8cf43e00f8)) (pin "2" (uuid 3cb43def-53be-55f0-8f4b-d8188d9d7218))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2025") (unit 1))))) (wire (pts (xy 504.1900 62.2300) (xy 504.1900 57.1500)) (stroke (width 0) (type default)) (uuid 333b91f5-c558-5e00-b828-9ec821061742)) (label "BUTTON_2"  (at 504.1900 57.1500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8cfdb95a-d43a-5c4d-b05e-e322cfab91b7)) (wire (pts (xy 504.1900 69.8500) (xy 504.1900 74.9300)) (stroke (width 0) (type default)) (uuid d5751b09-d5a8-5de5-a5be-db0bf0b69139)) (label "KEY_SENSE"  (at 504.1900 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9d56d430-9390-5189-b2d3-ae16c8fde838)) (symbol (lib_id "Device:D_Schottky") (at 590.5500000000001 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid d1188368-7ae7-5a6f-8361-902531a69067)
+          (property "Reference" "D2009" (at 585.47 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 585.47 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 590.5500000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 590.5500000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid b63fc9dc-941a-5bfe-b240-b659b1c03140)) (pin "2" (uuid ef7fd0ac-6aa6-5699-9c84-69839050b533))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2009") (unit 1))))) (wire (pts (xy 586.7400 66.0400) (xy 579.1200 66.0400)) (stroke (width 0) (type default)) (uuid 92a0bfc9-e000-51a9-b3cb-554c9096a520)) (label "BUTTON_2"  (at 579.1200 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid f9d9b97a-ec54-5f0d-8fb8-060a54071c2b)) (wire (pts (xy 594.3600 66.0400) (xy 601.9800 66.0400)) (stroke (width 0) (type default)) (uuid f4f74ee0-3851-5495-8321-97191ae17c4f)) (label "KEY_CODE_N_1"  (at 601.9800 66.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 43071a0d-4846-5ab1-8980-d5dfe22d2545)) (text "Key 3" (at 629.9200000000001 43.18000000000001 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid da08dfed-d5ea-52cb-a7c7-0d84c61cd42f)) (symbol (lib_id "Switch:SW_Push") (at 636.2700000000001 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c97eccbf-9305-59f1-a682-bdb152674395)
+          (property "Reference" "SW4" (at 631.19 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 631.19 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 636.2700000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 636.2700000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 8056d9e5-389b-5dad-bafc-c4986d504a50)) (pin "2" (uuid db465f41-7740-54e5-aa52-c06cd5c62afb))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW4") (unit 1))))) (wire (pts (xy 631.1900 66.0400) (xy 623.5700 66.0400)) (stroke (width 0) (type default)) (uuid e9699d91-e7dc-53df-8b5c-8bba407bf7fc)) (label "BUTTON_3"  (at 623.5700 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 009224e2-e7e0-5aad-aaaa-9d2bffc7a712)) (wire (pts (xy 641.3500 66.0400) (xy 648.9700 66.0400)) (stroke (width 0) (type default)) (uuid 3f2309ee-0f0e-54e1-a193-b46dd7bd7237)) (global_label "GND" (shape bidirectional) (at 648.9700 66.0400 0) (effects (font (size 1 1)) (justify left)) (uuid 5beea14a-b0e9-54e4-bbbe-be966c66e8ad)) (symbol (lib_id "Device:R") (at 671.83 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e5481bc5-2e0e-555d-9560-9eade7769d1c)
+          (property "Reference" "R2026" (at 666.75 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 666.75 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 671.83 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 671.83 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 7fa26a67-516b-5091-aa54-0b98f1397126)) (pin "2" (uuid 82bfbe38-3012-500c-a79f-46a26b001c0e))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2026") (unit 1))))) (wire (pts (xy 671.8300 62.2300) (xy 671.8300 57.1500)) (stroke (width 0) (type default)) (uuid 562f035f-fa80-52b7-8f5e-c3f004989150)) (global_label "+5V" (shape bidirectional) (at 671.8300 57.1500 0) (effects (font (size 1 1)) (justify left)) (uuid ee4eb52a-6024-50f0-a40a-99a8ad318eec)) (wire (pts (xy 671.8300 69.8500) (xy 671.8300 74.9300)) (stroke (width 0) (type default)) (uuid 2bcbf5ff-fe96-5155-ab48-2c2e36983a38)) (label "BUTTON_3"  (at 671.8300 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6e5451bf-c789-5b66-832f-35c6abcbf6aa)) (symbol (lib_id "Device:R") (at 702.3100000000001 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 5e20e553-f127-5974-9312-f9b43e7cb2a4)
+          (property "Reference" "R2027" (at 697.23 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 697.23 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 702.3100000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 702.3100000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d49c8cad-bc02-5b96-b961-6793b4463273)) (pin "2" (uuid 77880322-0db6-5279-8d35-6038ccd0c528))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2027") (unit 1))))) (wire (pts (xy 702.3100 62.2300) (xy 702.3100 57.1500)) (stroke (width 0) (type default)) (uuid 9eb99429-a688-56fb-9d35-5aa85b240f51)) (label "BUTTON_3"  (at 702.3100 57.1500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0c8cb6f5-5fde-56a9-870c-9cf6f2b121f6)) (wire (pts (xy 702.3100 69.8500) (xy 702.3100 74.9300)) (stroke (width 0) (type default)) (uuid e25be124-49b6-5d80-9d46-d2c15ab4676b)) (label "KEY_SENSE"  (at 702.3100 74.9300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid acdbf5d0-d727-5a44-981c-befab979d4ca)) (symbol (lib_id "Device:D_Schottky") (at 742.95 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 2f5810be-2e78-5b79-b6a0-be52f39c9e9a)
+          (property "Reference" "D2012" (at 737.87 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 737.87 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 742.95 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 742.95 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d396ca5f-0992-5919-a4e7-7e8c4b93f421)) (pin "2" (uuid 9b3ecbf2-eddf-518c-8933-e9ce741c338e))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2012") (unit 1))))) (wire (pts (xy 739.1400 66.0400) (xy 731.5200 66.0400)) (stroke (width 0) (type default)) (uuid 7ab0a4aa-286c-5be5-ac9e-f1bc4b726d63)) (label "BUTTON_3"  (at 731.5200 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 9b8bbd53-4ee6-5ddd-ad24-b72a448a93a9)) (wire (pts (xy 746.7600 66.0400) (xy 754.3800 66.0400)) (stroke (width 0) (type default)) (uuid 94af386f-3e15-56bb-ba57-de35cd0531e8)) (label "KEY_CODE_N_0"  (at 754.3800 66.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3dfca831-764f-5e9d-ac56-3f265a1927ad)) (symbol (lib_id "Device:D_Schottky") (at 788.6700000000001 66.04 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid de918b37-648e-575e-9cfc-d897cbd3f557)
+          (property "Reference" "D2013" (at 783.59 57.150000000000006 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 783.59 59.690000000000005 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 788.6700000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 788.6700000000001 66.04 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid e1d495b5-d59d-5e36-ae7a-e46e0491b237)) (pin "2" (uuid ef33012e-58ef-5024-b95f-35896540f985))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2013") (unit 1))))) (wire (pts (xy 784.8600 66.0400) (xy 777.2400 66.0400)) (stroke (width 0) (type default)) (uuid 752f9c59-ba5e-5f57-9e74-d8cf681aab8f)) (label "BUTTON_3"  (at 777.2400 66.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 53075029-92a6-54d0-afd1-788196051a4c)) (wire (pts (xy 792.4800 66.0400) (xy 800.1000 66.0400)) (stroke (width 0) (type default)) (uuid d0c3b232-ef87-5193-827b-f964f31e0bc7)) (label "KEY_CODE_N_1"  (at 800.1000 66.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4bf392d1-2411-5c4b-88b4-5680e4a8929d)) (text "Key 4" (at 35.56 157.48000000000002 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid d549ab13-7583-54c3-b288-dbdb96ba3c32)) (symbol (lib_id "Switch:SW_Push") (at 41.910000000000004 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 26f5e6d2-ed81-5147-bb3f-a2713d1dd781)
+          (property "Reference" "SW5" (at 36.830000000000005 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 36.830000000000005 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 41.910000000000004 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 41.910000000000004 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 9a27f918-064d-5ba8-9ebb-b64e0b6560d9)) (pin "2" (uuid 4d0cbac7-fa4d-5c7d-99f2-531472494e70))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW5") (unit 1))))) (wire (pts (xy 36.8300 180.3400) (xy 29.2100 180.3400)) (stroke (width 0) (type default)) (uuid 635b92a3-e4e7-53b3-acbc-5c382cf10d09)) (label "BUTTON_4"  (at 29.2100 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid abaa2fb3-828b-56c5-83cc-fe7dff56a45a)) (wire (pts (xy 46.9900 180.3400) (xy 54.6100 180.3400)) (stroke (width 0) (type default)) (uuid 2c766290-406c-5fc1-9f70-de65fdf0990a)) (global_label "GND" (shape bidirectional) (at 54.6100 180.3400 0) (effects (font (size 1 1)) (justify left)) (uuid 1d1423b6-1972-50f7-8f06-011c757f4c86)) (symbol (lib_id "Device:R") (at 77.47 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 5726b204-586a-5128-ba09-0c4778c262f8)
+          (property "Reference" "R2028" (at 72.39 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 72.39 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 77.47 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 77.47 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid fe8aa259-6c44-5a20-8afe-c1bef40836c7)) (pin "2" (uuid 2bad9f5b-7187-585b-9c38-2eaeb3b9eb51))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2028") (unit 1))))) (wire (pts (xy 77.4700 176.5300) (xy 77.4700 171.4500)) (stroke (width 0) (type default)) (uuid b4d64779-d44f-577b-af28-9a8355a5f8a2)) (global_label "+5V" (shape bidirectional) (at 77.4700 171.4500 0) (effects (font (size 1 1)) (justify left)) (uuid 0b468a70-d326-5d28-bb55-724771a21568)) (wire (pts (xy 77.4700 184.1500) (xy 77.4700 189.2300)) (stroke (width 0) (type default)) (uuid 3fdffdc5-d559-5d5c-bb55-320bdcc8fa06)) (label "BUTTON_4"  (at 77.4700 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8f7f493e-ea58-55c6-9133-f30f992d49d5)) (symbol (lib_id "Device:R") (at 107.95 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8d78647a-ca30-531c-be9a-f61cadc9fcf1)
+          (property "Reference" "R2029" (at 102.87 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 102.87 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 107.95 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 107.95 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 5468c3b9-c8c2-5d62-9d66-9579773d1533)) (pin "2" (uuid 62e676b2-cc01-5574-bf99-845e5ce7c7e1))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2029") (unit 1))))) (wire (pts (xy 107.9500 176.5300) (xy 107.9500 171.4500)) (stroke (width 0) (type default)) (uuid 1ecf5ff9-1d6a-5cc7-b275-9142c0683ce6)) (label "BUTTON_4"  (at 107.9500 171.4500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid fa69486c-8224-57d6-981e-1fee907e2f5f)) (wire (pts (xy 107.9500 184.1500) (xy 107.9500 189.2300)) (stroke (width 0) (type default)) (uuid 7fb0076f-e752-5897-b04b-899d6660005b)) (label "KEY_SENSE"  (at 107.9500 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2d260dac-d572-5edc-a9ce-a1d92d98497b)) (symbol (lib_id "Device:D_Schottky") (at 148.59 205.74 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ac1084f7-56a5-54ed-905b-66fe331f51be)
+          (property "Reference" "D2018" (at 143.51 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 143.51 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 148.59 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 148.59 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid bb862f1b-e226-5b52-aa81-015066e4c0ba)) (pin "2" (uuid 284d51c5-e39b-5fd5-838a-4f6329a35269))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2018") (unit 1))))) (wire (pts (xy 144.7800 205.7400) (xy 137.1600 205.7400)) (stroke (width 0) (type default)) (uuid e7025695-5d52-5128-a99a-bd717d553856)) (label "BUTTON_4"  (at 137.1600 205.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 6d6f9057-b8b8-50cc-b8ef-d45e5e09c82e)) (wire (pts (xy 152.4000 205.7400) (xy 160.0200 205.7400)) (stroke (width 0) (type default)) (uuid 497b504b-aad8-5faf-a662-f397023761ab)) (label "KEY_CODE_N_2"  (at 160.0200 205.7400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0cff4b7b-55e7-57f5-a4fa-c2a69d268465)) (text "Key 5" (at 233.68 157.48000000000002 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid a44a7bc5-bb52-53cd-bc18-e4f6d073fe96)) (symbol (lib_id "Switch:SW_Push") (at 240.03 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3ce52a8b-c531-5fa9-9996-8dfde2ad9e16)
+          (property "Reference" "SW6" (at 234.95 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 234.95 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 240.03 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 240.03 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 0d0bc537-0b26-5b21-8c70-2024bc386c2d)) (pin "2" (uuid 2e0390ad-341c-549a-8e01-f9a23fff73cb))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW6") (unit 1))))) (wire (pts (xy 234.9500 180.3400) (xy 227.3300 180.3400)) (stroke (width 0) (type default)) (uuid 2c3ee901-c13b-5fd0-9429-72cbafc5671c)) (label "BUTTON_5"  (at 227.3300 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 7ca35865-b497-51f1-b0cd-60c6ef5595f7)) (wire (pts (xy 245.1100 180.3400) (xy 252.7300 180.3400)) (stroke (width 0) (type default)) (uuid f0fc23e9-8ad8-59b5-93be-631a19b22e61)) (global_label "GND" (shape bidirectional) (at 252.7300 180.3400 0) (effects (font (size 1 1)) (justify left)) (uuid 0e8113b1-204a-532a-aa32-eb902b5bb5b3)) (symbol (lib_id "Device:R") (at 275.59000000000003 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid a5a1a4ad-325b-597b-880a-a421f517debe)
+          (property "Reference" "R2030" (at 270.51000000000005 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 270.51000000000005 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 275.59000000000003 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 275.59000000000003 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 8392fbad-5430-5746-82e1-a0ca91ac047e)) (pin "2" (uuid fc1ac67c-3b44-5e5d-9616-194602d4f2d9))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2030") (unit 1))))) (wire (pts (xy 275.5900 176.5300) (xy 275.5900 171.4500)) (stroke (width 0) (type default)) (uuid 7984046d-e870-5c3b-9d55-6a4c35ecace2)) (global_label "+5V" (shape bidirectional) (at 275.5900 171.4500 0) (effects (font (size 1 1)) (justify left)) (uuid 874d5f37-cbb3-5979-bfb8-b96133d91172)) (wire (pts (xy 275.5900 184.1500) (xy 275.5900 189.2300)) (stroke (width 0) (type default)) (uuid c0b5d345-db5e-508b-9906-6275904b406d)) (label "BUTTON_5"  (at 275.5900 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid add3b645-8fbf-5092-881d-550bd27a0ea8)) (symbol (lib_id "Device:R") (at 306.07 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid f82dbff9-102d-56ab-9fd9-f7739fd31966)
+          (property "Reference" "R2031" (at 300.99 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 300.99 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 306.07 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 306.07 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid fb82baf9-3d3e-506c-9383-11da46c2273a)) (pin "2" (uuid a1c2f43b-c94f-5705-89ef-8fe089881969))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2031") (unit 1))))) (wire (pts (xy 306.0700 176.5300) (xy 306.0700 171.4500)) (stroke (width 0) (type default)) (uuid f9620074-2326-5ca3-8778-27a77e11acc6)) (label "BUTTON_5"  (at 306.0700 171.4500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 435100a8-fdf1-5679-bc50-0e8e0c9dd68c)) (wire (pts (xy 306.0700 184.1500) (xy 306.0700 189.2300)) (stroke (width 0) (type default)) (uuid e935678d-cefd-581b-869a-278bb69859e4)) (label "KEY_SENSE"  (at 306.0700 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d1b4cd02-3519-5c97-9cbd-8002fb3bc115)) (symbol (lib_id "Device:D_Schottky") (at 346.71000000000004 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e738022c-1c52-52dd-875b-f2ad9ee8e631)
+          (property "Reference" "D2020" (at 341.63000000000005 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 341.63000000000005 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 346.71000000000004 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 346.71000000000004 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 6ec0dbb3-4ca1-5859-8bb5-85b810656af3)) (pin "2" (uuid 8770fc87-5479-5c3d-925f-a33e586a99d5))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2020") (unit 1))))) (wire (pts (xy 342.9000 180.3400) (xy 335.2800 180.3400)) (stroke (width 0) (type default)) (uuid a2f8a655-54c3-5d9e-8a61-758fe3a3208c)) (label "BUTTON_5"  (at 335.2800 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 41688546-4e65-5fd0-9628-83fdc8eb794e)) (wire (pts (xy 350.5200 180.3400) (xy 358.1400 180.3400)) (stroke (width 0) (type default)) (uuid 339e84bd-0965-544d-b75d-33c62eb20123)) (label "KEY_CODE_N_0"  (at 358.1400 180.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid bde7a57f-233e-5e9f-83ab-e8aa8d4c2a84)) (symbol (lib_id "Device:D_Schottky") (at 346.71000000000004 205.74 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3d044e61-90ce-5f6c-aa69-8448fa9eaf7e)
+          (property "Reference" "D2022" (at 341.63000000000005 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 341.63000000000005 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 346.71000000000004 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 346.71000000000004 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f4f1351d-b408-5b1d-a5ed-e71a496c4c8e)) (pin "2" (uuid 7b87a7e2-0c22-50c8-85ac-adcaa8e5aca1))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2022") (unit 1))))) (wire (pts (xy 342.9000 205.7400) (xy 335.2800 205.7400)) (stroke (width 0) (type default)) (uuid ba6b5d5d-e9a3-5d01-9a8a-f7faeebbd1e9)) (label "BUTTON_5"  (at 335.2800 205.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid fc740cc2-3396-52e1-8c55-ee24902573b0)) (wire (pts (xy 350.5200 205.7400) (xy 358.1400 205.7400)) (stroke (width 0) (type default)) (uuid 21ab0384-ff10-5499-902c-1e54fa45b204)) (label "KEY_CODE_N_2"  (at 358.1400 205.7400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 05c7aa41-a425-5911-a7b1-557ec80dd5d4)) (text "Key 6" (at 431.8 157.48000000000002 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid d4eacc6b-eff7-5399-9a81-ae095b367cc0)) (symbol (lib_id "Switch:SW_Push") (at 438.15000000000003 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b03406ca-0d34-5e58-8e84-1331d7e65976)
+          (property "Reference" "SW7" (at 433.07000000000005 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 433.07000000000005 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 438.15000000000003 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 438.15000000000003 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 2dee7506-6dd9-5464-9ad5-36648077d174)) (pin "2" (uuid 4fb3cada-7352-5155-abec-f6665e7de2e5))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW7") (unit 1))))) (wire (pts (xy 433.0700 180.3400) (xy 425.4500 180.3400)) (stroke (width 0) (type default)) (uuid 14dd5ad3-7f5d-5d4d-8cfa-1ba533df669e)) (label "BUTTON_6"  (at 425.4500 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 622e7ca9-98d2-502d-b8ff-7aeca60ad50e)) (wire (pts (xy 443.2300 180.3400) (xy 450.8500 180.3400)) (stroke (width 0) (type default)) (uuid 06d1b52b-16b7-5751-9f5b-220b41c6f142)) (global_label "GND" (shape bidirectional) (at 450.8500 180.3400 0) (effects (font (size 1 1)) (justify left)) (uuid 9c63af41-353a-50d7-9255-2297ffc3443b)) (symbol (lib_id "Device:R") (at 473.71000000000004 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 71b6e5fa-68f8-521d-af74-cb8153e0d3a4)
+          (property "Reference" "R2032" (at 468.63000000000005 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 468.63000000000005 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 473.71000000000004 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 473.71000000000004 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 4c80afb9-b8de-54c6-af4d-513d92e3f191)) (pin "2" (uuid d5170e68-68bc-5783-965c-747fafb13943))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2032") (unit 1))))) (wire (pts (xy 473.7100 176.5300) (xy 473.7100 171.4500)) (stroke (width 0) (type default)) (uuid d3c478f0-9592-5066-8567-a7e3f55b4e41)) (global_label "+5V" (shape bidirectional) (at 473.7100 171.4500 0) (effects (font (size 1 1)) (justify left)) (uuid 52b52277-4854-5412-8bbc-456aed111427)) (wire (pts (xy 473.7100 184.1500) (xy 473.7100 189.2300)) (stroke (width 0) (type default)) (uuid b9be3896-e3fe-5c2c-bf4c-d8f50b613143)) (label "BUTTON_6"  (at 473.7100 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f6396a59-5429-536d-9657-fa8830b2ed00)) (symbol (lib_id "Device:R") (at 504.19 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 7881a822-fe6b-5f41-a744-24bc588900a6)
+          (property "Reference" "R2033" (at 499.11 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 499.11 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 504.19 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 504.19 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 1e50301a-dd54-5800-9899-2e4ee2680865)) (pin "2" (uuid 4268288c-4319-5be5-8087-ec8bda661458))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2033") (unit 1))))) (wire (pts (xy 504.1900 176.5300) (xy 504.1900 171.4500)) (stroke (width 0) (type default)) (uuid 2587d4b9-14dc-5490-b69a-f0ad087e712f)) (label "BUTTON_6"  (at 504.1900 171.4500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7f91f81b-4a34-5b01-93c4-afb6e10b8558)) (wire (pts (xy 504.1900 184.1500) (xy 504.1900 189.2300)) (stroke (width 0) (type default)) (uuid db95a5d2-0b10-5258-87f4-fd1517a759d7)) (label "KEY_SENSE"  (at 504.1900 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 17e0d89f-90f4-5f8d-bc37-7a42ee921e74)) (symbol (lib_id "Device:D_Schottky") (at 590.5500000000001 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e48909e6-4b10-55cd-a2c7-288db772fc07)
+          (property "Reference" "D2025" (at 585.47 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 585.47 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 590.5500000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 590.5500000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid c7ff4838-1fb3-55f0-b2e7-a150a18c7587)) (pin "2" (uuid 5ddea3c3-84ab-5687-8162-039997a951d9))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2025") (unit 1))))) (wire (pts (xy 586.7400 180.3400) (xy 579.1200 180.3400)) (stroke (width 0) (type default)) (uuid 28848d8a-d3cb-5b53-a481-cee5e3db2d69)) (label "BUTTON_6"  (at 579.1200 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 8920904b-7128-53b4-afe9-c3b161940a0c)) (wire (pts (xy 594.3600 180.3400) (xy 601.9800 180.3400)) (stroke (width 0) (type default)) (uuid f2b0dbb6-82a6-597f-baf3-5ffb98064f1a)) (label "KEY_CODE_N_1"  (at 601.9800 180.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2a3e7a82-95da-5352-8d44-1e4d5da675e6)) (symbol (lib_id "Device:D_Schottky") (at 544.83 205.74 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 46ef57a2-d580-50d8-9c35-d51d822b0a1f)
+          (property "Reference" "D2026" (at 539.75 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 539.75 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 544.83 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 544.83 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid c68ba9b2-03ec-5514-a09e-d8661029acca)) (pin "2" (uuid 275005b8-f7db-598f-9793-1f8048836b3a))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2026") (unit 1))))) (wire (pts (xy 541.0200 205.7400) (xy 533.4000 205.7400)) (stroke (width 0) (type default)) (uuid 77d9a13a-b0cc-56d5-b303-59425d916448)) (label "BUTTON_6"  (at 533.4000 205.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid e9ccbd53-46c0-5262-b267-40d101205bb1)) (wire (pts (xy 548.6400 205.7400) (xy 556.2600 205.7400)) (stroke (width 0) (type default)) (uuid 826a02de-a976-5ea4-9687-e653de0bcc86)) (label "KEY_CODE_N_2"  (at 556.2600 205.7400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e0414682-2bb2-51a9-b8d5-218b11bb26e0)) (text "Key 7" (at 629.9200000000001 157.48000000000002 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 7eb2cecd-3a61-5f93-8cfc-138b96358727)) (symbol (lib_id "Switch:SW_Push") (at 636.2700000000001 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid efb5f124-602b-5328-b18c-bf22f65c9b49)
+          (property "Reference" "SW8" (at 631.19 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 631.19 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 636.2700000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 636.2700000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 50cb2f21-ab26-5b95-aadf-a3e47f676527)) (pin "2" (uuid cbccf975-4ea4-5125-a3eb-93d86457ca2c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW8") (unit 1))))) (wire (pts (xy 631.1900 180.3400) (xy 623.5700 180.3400)) (stroke (width 0) (type default)) (uuid 45f1e9c0-963f-555a-a5f1-9b7e7073601f)) (label "BUTTON_7"  (at 623.5700 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 23e21dd9-dd63-5a87-8645-490bee0fa7f3)) (wire (pts (xy 641.3500 180.3400) (xy 648.9700 180.3400)) (stroke (width 0) (type default)) (uuid b5e4ad84-0309-5aef-9c64-312f9c2869ae)) (global_label "GND" (shape bidirectional) (at 648.9700 180.3400 0) (effects (font (size 1 1)) (justify left)) (uuid 2c78d8c2-ad5c-52a8-874b-721d8a3354c7)) (symbol (lib_id "Device:R") (at 671.83 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 37ee23fb-7a35-5588-9389-d74625b58f57)
+          (property "Reference" "R2034" (at 666.75 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 666.75 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 671.83 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 671.83 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 8f672719-48d8-5d30-99e3-bf7cd79f927e)) (pin "2" (uuid d3cff876-c3a8-5f89-9f14-772361b3b29f))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2034") (unit 1))))) (wire (pts (xy 671.8300 176.5300) (xy 671.8300 171.4500)) (stroke (width 0) (type default)) (uuid 224e2937-c4ab-5c74-adc1-fea4aa47300a)) (global_label "+5V" (shape bidirectional) (at 671.8300 171.4500 0) (effects (font (size 1 1)) (justify left)) (uuid a6833e77-444b-581b-9f00-1417845abbe7)) (wire (pts (xy 671.8300 184.1500) (xy 671.8300 189.2300)) (stroke (width 0) (type default)) (uuid 863fdb77-4c64-511e-a4ae-656f2da96b97)) (label "BUTTON_7"  (at 671.8300 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 181f5f9d-0354-595c-96fa-d056b1d42023)) (symbol (lib_id "Device:R") (at 702.3100000000001 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 25c2ae16-f0dd-5bbb-ad12-ad6e6a2a19cf)
+          (property "Reference" "R2035" (at 697.23 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 697.23 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 702.3100000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 702.3100000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 7a74abb0-0e54-518e-9e13-26c32ced3099)) (pin "2" (uuid 69d894e2-6bc7-54e8-885b-7041cb28ec7a))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2035") (unit 1))))) (wire (pts (xy 702.3100 176.5300) (xy 702.3100 171.4500)) (stroke (width 0) (type default)) (uuid bcdd18ad-f612-596a-824a-8791168b02a1)) (label "BUTTON_7"  (at 702.3100 171.4500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dc0ca3f3-9b3d-501d-a4ce-7c2d9ad3a60a)) (wire (pts (xy 702.3100 184.1500) (xy 702.3100 189.2300)) (stroke (width 0) (type default)) (uuid 437bba1e-eb6d-5e84-90a4-1a452399d5b7)) (label "KEY_SENSE"  (at 702.3100 189.2300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0636acfd-ad8b-5aa0-a03b-a04a8fc7b53c)) (symbol (lib_id "Device:D_Schottky") (at 742.95 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid baa1f8ab-dd76-5f5a-a294-82b9c01f87bc)
+          (property "Reference" "D2028" (at 737.87 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 737.87 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 742.95 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 742.95 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 1830371a-6889-5aaa-81fd-a008b2763549)) (pin "2" (uuid 88bef8c2-ed7c-5441-b086-792dbc5f28a4))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2028") (unit 1))))) (wire (pts (xy 739.1400 180.3400) (xy 731.5200 180.3400)) (stroke (width 0) (type default)) (uuid 7e8694ef-ee68-5974-b111-c58492814930)) (label "BUTTON_7"  (at 731.5200 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 51333e45-bce7-54eb-8c9e-898592741451)) (wire (pts (xy 746.7600 180.3400) (xy 754.3800 180.3400)) (stroke (width 0) (type default)) (uuid 4bb07284-33f4-5c1c-876f-a7fc46fc5a78)) (label "KEY_CODE_N_0"  (at 754.3800 180.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8f9712d5-7028-59bc-9b34-8eb796ef1968)) (symbol (lib_id "Device:D_Schottky") (at 788.6700000000001 180.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 33c92b37-fd38-59f1-ae8a-74202b75a22e)
+          (property "Reference" "D2029" (at 783.59 171.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 783.59 173.98999999999998 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 788.6700000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 788.6700000000001 180.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 315014f4-bacd-54aa-9609-feac7c788dec)) (pin "2" (uuid e67d6b10-d3d8-50ae-a372-2c25fb175e1f))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2029") (unit 1))))) (wire (pts (xy 784.8600 180.3400) (xy 777.2400 180.3400)) (stroke (width 0) (type default)) (uuid c57b4763-6a15-591f-803c-bedcd34d1d57)) (label "BUTTON_7"  (at 777.2400 180.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid b0c98f45-7768-57be-a927-194a14184a6c)) (wire (pts (xy 792.4800 180.3400) (xy 800.1000 180.3400)) (stroke (width 0) (type default)) (uuid 1ac5b113-53b3-5ac4-9275-336e9a79d9f8)) (label "KEY_CODE_N_1"  (at 800.1000 180.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a8691db5-0992-5656-a9eb-188127ad4e33)) (symbol (lib_id "Device:D_Schottky") (at 742.95 205.74 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c3a05df5-e047-52d1-9411-bedce1b3134f)
+          (property "Reference" "D2030" (at 737.87 196.85000000000002 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 737.87 199.39000000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 742.95 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 742.95 205.74 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d44a41a5-69b9-5f94-99e7-b0c9276aea4b)) (pin "2" (uuid 034e4ba8-d687-5f62-ae8f-07162365b0b7))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2030") (unit 1))))) (wire (pts (xy 739.1400 205.7400) (xy 731.5200 205.7400)) (stroke (width 0) (type default)) (uuid 76d93b9b-98fb-55d3-b7af-415866e025f4)) (label "BUTTON_7"  (at 731.5200 205.7400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 3fdc8fc7-b036-5131-8c98-8439ffe02457)) (wire (pts (xy 746.7600 205.7400) (xy 754.3800 205.7400)) (stroke (width 0) (type default)) (uuid 2365e2c0-5e1b-5861-adaf-c32ef4cc8d14)) (label "KEY_CODE_N_2"  (at 754.3800 205.7400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 36e3ebe4-cdf4-57a7-b5ac-237ada810ee1)) (text "Key 8" (at 35.56 271.78 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid b2f63469-ba91-5cdb-9a05-c46a1a97aba6)) (symbol (lib_id "Switch:SW_Push") (at 41.910000000000004 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 755c139c-1d84-5907-acba-2e302acc6309)
+          (property "Reference" "SW9" (at 36.830000000000005 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 36.830000000000005 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 41.910000000000004 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 41.910000000000004 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid ba1276c4-a2fe-5c32-813a-b39212b76180)) (pin "2" (uuid 0b139f94-6d9f-5234-aa26-b8d001e078e9))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW9") (unit 1))))) (wire (pts (xy 36.8300 294.6400) (xy 29.2100 294.6400)) (stroke (width 0) (type default)) (uuid c267fec5-a4ab-5501-b71a-fd06af4ed5e1)) (label "BUTTON_8"  (at 29.2100 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid f58f1f95-80ec-5518-b294-b31550f9c6dd)) (wire (pts (xy 46.9900 294.6400) (xy 54.6100 294.6400)) (stroke (width 0) (type default)) (uuid 4e921acc-7800-56ff-887d-a10ecf06f86d)) (global_label "GND" (shape bidirectional) (at 54.6100 294.6400 0) (effects (font (size 1 1)) (justify left)) (uuid ec4da0ec-f261-5096-9476-c53ae27801f2)) (symbol (lib_id "Device:R") (at 77.47 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b9795552-b137-5141-9c11-cf043708153f)
+          (property "Reference" "R2036" (at 72.39 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 72.39 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 77.47 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 77.47 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 2491472f-2892-5900-9bff-e1bee4119891)) (pin "2" (uuid 6a135f8d-aa93-5be9-a5c6-e0ca4a2c3c22))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2036") (unit 1))))) (wire (pts (xy 77.4700 290.8300) (xy 77.4700 285.7500)) (stroke (width 0) (type default)) (uuid 1892f078-a7c5-59e6-82b2-6a887b296293)) (global_label "+5V" (shape bidirectional) (at 77.4700 285.7500 0) (effects (font (size 1 1)) (justify left)) (uuid 05a72eed-18fc-517a-a178-16d7be7b37a2)) (wire (pts (xy 77.4700 298.4500) (xy 77.4700 303.5300)) (stroke (width 0) (type default)) (uuid 2c4f3897-28ed-554d-9a0f-0a3e934de155)) (label "BUTTON_8"  (at 77.4700 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ce2aba72-05a5-5599-b2bc-5c1e5a0938b5)) (symbol (lib_id "Device:R") (at 107.95 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 32afa8e2-5d7c-5464-8649-5226399e88bf)
+          (property "Reference" "R2037" (at 102.87 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 102.87 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 107.95 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 107.95 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 73f39df3-ca35-569a-a870-d3709846a89c)) (pin "2" (uuid 09325e72-90cd-5b5e-a040-3de39d5cea0f))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2037") (unit 1))))) (wire (pts (xy 107.9500 290.8300) (xy 107.9500 285.7500)) (stroke (width 0) (type default)) (uuid 54588bfc-2834-53bf-8d24-35d2cc680299)) (label "BUTTON_8"  (at 107.9500 285.7500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 097514b0-2b68-5a74-a45f-1a9f9b6cbc94)) (wire (pts (xy 107.9500 298.4500) (xy 107.9500 303.5300)) (stroke (width 0) (type default)) (uuid dd9a9b97-93e3-55d6-8108-a0f4c3b7b0d3)) (label "KEY_SENSE"  (at 107.9500 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c1737e2b-2d93-5f1b-bc3a-cc59369ba204)) (symbol (lib_id "Device:D_Schottky") (at 194.31 320.03999999999996 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 7a9a6264-f666-55f2-81e0-f0e830a87986)
+          (property "Reference" "D2035" (at 189.23 311.15 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 189.23 313.69 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 194.31 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 194.31 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 7ea0af9f-32cd-533f-9416-cf5e74b1e13d)) (pin "2" (uuid 8fa111e1-e7ad-5a30-8a49-20e064cba737))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2035") (unit 1))))) (wire (pts (xy 190.5000 320.0400) (xy 182.8800 320.0400)) (stroke (width 0) (type default)) (uuid de9e7198-8d91-574d-94b8-7e3e33afa1fc)) (label "BUTTON_8"  (at 182.8800 320.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 53e45b6d-3196-5493-b287-6e95dfc227da)) (wire (pts (xy 198.1200 320.0400) (xy 205.7400 320.0400)) (stroke (width 0) (type default)) (uuid 2263df51-3a32-573e-b130-478705aa331c)) (label "KEY_CODE_N_3"  (at 205.7400 320.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 00e5b1b3-9b81-5caa-8624-113e0db1f7fc)) (text "Key 9" (at 233.68 271.78 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 69fd532f-4b32-5b3d-a97c-fa1927eb9000)) (symbol (lib_id "Switch:SW_Push") (at 240.03 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ed541354-abf5-5553-bc08-13d487483eff)
+          (property "Reference" "SW10" (at 234.95 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 234.95 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 240.03 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 240.03 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid c3b5c817-b7ec-501b-9003-77dbb13ad4cc)) (pin "2" (uuid 16ae0a05-670d-50b2-8eb8-4560c8c1a84c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW10") (unit 1))))) (wire (pts (xy 234.9500 294.6400) (xy 227.3300 294.6400)) (stroke (width 0) (type default)) (uuid 746ac237-e1ab-55c6-878a-d5b729475972)) (label "BUTTON_9"  (at 227.3300 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 98dc7b67-c172-51b9-b402-4b487fc49882)) (wire (pts (xy 245.1100 294.6400) (xy 252.7300 294.6400)) (stroke (width 0) (type default)) (uuid 97e7b2da-95c2-5a4d-a67e-ea659e7e279e)) (global_label "GND" (shape bidirectional) (at 252.7300 294.6400 0) (effects (font (size 1 1)) (justify left)) (uuid 61ded4a4-7606-55ee-ace9-19e557a8bd68)) (symbol (lib_id "Device:R") (at 275.59000000000003 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8255ad89-88ab-5f6d-810b-cd06e9ea98fc)
+          (property "Reference" "R2038" (at 270.51000000000005 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 270.51000000000005 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 275.59000000000003 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 275.59000000000003 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f8fc4905-5306-5a88-a9c2-e6f69ac62c8e)) (pin "2" (uuid 26c31b12-edf4-59cb-bb74-0e1100f2794b))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2038") (unit 1))))) (wire (pts (xy 275.5900 290.8300) (xy 275.5900 285.7500)) (stroke (width 0) (type default)) (uuid a6a939f7-6501-511f-85f3-7089f2f68c86)) (global_label "+5V" (shape bidirectional) (at 275.5900 285.7500 0) (effects (font (size 1 1)) (justify left)) (uuid 57dc05de-ed3b-5373-a953-03021082240f)) (wire (pts (xy 275.5900 298.4500) (xy 275.5900 303.5300)) (stroke (width 0) (type default)) (uuid 648d8d2d-f16e-5b2a-b2b7-863673a0d787)) (label "BUTTON_9"  (at 275.5900 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ee48fb7f-6f6a-59a8-8f0b-67e188596c2e)) (symbol (lib_id "Device:R") (at 306.07 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid cd3776a4-fc86-5b60-aeb7-69ad118d77c3)
+          (property "Reference" "R2039" (at 300.99 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 300.99 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 306.07 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 306.07 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d306252c-de45-535f-b719-6f1b73e6f197)) (pin "2" (uuid 22025f1e-18db-5409-bd19-4f17b0888400))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2039") (unit 1))))) (wire (pts (xy 306.0700 290.8300) (xy 306.0700 285.7500)) (stroke (width 0) (type default)) (uuid 43a5721b-1e57-541a-bf7d-585c9a01a72e)) (label "BUTTON_9"  (at 306.0700 285.7500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid df19418c-90a2-5519-887e-28121fe0fe9e)) (wire (pts (xy 306.0700 298.4500) (xy 306.0700 303.5300)) (stroke (width 0) (type default)) (uuid bb47fca2-b65d-55bd-ac44-a8f9b366dd72)) (label "KEY_SENSE"  (at 306.0700 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid fd2fd99b-4888-5660-8463-eda94d6a0658)) (symbol (lib_id "Device:D_Schottky") (at 346.71000000000004 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 1ee1bd07-e968-5f55-8ed3-c2bc327f275a)
+          (property "Reference" "D2036" (at 341.63000000000005 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 341.63000000000005 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 346.71000000000004 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 346.71000000000004 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 880a6d6f-13a9-5eb5-a540-b008d312a83b)) (pin "2" (uuid f72b565a-b5db-5e3c-9737-6a98ece7d969))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2036") (unit 1))))) (wire (pts (xy 342.9000 294.6400) (xy 335.2800 294.6400)) (stroke (width 0) (type default)) (uuid cc70743b-5899-5beb-8513-571ea2a4e24e)) (label "BUTTON_9"  (at 335.2800 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid d9db028d-3f2e-5dde-9087-079dfb4755b9)) (wire (pts (xy 350.5200 294.6400) (xy 358.1400 294.6400)) (stroke (width 0) (type default)) (uuid 1e0dd109-4894-50cd-bb25-c6a0b1ffad0e)) (label "KEY_CODE_N_0"  (at 358.1400 294.6400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c40d8d5e-75d7-5c10-b215-cbdad004313f)) (symbol (lib_id "Device:D_Schottky") (at 392.43000000000006 320.03999999999996 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8ed804f7-bfb8-592d-803d-33785f544d10)
+          (property "Reference" "D2039" (at 387.3500000000001 311.15 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 387.3500000000001 313.69 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 392.43000000000006 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 392.43000000000006 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 71dcf87a-eaab-5856-b6a1-4240fb19ea01)) (pin "2" (uuid ad53fa41-77d2-5b03-9817-451d42ea78c5))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2039") (unit 1))))) (wire (pts (xy 388.6200 320.0400) (xy 381.0000 320.0400)) (stroke (width 0) (type default)) (uuid 1b5b8938-57e2-5199-abe9-c2b3136c4d90)) (label "BUTTON_9"  (at 381.0000 320.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid d69a8de2-c2d7-5a05-ac54-d18b65b26420)) (wire (pts (xy 396.2400 320.0400) (xy 403.8600 320.0400)) (stroke (width 0) (type default)) (uuid f920585d-4ba0-5b5a-8c11-b355deb4eaf5)) (label "KEY_CODE_N_3"  (at 403.8600 320.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid b58131e3-3f6a-5531-a000-b89ec4e04d56)) (text "Key +" (at 431.8 271.78 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 826efe5b-b680-5336-8104-0a5a301bbc49)) (symbol (lib_id "Switch:SW_Push") (at 438.15000000000003 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid bb71e82e-d811-59d2-87bb-d4024bb54c94)
+          (property "Reference" "SW11" (at 433.07000000000005 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 433.07000000000005 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 438.15000000000003 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 438.15000000000003 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid e97a47f1-c162-526d-94e8-6803ab8fbbab)) (pin "2" (uuid fdb6bb8b-30d7-592c-869c-d30307e10ced))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW11") (unit 1))))) (wire (pts (xy 433.0700 294.6400) (xy 425.4500 294.6400)) (stroke (width 0) (type default)) (uuid 711194e4-0b49-5bd5-9d3a-7aeed8816716)) (label "BUTTON_10"  (at 425.4500 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 515e6429-1b72-5e42-b031-7684214da4c3)) (wire (pts (xy 443.2300 294.6400) (xy 450.8500 294.6400)) (stroke (width 0) (type default)) (uuid 5535b5a5-aa61-5249-addb-e51ba253115b)) (global_label "GND" (shape bidirectional) (at 450.8500 294.6400 0) (effects (font (size 1 1)) (justify left)) (uuid 127da444-6d86-53cd-868e-94cb4f78e285)) (symbol (lib_id "Device:R") (at 473.71000000000004 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 63a2e0a3-af5a-5c9b-80c7-a77b058a7057)
+          (property "Reference" "R2040" (at 468.63000000000005 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 468.63000000000005 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 473.71000000000004 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 473.71000000000004 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid ff8657e4-c8b6-5fe5-ba7c-b50b891ada26)) (pin "2" (uuid c98d3887-8da5-5ed1-bc9a-a75f260aeba0))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2040") (unit 1))))) (wire (pts (xy 473.7100 290.8300) (xy 473.7100 285.7500)) (stroke (width 0) (type default)) (uuid a1e6c644-2029-5ce9-82a9-41ca08518e67)) (global_label "+5V" (shape bidirectional) (at 473.7100 285.7500 0) (effects (font (size 1 1)) (justify left)) (uuid 97c28338-e6a7-585f-b932-ea2b15d304c3)) (wire (pts (xy 473.7100 298.4500) (xy 473.7100 303.5300)) (stroke (width 0) (type default)) (uuid 7837a212-8af6-5c88-9c83-0e803503f5a5)) (label "BUTTON_10"  (at 473.7100 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 5692ec73-8f7b-54fa-ba29-cd01a2062820)) (symbol (lib_id "Device:R") (at 504.19 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 0b597cd6-7bcd-58ec-afe5-f8deb9a69995)
+          (property "Reference" "R2041" (at 499.11 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 499.11 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 504.19 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 504.19 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 782de181-ef5b-5b6e-bfd2-7497fa524007)) (pin "2" (uuid 22b965ea-7219-5617-9bdf-e085b4e92719))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2041") (unit 1))))) (wire (pts (xy 504.1900 290.8300) (xy 504.1900 285.7500)) (stroke (width 0) (type default)) (uuid c09568d8-38a6-5bd1-8fb4-cb7d784c0ca6)) (label "BUTTON_10"  (at 504.1900 285.7500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 959facfe-346e-5ca2-81fb-66326f8160fe)) (wire (pts (xy 504.1900 298.4500) (xy 504.1900 303.5300)) (stroke (width 0) (type default)) (uuid 59b667fc-e1cb-5c7f-8920-683fb9250c0f)) (label "KEY_SENSE"  (at 504.1900 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ea7f1780-8045-58fc-acf1-173b10b0d115)) (symbol (lib_id "Device:D_Schottky") (at 590.5500000000001 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3d253035-141d-58ae-bf3f-13d1b7867285)
+          (property "Reference" "D2041" (at 585.47 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 585.47 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 590.5500000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 590.5500000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f7d76112-8cd6-55bd-84f6-e128883e07f2)) (pin "2" (uuid 27dbc2c6-7315-5798-b2b7-b2dbbfaec8b0))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2041") (unit 1))))) (wire (pts (xy 586.7400 294.6400) (xy 579.1200 294.6400)) (stroke (width 0) (type default)) (uuid 5e2bbd1c-204e-5369-a35f-2d48f14d079d)) (label "BUTTON_10"  (at 579.1200 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 48f79d31-3315-5c4d-b307-7dcd124fbd30)) (wire (pts (xy 594.3600 294.6400) (xy 601.9800 294.6400)) (stroke (width 0) (type default)) (uuid 92705ba6-0a85-5d14-9ff7-64b778f5421c)) (label "KEY_CODE_N_1"  (at 601.9800 294.6400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dd6808d9-de3c-5cd1-a0aa-db76ef2a15ec)) (symbol (lib_id "Device:D_Schottky") (at 590.5500000000001 320.03999999999996 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 6e1be514-282e-5af9-83c7-a5b00c794550)
+          (property "Reference" "D2043" (at 585.47 311.15 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 585.47 313.69 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 590.5500000000001 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 590.5500000000001 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid eb6ce760-ef15-5593-80b7-c301a278f7db)) (pin "2" (uuid 4856b1a1-399a-5cef-96a2-6664397385fa))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2043") (unit 1))))) (wire (pts (xy 586.7400 320.0400) (xy 579.1200 320.0400)) (stroke (width 0) (type default)) (uuid 34c5321b-1540-5d72-8cce-f8fdc8287096)) (label "BUTTON_10"  (at 579.1200 320.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 13c52ee7-2137-50f5-aa34-04345e8556a9)) (wire (pts (xy 594.3600 320.0400) (xy 601.9800 320.0400)) (stroke (width 0) (type default)) (uuid f226d20f-c4a1-52f0-8ab5-deeb48648a5a)) (label "KEY_CODE_N_3"  (at 601.9800 320.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 066de1cc-c08c-51ce-9294-b7c24803a305)) (text "Key -" (at 629.9200000000001 271.78 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 6e37c2ee-4ea6-57df-aa17-60c15b6bb5bc)) (symbol (lib_id "Switch:SW_Push") (at 636.2700000000001 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 9a7ca966-ad3b-5a32-80bf-d6cb3ff2d631)
+          (property "Reference" "SW12" (at 631.19 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 631.19 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 636.2700000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 636.2700000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 68839df5-4b15-5ec6-8d1a-0828b77ae694)) (pin "2" (uuid 1271792a-a510-582a-b273-26563f1cdf59))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW12") (unit 1))))) (wire (pts (xy 631.1900 294.6400) (xy 623.5700 294.6400)) (stroke (width 0) (type default)) (uuid 81707063-2601-5186-992c-008420980ee2)) (label "BUTTON_11"  (at 623.5700 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 529fa102-b975-522c-8066-8ea50bac8568)) (wire (pts (xy 641.3500 294.6400) (xy 648.9700 294.6400)) (stroke (width 0) (type default)) (uuid 75ba9919-c151-5312-b6a4-a01e5ace629b)) (global_label "GND" (shape bidirectional) (at 648.9700 294.6400 0) (effects (font (size 1 1)) (justify left)) (uuid aef8369b-e030-550e-bd86-c067b4c122b1)) (symbol (lib_id "Device:R") (at 671.83 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 7e05ef8e-46f6-5661-ab93-31b90e5e639b)
+          (property "Reference" "R2042" (at 666.75 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 666.75 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 671.83 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 671.83 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid c947abd8-d3a5-5471-9a02-294e846d1e4a)) (pin "2" (uuid 8fd8bbfe-275f-56c1-89cb-4701d8ed0efe))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2042") (unit 1))))) (wire (pts (xy 671.8300 290.8300) (xy 671.8300 285.7500)) (stroke (width 0) (type default)) (uuid 186ceae0-6344-5854-90c9-ca68eba25456)) (global_label "+5V" (shape bidirectional) (at 671.8300 285.7500 0) (effects (font (size 1 1)) (justify left)) (uuid 936227fa-3a47-5e66-b859-145506aef6d0)) (wire (pts (xy 671.8300 298.4500) (xy 671.8300 303.5300)) (stroke (width 0) (type default)) (uuid 1622cb53-eea4-5bad-94a5-11c80a0452c9)) (label "BUTTON_11"  (at 671.8300 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 781d79fd-9ec7-5b9c-84c7-7663fe6661d1)) (symbol (lib_id "Device:R") (at 702.3100000000001 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid f481d8c9-0bac-5581-a972-309f62b3eece)
+          (property "Reference" "R2043" (at 697.23 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 697.23 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 702.3100000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 702.3100000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 83936944-87f9-535d-b861-79ef46fcab74)) (pin "2" (uuid 6a28ef6b-897a-528e-9a32-f2cd9e175089))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2043") (unit 1))))) (wire (pts (xy 702.3100 290.8300) (xy 702.3100 285.7500)) (stroke (width 0) (type default)) (uuid 9a8643c0-220e-5415-8e93-47371b845c04)) (label "BUTTON_11"  (at 702.3100 285.7500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7ee1a58b-fe5a-5246-b784-6ea06910c467)) (wire (pts (xy 702.3100 298.4500) (xy 702.3100 303.5300)) (stroke (width 0) (type default)) (uuid 4c6de070-05fa-5e1b-9db9-4ae818991f7f)) (label "KEY_SENSE"  (at 702.3100 303.5300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d1b0b5d3-b54a-5059-9b92-ebe41d4ef7a6)) (symbol (lib_id "Device:D_Schottky") (at 742.95 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 25ef7956-c180-5827-b7af-db964d99ae50)
+          (property "Reference" "D2044" (at 737.87 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 737.87 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 742.95 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 742.95 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 471e37ad-4284-5063-a668-8c4aae6ab1d4)) (pin "2" (uuid 333b441a-1871-595e-ab99-5f5a9e88324c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2044") (unit 1))))) (wire (pts (xy 739.1400 294.6400) (xy 731.5200 294.6400)) (stroke (width 0) (type default)) (uuid 352d9b25-88d0-5987-8423-c79d2e60e24b)) (label "BUTTON_11"  (at 731.5200 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 329e8367-a79f-5f7e-b686-2e26b826d2d8)) (wire (pts (xy 746.7600 294.6400) (xy 754.3800 294.6400)) (stroke (width 0) (type default)) (uuid fefda3ca-4350-5818-b10a-f6876282475d)) (label "KEY_CODE_N_0"  (at 754.3800 294.6400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid cf42dce1-4aeb-5dcb-bf1f-56c70634e3b3)) (symbol (lib_id "Device:D_Schottky") (at 788.6700000000001 294.64 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 32ab215d-f2d1-57a4-8fa9-13f8421e4ddd)
+          (property "Reference" "D2045" (at 783.59 285.75 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 783.59 288.29 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 788.6700000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 788.6700000000001 294.64 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f4f37f0e-f31f-55a0-bcbd-0987a513bdd1)) (pin "2" (uuid caeb791c-a23c-510c-8761-e6d649251d40))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2045") (unit 1))))) (wire (pts (xy 784.8600 294.6400) (xy 777.2400 294.6400)) (stroke (width 0) (type default)) (uuid 919ebc96-e344-5931-9f84-0f03070a318b)) (label "BUTTON_11"  (at 777.2400 294.6400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 1c32bcfd-921c-5e9a-a1cb-a9121ef88a40)) (wire (pts (xy 792.4800 294.6400) (xy 800.1000 294.6400)) (stroke (width 0) (type default)) (uuid b6c22571-3161-5fff-b74b-a0fe5f2e73b7)) (label "KEY_CODE_N_1"  (at 800.1000 294.6400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 19555e8a-6173-5ac4-8a19-907623939009)) (symbol (lib_id "Device:D_Schottky") (at 788.6700000000001 320.03999999999996 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid a821c469-ef85-57fb-9f37-61848cb0818d)
+          (property "Reference" "D2047" (at 783.59 311.15 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 783.59 313.69 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 788.6700000000001 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 788.6700000000001 320.03999999999996 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 14eec143-bf19-55ff-8565-95f90b9657d4)) (pin "2" (uuid 0afcce6c-67ac-5a85-9b42-f4d2f1b1028d))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2047") (unit 1))))) (wire (pts (xy 784.8600 320.0400) (xy 777.2400 320.0400)) (stroke (width 0) (type default)) (uuid 64d4aa38-ee2f-5a82-9896-407802357e18)) (label "BUTTON_11"  (at 777.2400 320.0400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 305962fa-134c-5303-81b6-40a27a488832)) (wire (pts (xy 792.4800 320.0400) (xy 800.1000 320.0400)) (stroke (width 0) (type default)) (uuid 4eba4979-1f86-5440-971e-b0055245ec22)) (label "KEY_CODE_N_3"  (at 800.1000 320.0400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c2d5e55d-c7cb-5ca9-9345-b5c117488ee8)) (text "Key *" (at 35.56 386.08 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 5eac641e-b596-5658-8b36-4d4468a6f192)) (symbol (lib_id "Switch:SW_Push") (at 41.910000000000004 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c05cc1eb-584b-54d2-860b-9959d849aae3)
+          (property "Reference" "SW13" (at 36.830000000000005 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 36.830000000000005 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 41.910000000000004 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 41.910000000000004 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 02700779-c53f-533d-bbac-b0b8516d8574)) (pin "2" (uuid dfcb2720-5825-532a-9e09-dacc3599398b))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW13") (unit 1))))) (wire (pts (xy 36.8300 408.9400) (xy 29.2100 408.9400)) (stroke (width 0) (type default)) (uuid 24c29b2f-be78-5960-ac5c-8d84a7cba191)) (label "BUTTON_12"  (at 29.2100 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid aff28d61-c48b-5a7d-893a-832847c84bae)) (wire (pts (xy 46.9900 408.9400) (xy 54.6100 408.9400)) (stroke (width 0) (type default)) (uuid 2f0954f8-95d8-59d9-a0e4-2fd114eecf6d)) (global_label "GND" (shape bidirectional) (at 54.6100 408.9400 0) (effects (font (size 1 1)) (justify left)) (uuid 9fcfdd4a-31d1-5ac9-8aba-59d7ba37d9da)) (symbol (lib_id "Device:R") (at 77.47 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e21e0f09-4903-54d7-b391-1f96473b5712)
+          (property "Reference" "R2044" (at 72.39 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 72.39 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 77.47 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 77.47 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 654cb17c-9b6f-5095-a7fc-f2e3906a8f05)) (pin "2" (uuid 95cde2b2-fc98-53a4-b5ef-3eea104d887c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2044") (unit 1))))) (wire (pts (xy 77.4700 405.1300) (xy 77.4700 400.0500)) (stroke (width 0) (type default)) (uuid f216bf3d-bf17-5bab-8247-c0a9b2a5a484)) (global_label "+5V" (shape bidirectional) (at 77.4700 400.0500 0) (effects (font (size 1 1)) (justify left)) (uuid f42a06e7-1de7-5c8d-bcc2-bdbe67bc48ce)) (wire (pts (xy 77.4700 412.7500) (xy 77.4700 417.8300)) (stroke (width 0) (type default)) (uuid 5026aa88-016d-5e08-89c6-65e0bec6d84b)) (label "BUTTON_12"  (at 77.4700 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid ede9ba42-f90d-5867-89d4-37d463730369)) (symbol (lib_id "Device:R") (at 107.95 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid bb0657df-02cb-5b39-9b3f-b7b0873c4276)
+          (property "Reference" "R2045" (at 102.87 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 102.87 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 107.95 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 107.95 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 0ab880fa-5ef7-596e-84e3-8b0339172781)) (pin "2" (uuid 094f28e1-a254-5584-8efc-9243b7ba44a0))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2045") (unit 1))))) (wire (pts (xy 107.9500 405.1300) (xy 107.9500 400.0500)) (stroke (width 0) (type default)) (uuid 0cb67c4e-2871-5b38-b981-521215737c86)) (label "BUTTON_12"  (at 107.9500 400.0500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a770b0ea-0cb7-56e6-a91c-dba820f7163b)) (wire (pts (xy 107.9500 412.7500) (xy 107.9500 417.8300)) (stroke (width 0) (type default)) (uuid 0cba73f7-be61-5f58-ba9d-f392415ac932)) (label "KEY_SENSE"  (at 107.9500 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1704ad46-0f8a-59f8-af0c-2e43a9ed1f42)) (symbol (lib_id "Device:D_Schottky") (at 148.59 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 5085b90e-d38c-5919-b8b2-e0b6a90799fc)
+          (property "Reference" "D2050" (at 143.51 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 143.51 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 148.59 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 148.59 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 9838b1d3-6282-5850-b64d-16ad17412878)) (pin "2" (uuid 9846bdbe-5cb1-5eba-84a4-5c150512032c))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2050") (unit 1))))) (wire (pts (xy 144.7800 434.3400) (xy 137.1600 434.3400)) (stroke (width 0) (type default)) (uuid da4c8f37-3e11-5730-a7f8-48ca829c1894)) (label "BUTTON_12"  (at 137.1600 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 829bc407-abc8-5e9b-b01f-422e3fc3c547)) (wire (pts (xy 152.4000 434.3400) (xy 160.0200 434.3400)) (stroke (width 0) (type default)) (uuid 24a2d0e7-1b81-5ab1-a378-8f39df564085)) (label "KEY_CODE_N_2"  (at 160.0200 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 95c56ac0-99fa-5561-8125-f8f8ddfcf9b0)) (symbol (lib_id "Device:D_Schottky") (at 194.31 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b509ac63-7774-542f-a757-1d469dbed7fb)
+          (property "Reference" "D2051" (at 189.23 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 189.23 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 194.31 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 194.31 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 175e71db-8753-53e8-90b3-3b0a205177a6)) (pin "2" (uuid b9faa317-f700-5aad-8493-6650caab64cb))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2051") (unit 1))))) (wire (pts (xy 190.5000 434.3400) (xy 182.8800 434.3400)) (stroke (width 0) (type default)) (uuid 7539c1f7-2b7a-5f63-bc33-923c4013e55d)) (label "BUTTON_12"  (at 182.8800 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 0ddb90b2-e2f6-58a1-bcab-b83ca1595eff)) (wire (pts (xy 198.1200 434.3400) (xy 205.7400 434.3400)) (stroke (width 0) (type default)) (uuid 41489e99-068f-5bce-8264-586302c81acd)) (label "KEY_CODE_N_3"  (at 205.7400 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d8593e91-3abc-52ba-8544-53d7598dac4d)) (text "Key /" (at 233.68 386.08 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 630afaac-1ebe-554d-bff0-1abbe051434e)) (symbol (lib_id "Switch:SW_Push") (at 240.03 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ddac0f7b-1307-5265-8fbb-5d89f6f37405)
+          (property "Reference" "SW14" (at 234.95 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 234.95 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 240.03 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 240.03 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f328a9fd-b06f-5864-bb8e-9833c0c32499)) (pin "2" (uuid f59ffd5e-4255-5f92-82e0-f34de5bde3a7))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW14") (unit 1))))) (wire (pts (xy 234.9500 408.9400) (xy 227.3300 408.9400)) (stroke (width 0) (type default)) (uuid 68f944fc-dd80-54a1-8792-9f0fde29fb7c)) (label "BUTTON_13"  (at 227.3300 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid e5461734-26ee-5896-b670-dd3f880e1adc)) (wire (pts (xy 245.1100 408.9400) (xy 252.7300 408.9400)) (stroke (width 0) (type default)) (uuid cdeb2d32-1fa8-5c9b-a9fa-95f57b43f925)) (global_label "GND" (shape bidirectional) (at 252.7300 408.9400 0) (effects (font (size 1 1)) (justify left)) (uuid 28bebb14-9e94-5036-bd57-65747f76d7a9)) (symbol (lib_id "Device:R") (at 275.59000000000003 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid af26c2e8-3a73-57ff-b98e-c5177d6321a9)
+          (property "Reference" "R2046" (at 270.51000000000005 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 270.51000000000005 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 275.59000000000003 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 275.59000000000003 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 8d9f8ab0-bfc7-583d-800d-34440bdf5cc1)) (pin "2" (uuid ed05b3b7-2265-509c-9e2d-6d3b5edf95b8))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2046") (unit 1))))) (wire (pts (xy 275.5900 405.1300) (xy 275.5900 400.0500)) (stroke (width 0) (type default)) (uuid 52f1cd30-8a5f-55a9-930f-b88ce900e62f)) (global_label "+5V" (shape bidirectional) (at 275.5900 400.0500 0) (effects (font (size 1 1)) (justify left)) (uuid 4afb6f55-c75c-5299-97bb-fd952f66a15e)) (wire (pts (xy 275.5900 412.7500) (xy 275.5900 417.8300)) (stroke (width 0) (type default)) (uuid 4dc9fa0c-036f-54b3-b8f0-96b3a4588d67)) (label "BUTTON_13"  (at 275.5900 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 508163bb-9f59-548b-9c2a-af1b1d29cf2b)) (symbol (lib_id "Device:R") (at 306.07 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid f398e60a-cc2e-530d-9cb3-abc379550e2e)
+          (property "Reference" "R2047" (at 300.99 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 300.99 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 306.07 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 306.07 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 7627af4c-22b7-5fbd-8d42-88e36606f1e6)) (pin "2" (uuid aaa39817-24b3-5638-8faf-f19c33b032b7))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2047") (unit 1))))) (wire (pts (xy 306.0700 405.1300) (xy 306.0700 400.0500)) (stroke (width 0) (type default)) (uuid 204a8b63-b13b-5596-b800-3b648d551baf)) (label "BUTTON_13"  (at 306.0700 400.0500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid aba838c8-4360-5cdd-b279-206ef75780ab)) (wire (pts (xy 306.0700 412.7500) (xy 306.0700 417.8300)) (stroke (width 0) (type default)) (uuid be613f45-ad69-5970-a6e0-7988d0110113)) (label "KEY_SENSE"  (at 306.0700 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8ec400fc-4d91-5d45-a12c-9c4cee9a5788)) (symbol (lib_id "Device:D_Schottky") (at 346.71000000000004 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e7dd8b41-925c-51e9-8492-fa4d02b554ab)
+          (property "Reference" "D2052" (at 341.63000000000005 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 341.63000000000005 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 346.71000000000004 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 346.71000000000004 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 908108c4-a0bf-583a-b2d4-10bfaab7f3ce)) (pin "2" (uuid b1e79cb1-bf95-50c9-8fca-551f20a075ac))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2052") (unit 1))))) (wire (pts (xy 342.9000 408.9400) (xy 335.2800 408.9400)) (stroke (width 0) (type default)) (uuid 4cefb7e1-321f-59f8-8a3b-d2b74133cb34)) (label "BUTTON_13"  (at 335.2800 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid a7dcd55b-995d-536a-aa7b-9ab89020a150)) (wire (pts (xy 350.5200 408.9400) (xy 358.1400 408.9400)) (stroke (width 0) (type default)) (uuid 18c3d751-f1fb-5151-9f46-53b5a3fc0c5b)) (label "KEY_CODE_N_0"  (at 358.1400 408.9400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1939ac7a-c128-5a34-9c38-e5898b2cda3f)) (symbol (lib_id "Device:D_Schottky") (at 346.71000000000004 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 08d76b8a-0390-5f8a-9ab4-c172998274fe)
+          (property "Reference" "D2054" (at 341.63000000000005 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 341.63000000000005 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 346.71000000000004 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 346.71000000000004 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f29a7f78-2789-5b5f-8c50-78d081b0ec49)) (pin "2" (uuid 6921f8df-ec95-50f4-98e9-8edd4b4336bf))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2054") (unit 1))))) (wire (pts (xy 342.9000 434.3400) (xy 335.2800 434.3400)) (stroke (width 0) (type default)) (uuid 63b8303e-472f-5a40-8c8f-452aaf8c7beb)) (label "BUTTON_13"  (at 335.2800 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid b549fabc-3949-52cc-8798-1f7a2d8ac19e)) (wire (pts (xy 350.5200 434.3400) (xy 358.1400 434.3400)) (stroke (width 0) (type default)) (uuid b69f855d-308f-529f-9f1b-514973a62c59)) (label "KEY_CODE_N_2"  (at 358.1400 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 23765c99-c7d1-5a6d-8649-e3cbd4f74d95)) (symbol (lib_id "Device:D_Schottky") (at 392.43000000000006 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid aa8f5cc8-3dfb-55b1-a995-837c241eb340)
+          (property "Reference" "D2055" (at 387.3500000000001 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 387.3500000000001 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 392.43000000000006 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 392.43000000000006 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid d084c21c-c24e-5574-8e7f-3c80d75c64b2)) (pin "2" (uuid 8012a8f7-b479-55d1-b317-adba77375e81))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2055") (unit 1))))) (wire (pts (xy 388.6200 434.3400) (xy 381.0000 434.3400)) (stroke (width 0) (type default)) (uuid 019a8984-6954-5fc3-83f6-592a81ab5013)) (label "BUTTON_13"  (at 381.0000 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid dc47d52f-cd1f-57b7-a96a-654567c8eaf3)) (wire (pts (xy 396.2400 434.3400) (xy 403.8600 434.3400)) (stroke (width 0) (type default)) (uuid 6748f40f-e6bd-5a0e-9210-2fa16cbb0775)) (label "KEY_CODE_N_3"  (at 403.8600 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 91ece217-a2d2-5130-9002-74f54dfe893e)) (text "Key =" (at 431.8 386.08 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid c00d6504-0fc9-523e-a691-4ac3ef9e42ad)) (symbol (lib_id "Switch:SW_Push") (at 438.15000000000003 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c1617c2a-5f34-51db-b6ec-da34d1af6a27)
+          (property "Reference" "SW15" (at 433.07000000000005 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 433.07000000000005 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 438.15000000000003 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 438.15000000000003 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 68a55ba3-1d08-5fc7-b624-6e436385d885)) (pin "2" (uuid ddc26aa7-dcc5-5d99-8976-c1c9c57961ba))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW15") (unit 1))))) (wire (pts (xy 433.0700 408.9400) (xy 425.4500 408.9400)) (stroke (width 0) (type default)) (uuid 887c1e66-2c94-5987-b705-cd7a5af2466e)) (label "BUTTON_14"  (at 425.4500 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 7d227441-9120-5255-92a3-a6e46c4f2df1)) (wire (pts (xy 443.2300 408.9400) (xy 450.8500 408.9400)) (stroke (width 0) (type default)) (uuid 5f79a867-09a0-54aa-9bbc-4ad63d75f53d)) (global_label "GND" (shape bidirectional) (at 450.8500 408.9400 0) (effects (font (size 1 1)) (justify left)) (uuid d4c6c18c-b37b-53d4-94a0-317b5b74a89a)) (symbol (lib_id "Device:R") (at 473.71000000000004 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid f9e2e76e-4eb0-5215-a2d3-501a13881cd0)
+          (property "Reference" "R2048" (at 468.63000000000005 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 468.63000000000005 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 473.71000000000004 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 473.71000000000004 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 0c73c8a3-55ea-5204-bed1-4298f0040871)) (pin "2" (uuid 69bf8cd1-90e6-5a19-b01b-d3e024a1cc61))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2048") (unit 1))))) (wire (pts (xy 473.7100 405.1300) (xy 473.7100 400.0500)) (stroke (width 0) (type default)) (uuid 4c412397-6aba-54f2-aaaf-8386e930bf73)) (global_label "+5V" (shape bidirectional) (at 473.7100 400.0500 0) (effects (font (size 1 1)) (justify left)) (uuid 76adfdde-6a12-5fef-a5e6-eacb24f4aa6c)) (wire (pts (xy 473.7100 412.7500) (xy 473.7100 417.8300)) (stroke (width 0) (type default)) (uuid 45b8ad3e-6aff-533d-b12c-a89beb459c42)) (label "BUTTON_14"  (at 473.7100 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 01ae7ea1-66a6-585c-a897-9d6f8c6fb514)) (symbol (lib_id "Device:R") (at 504.19 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 7291cfd4-abb3-55e0-b78f-da513dd40a7d)
+          (property "Reference" "R2049" (at 499.11 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 499.11 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 504.19 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 504.19 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid e3f440bf-cd84-5eb2-a707-2499dc2b876b)) (pin "2" (uuid 040c7310-75c5-5241-833a-f193242cecdc))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2049") (unit 1))))) (wire (pts (xy 504.1900 405.1300) (xy 504.1900 400.0500)) (stroke (width 0) (type default)) (uuid b2cf7882-71ce-5493-85a4-b6162fa88740)) (label "BUTTON_14"  (at 504.1900 400.0500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c17cd34a-2d74-5539-bf49-5d706657d9bd)) (wire (pts (xy 504.1900 412.7500) (xy 504.1900 417.8300)) (stroke (width 0) (type default)) (uuid 96be5e42-27e5-5292-ace8-6425abb53169)) (label "KEY_SENSE"  (at 504.1900 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0f5c4221-c582-54d3-b237-8014e57d4e31)) (symbol (lib_id "Device:D_Schottky") (at 590.5500000000001 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8e437756-698e-54f2-b802-82af02d33169)
+          (property "Reference" "D2057" (at 585.47 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 585.47 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 590.5500000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 590.5500000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid aa16359f-bbd5-592e-adc4-8ddbe4bc10a5)) (pin "2" (uuid f6d355fe-16e7-54d1-9eac-96191527fec6))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2057") (unit 1))))) (wire (pts (xy 586.7400 408.9400) (xy 579.1200 408.9400)) (stroke (width 0) (type default)) (uuid 8979df3f-8464-5a10-8d9e-2de940828373)) (label "BUTTON_14"  (at 579.1200 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid aa699cbf-b2bc-55f8-a6e1-893ff555d120)) (wire (pts (xy 594.3600 408.9400) (xy 601.9800 408.9400)) (stroke (width 0) (type default)) (uuid c657cd9b-e964-5875-9c14-a36020c96df1)) (label "KEY_CODE_N_1"  (at 601.9800 408.9400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e1c2c032-590d-5c50-b9b6-84e917c564e2)) (symbol (lib_id "Device:D_Schottky") (at 544.83 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b21f18a1-f824-5c01-8759-3853310e6080)
+          (property "Reference" "D2058" (at 539.75 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 539.75 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 544.83 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 544.83 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid ac800c8d-317d-5c70-bc30-8ea102d2a721)) (pin "2" (uuid 29cb8956-b992-5408-bcc7-2bff6234ce1f))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2058") (unit 1))))) (wire (pts (xy 541.0200 434.3400) (xy 533.4000 434.3400)) (stroke (width 0) (type default)) (uuid c012455c-54bf-53aa-9b54-a1fa2d7905e1)) (label "BUTTON_14"  (at 533.4000 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 1240d8c4-9e88-503d-8f96-95bf90ebc6b0)) (wire (pts (xy 548.6400 434.3400) (xy 556.2600 434.3400)) (stroke (width 0) (type default)) (uuid bc73b52a-0533-58c8-ab84-6393d7d65a04)) (label "KEY_CODE_N_2"  (at 556.2600 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1a43c2c6-84d1-53a3-bde8-52b43f0571ee)) (symbol (lib_id "Device:D_Schottky") (at 590.5500000000001 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b536b9d5-5ed5-53da-abe8-f58baaa0664c)
+          (property "Reference" "D2059" (at 585.47 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 585.47 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 590.5500000000001 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 590.5500000000001 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 7337041b-dede-53e4-88c6-fac62ba2e23c)) (pin "2" (uuid f9e974d6-732e-5aa9-84ec-aee827d3eb65))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2059") (unit 1))))) (wire (pts (xy 586.7400 434.3400) (xy 579.1200 434.3400)) (stroke (width 0) (type default)) (uuid 10c8d74a-66aa-5938-9444-f05c0c73cbfa)) (label "BUTTON_14"  (at 579.1200 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 5054aa4b-db31-5107-b879-a4ea2c51c94d)) (wire (pts (xy 594.3600 434.3400) (xy 601.9800 434.3400)) (stroke (width 0) (type default)) (uuid 0d916dce-1370-593d-8b52-34dd26bebcc4)) (label "KEY_CODE_N_3"  (at 601.9800 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 747d17d6-9922-5b0b-8f21-92c54f3572cf)) (text "Key C" (at 629.9200000000001 386.08 0) (effects (font (size 1.8 1.8)) (justify left)) (uuid 0a1157ab-e391-52ff-8ded-83bd4cac38a3)) (symbol (lib_id "Switch:SW_Push") (at 636.2700000000001 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3f8627ac-4128-5d1c-b232-79b63d85b20f)
+          (property "Reference" "SW16" (at 631.19 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "PTS645SM43SMTR92 LFS" (at 631.19 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92" (at 636.2700000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/" (at 636.2700000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid c68b451a-d920-54fc-8c35-0ea43ba1ef3b)) (pin "2" (uuid 28afc63e-a4c0-5c7e-a30d-324a55b86f9a))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "SW16") (unit 1))))) (wire (pts (xy 631.1900 408.9400) (xy 623.5700 408.9400)) (stroke (width 0) (type default)) (uuid 9a59a0e8-55cb-544d-9b3a-3cbbd2ec4ad0)) (label "BUTTON_15"  (at 623.5700 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid a00d30f7-c693-5934-8c88-1bc5e79d64db)) (wire (pts (xy 641.3500 408.9400) (xy 648.9700 408.9400)) (stroke (width 0) (type default)) (uuid 1e77d647-182d-5856-8315-be86dbb89dee)) (global_label "GND" (shape bidirectional) (at 648.9700 408.9400 0) (effects (font (size 1 1)) (justify left)) (uuid fdc2ea96-bf66-527d-a0fe-5e0cb625b174)) (symbol (lib_id "Device:R") (at 671.83 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e86497ab-2078-5036-be7e-3ac7ae95fc26)
+          (property "Reference" "R2050" (at 666.75 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "3.3k 1%" (at 666.75 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 671.83 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 671.83 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 894c8f07-7bfa-5e19-b59a-012ba3822096)) (pin "2" (uuid 51baf3c9-eaa5-552b-a273-d6c778219203))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2050") (unit 1))))) (wire (pts (xy 671.8300 405.1300) (xy 671.8300 400.0500)) (stroke (width 0) (type default)) (uuid b5b44762-bb59-552a-b6fb-e8ea69e0f513)) (global_label "+5V" (shape bidirectional) (at 671.8300 400.0500 0) (effects (font (size 1 1)) (justify left)) (uuid 36c7ce68-4ef2-5828-9f9a-f00747efe8d3)) (wire (pts (xy 671.8300 412.7500) (xy 671.8300 417.8300)) (stroke (width 0) (type default)) (uuid 369bf4d1-2a04-5908-a874-b7843bc04c4f)) (label "BUTTON_15"  (at 671.8300 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6bb407ed-9ce5-5054-a661-1530e9d3a020)) (symbol (lib_id "Device:R") (at 702.3100000000001 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b5828758-2dfa-5114-ad19-fcd156dc88a9)
+          (property "Reference" "R2051" (at 697.23 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 697.23 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 702.3100000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 702.3100000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid cf4c962c-f02b-5087-9842-b6f36864d369)) (pin "2" (uuid a69d8808-c11d-5345-b9c7-6d6613d782f2))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2051") (unit 1))))) (wire (pts (xy 702.3100 405.1300) (xy 702.3100 400.0500)) (stroke (width 0) (type default)) (uuid d7e6f8aa-5779-5645-8f23-e469e662eb76)) (label "BUTTON_15"  (at 702.3100 400.0500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid bff1e263-dd70-5e38-9bc3-623aafe09016)) (wire (pts (xy 702.3100 412.7500) (xy 702.3100 417.8300)) (stroke (width 0) (type default)) (uuid 758931a1-266a-541b-a5f2-6dd8aed6bb13)) (label "KEY_SENSE"  (at 702.3100 417.8300 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 02d66d8b-4b8c-5ee7-b533-5ea3106895f7)) (symbol (lib_id "Device:D_Schottky") (at 742.95 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 9518f8da-66a3-5de2-b326-5b95b5fabd17)
+          (property "Reference" "D2060" (at 737.87 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 737.87 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 742.95 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 742.95 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 94ec8ca2-90dc-5f99-a61b-00daeb7da149)) (pin "2" (uuid 89f57f82-51e9-5191-972c-e841223f2d3d))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2060") (unit 1))))) (wire (pts (xy 739.1400 408.9400) (xy 731.5200 408.9400)) (stroke (width 0) (type default)) (uuid 1302eac2-a0f0-51bb-8353-5c4fd27858d3)) (label "BUTTON_15"  (at 731.5200 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 40089543-4364-5aac-a1bd-796d7cc7c3ad)) (wire (pts (xy 746.7600 408.9400) (xy 754.3800 408.9400)) (stroke (width 0) (type default)) (uuid db6a9772-0aa9-5fc7-9a0e-c6e558cfe155)) (label "KEY_CODE_N_0"  (at 754.3800 408.9400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4c25c587-9fab-5ac7-a565-4d2515f9a254)) (symbol (lib_id "Device:D_Schottky") (at 788.6700000000001 408.94 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 14035be1-f2e1-58fc-a6e8-7c1f9efffe53)
+          (property "Reference" "D2061" (at 783.59 400.05 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 783.59 402.59000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 788.6700000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 788.6700000000001 408.94 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid b898c429-dadc-5858-b07c-1e164eecbafd)) (pin "2" (uuid b019671c-330e-5ed4-9476-311299899846))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2061") (unit 1))))) (wire (pts (xy 784.8600 408.9400) (xy 777.2400 408.9400)) (stroke (width 0) (type default)) (uuid b474ec0c-5ba2-5191-b6d1-2e1172fd281e)) (label "BUTTON_15"  (at 777.2400 408.9400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 14f7ef38-2f26-598e-bc22-1a3668e1d422)) (wire (pts (xy 792.4800 408.9400) (xy 800.1000 408.9400)) (stroke (width 0) (type default)) (uuid d0cf6216-c9e4-507d-ac55-68dda1a7faad)) (label "KEY_CODE_N_1"  (at 800.1000 408.9400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 68a1d91c-d949-5ada-b6b1-c00109889962)) (symbol (lib_id "Device:D_Schottky") (at 742.95 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid a93fc2ee-fe1e-580a-bbfa-0fc755a2f9fb)
+          (property "Reference" "D2062" (at 737.87 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 737.87 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 742.95 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 742.95 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 3e9c9c4f-f2bc-558c-8249-5b5abaa54e03)) (pin "2" (uuid 1ec959b5-f7e7-5479-b97c-6755832899e1))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2062") (unit 1))))) (wire (pts (xy 739.1400 434.3400) (xy 731.5200 434.3400)) (stroke (width 0) (type default)) (uuid 73093782-beae-51bd-9b06-c4da4ad38244)) (label "BUTTON_15"  (at 731.5200 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 919b1a9f-2fa2-5cf9-afcc-82ec25c975c7)) (wire (pts (xy 746.7600 434.3400) (xy 754.3800 434.3400)) (stroke (width 0) (type default)) (uuid 5d935797-dab4-5d37-b513-6f2c909702e4)) (label "KEY_CODE_N_2"  (at 754.3800 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dfe46b8f-14ae-580d-bb16-6b33b6937496)) (symbol (lib_id "Device:D_Schottky") (at 788.6700000000001 434.34 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 56bb0a18-bd45-5eff-97c1-57efafa82ee8)
+          (property "Reference" "D2063" (at 783.59 425.45 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "BAT54HGWX" (at 783.59 427.99 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Diode_SMD:D_SOD-323" (at 788.6700000000001 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54HGW.pdf" (at 788.6700000000001 434.34 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid bc8c6786-109c-50df-b9f3-68b94d60457d)) (pin "2" (uuid a7f96b33-5271-5287-8c1d-91d0a7d08775))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "D2063") (unit 1))))) (wire (pts (xy 784.8600 434.3400) (xy 777.2400 434.3400)) (stroke (width 0) (type default)) (uuid 49420e06-a563-59dd-850c-21ef47b490af)) (label "BUTTON_15"  (at 777.2400 434.3400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 288d0ff4-3d37-517b-942b-0b35bf4ea301)) (wire (pts (xy 792.4800 434.3400) (xy 800.1000 434.3400)) (stroke (width 0) (type default)) (uuid 2d698863-6dcb-50a0-8081-3d4faf94e376)) (label "KEY_CODE_N_3"  (at 800.1000 434.3400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 70f9ca2f-b68a-5a5e-a715-fd2990c7eaf6)) (symbol (lib_id "Device:R") (at 38.1 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 239fca2c-0bcd-517c-ab0e-640521db5dcb)
+          (property "Reference" "R2052" (at 33.02 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k" (at 33.02 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 38.1 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 38.1 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 994574c6-9be0-5f02-b760-f1988f2be557)) (pin "2" (uuid c09dedc0-b425-56a7-81dc-b1ee10e98777))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2052") (unit 1))))) (wire (pts (xy 38.1000 501.6500) (xy 38.1000 496.5700)) (stroke (width 0) (type default)) (uuid 049a972d-7261-5085-9584-d5ed75008e26)) (global_label "+5V" (shape bidirectional) (at 38.1000 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid 11ec2e7c-006f-5212-b92e-1110b4cc1e05)) (wire (pts (xy 38.1000 509.2700) (xy 38.1000 514.3500)) (stroke (width 0) (type default)) (uuid c6dfa915-6fe4-5010-9a36-2c5a084faa7c)) (label "KEY_CODE_N_0"  (at 38.1000 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2b967ef6-762c-554b-9107-1f7e9b851a84)) (symbol (lib_id "Device:R") (at 93.98 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 1fee75e7-e9b3-5293-ad5a-95603c1ae2dc)
+          (property "Reference" "R2053" (at 88.9 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k" (at 88.9 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 93.98 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 93.98 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid a02ff8ca-7c9f-5c81-9785-522dd8429d46)) (pin "2" (uuid 2b375661-e8cb-565e-b974-9e614162ebe2))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2053") (unit 1))))) (wire (pts (xy 93.9800 501.6500) (xy 93.9800 496.5700)) (stroke (width 0) (type default)) (uuid 3501e394-1a3b-5bc8-8b9a-0d4e9b588722)) (global_label "+5V" (shape bidirectional) (at 93.9800 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid 88287f08-71fa-54d1-8c48-e5586b1bcdde)) (wire (pts (xy 93.9800 509.2700) (xy 93.9800 514.3500)) (stroke (width 0) (type default)) (uuid 3c20a83d-fb8d-5fad-80e7-937ac3955e9f)) (label "KEY_CODE_N_1"  (at 93.9800 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3b6250ae-edf3-58ae-b8d9-dd556e2862f0)) (symbol (lib_id "Device:R") (at 149.86 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 32fc2e19-bf81-502b-95b5-6e285a813d6f)
+          (property "Reference" "R2054" (at 144.78 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k" (at 144.78 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 149.86 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 149.86 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid af9d1327-ab9d-57e7-97a3-96ea4326989e)) (pin "2" (uuid 9091e2a7-09f5-521f-9b52-8bcb31dd18ce))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2054") (unit 1))))) (wire (pts (xy 149.8600 501.6500) (xy 149.8600 496.5700)) (stroke (width 0) (type default)) (uuid 21c9aef2-1f19-5ecd-9b08-12101cc79543)) (global_label "+5V" (shape bidirectional) (at 149.8600 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid a4710b1b-e336-5e38-adaa-91804489ee51)) (wire (pts (xy 149.8600 509.2700) (xy 149.8600 514.3500)) (stroke (width 0) (type default)) (uuid a9f88639-9769-510c-bad6-51aa3f350840)) (label "KEY_CODE_N_2"  (at 149.8600 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 69237472-4af8-541d-9b2f-5a026164a913)) (symbol (lib_id "Device:R") (at 205.74 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 91ef6546-4c3f-5a37-9c2d-fb471f063245)
+          (property "Reference" "R2055" (at 200.66 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k" (at 200.66 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 205.74 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 205.74 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid f51658ad-7043-5b9c-99a5-18595100bd5e)) (pin "2" (uuid 25b598b0-edec-56b4-9ff3-21cf86bcaade))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2055") (unit 1))))) (wire (pts (xy 205.7400 501.6500) (xy 205.7400 496.5700)) (stroke (width 0) (type default)) (uuid 4de53a07-2f25-57d6-9ac1-bad08a4bfdea)) (global_label "+5V" (shape bidirectional) (at 205.7400 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid e68cc9e2-ed0f-537a-a811-01eb43e775fd)) (wire (pts (xy 205.7400 509.2700) (xy 205.7400 514.3500)) (stroke (width 0) (type default)) (uuid 25e24468-fe07-5e2a-8067-09db4f92b8fa)) (label "KEY_CODE_N_3"  (at 205.7400 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3cd66b1e-9943-5f20-aae9-68c6d9adb127)) (symbol (lib_id "Device:R") (at 276.86 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 8e58ab80-e660-54e2-bad1-80d4de62f41d)
+          (property "Reference" "R2056" (at 271.78000000000003 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "1k 1%" (at 271.78000000000003 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 276.86 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 276.86 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 6e28eae0-b8a1-562e-86b3-609336b863ea)) (pin "2" (uuid 194426ad-090e-51ec-9319-934adc8bd6ef))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2056") (unit 1))))) (wire (pts (xy 276.8600 501.6500) (xy 276.8600 496.5700)) (stroke (width 0) (type default)) (uuid d4e2cf64-3b4e-546c-b21f-2a2cd73de8aa)) (global_label "+5V" (shape bidirectional) (at 276.8600 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid 3a33cd11-eeb0-5fa2-85e9-0015b9018949)) (wire (pts (xy 276.8600 509.2700) (xy 276.8600 514.3500)) (stroke (width 0) (type default)) (uuid ac59eff0-6351-5a53-a11f-572ce7069777)) (label "KEY_SENSE"  (at 276.8600 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7433b066-f608-5b7e-894f-1f8faeb30118)) (symbol (lib_id "Device:R") (at 322.58 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid e8274bbc-bf87-5208-a8c1-284f188252b0)
+          (property "Reference" "R2057" (at 317.5 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100k 1%" (at 317.5 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 322.58 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 322.58 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid dc5bd45e-c470-5b4a-be44-544ae8d6e6dc)) (pin "2" (uuid dc943a58-2f7a-5c0a-a657-1424ccc409a0))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2057") (unit 1))))) (wire (pts (xy 322.5800 501.6500) (xy 322.5800 496.5700)) (stroke (width 0) (type default)) (uuid a0cb551c-85fa-5afd-ae5b-9739eda847b7)) (label "KEY_SENSE"  (at 322.5800 496.5700 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8b8c66a1-80d9-53fc-b700-c72482d15cdb)) (wire (pts (xy 322.5800 509.2700) (xy 322.5800 514.3500)) (stroke (width 0) (type default)) (uuid ef44ef94-a1b3-5ba8-8f9e-1f67e33498fe)) (label "KEY_SENSE_HALF"  (at 322.5800 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 3f365fe5-b8a6-57cc-83f5-d0c03eae651a)) (symbol (lib_id "Device:R") (at 322.58 546.1 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid b6b023d2-b9ea-549e-9892-b4dd4e747cf6)
+          (property "Reference" "R2058" (at 317.5 537.21 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100k 1%" (at 317.5 539.75 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 322.58 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 322.58 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid b0a8e6eb-5287-501c-b6a0-6db96273fecd)) (pin "2" (uuid 8c668f10-fefa-5744-983f-1bb5b129946b))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2058") (unit 1))))) (wire (pts (xy 322.5800 542.2900) (xy 322.5800 537.2100)) (stroke (width 0) (type default)) (uuid 55efde3d-7ad2-5472-b9c2-8dceea28038d)) (label "KEY_SENSE_HALF"  (at 322.5800 537.2100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 0363cc9f-8490-57e2-9b10-247827d36b36)) (wire (pts (xy 322.5800 549.9100) (xy 322.5800 554.9900)) (stroke (width 0) (type default)) (uuid 76dcaa28-12c5-5679-a023-c28cd613a1b8)) (global_label "GND" (shape bidirectional) (at 322.5800 554.9900 0) (effects (font (size 1 1)) (justify left)) (uuid 436581e4-cf7f-5cf2-b430-8a7cfba69df5)) (symbol (lib_id "Device:R") (at 375.92 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid adc5bd65-e650-509c-9410-caa0f7167782)
+          (property "Reference" "R2059" (at 370.84000000000003 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "12k 1%" (at 370.84000000000003 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 375.92 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 375.92 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 5163bb68-1750-5465-85c4-7965c24ea754)) (pin "2" (uuid 32dd2904-a434-53b5-ba24-be72e5f2ed6b))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2059") (unit 1))))) (wire (pts (xy 375.9200 501.6500) (xy 375.9200 496.5700)) (stroke (width 0) (type default)) (uuid c0a5d5b7-2712-56f1-a81c-d75e8231bf5a)) (global_label "+5V" (shape bidirectional) (at 375.9200 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid d15e4781-bd3f-5792-8567-42e548895b79)) (wire (pts (xy 375.9200 509.2700) (xy 375.9200 514.3500)) (stroke (width 0) (type default)) (uuid 6af7b592-580b-51da-b12c-5829af755854)) (label "KEY_ANY_REF"  (at 375.9200 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e0587a6c-7fb9-5664-a43e-e5fedd64d4e7)) (symbol (lib_id "Device:R") (at 375.92 546.1 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid bf3dd538-2b4a-5a8b-9db3-2ab63919dee2)
+          (property "Reference" "R2060" (at 370.84000000000003 537.21 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k 1%" (at 370.84000000000003 539.75 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 375.92 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 375.92 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 59398d10-7a8a-5672-b678-fc4d3e49bfe6)) (pin "2" (uuid a02b1379-5bb4-567e-810d-e3ecfc613f81))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2060") (unit 1))))) (wire (pts (xy 375.9200 542.2900) (xy 375.9200 537.2100)) (stroke (width 0) (type default)) (uuid 5c0ddf3a-9982-53c9-8461-60bf203a1ffc)) (label "KEY_ANY_REF"  (at 375.9200 537.2100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 93504e37-6714-536e-a61d-b5f1c250e129)) (wire (pts (xy 375.9200 549.9100) (xy 375.9200 554.9900)) (stroke (width 0) (type default)) (uuid f3524df2-d0cd-53e8-91ff-e2b6208de9d0)) (global_label "GND" (shape bidirectional) (at 375.9200 554.9900 0) (effects (font (size 1 1)) (justify left)) (uuid 8207ccd3-cc81-56d5-869d-0f0a77280e3b)) (symbol (lib_id "Device:R") (at 429.26 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c2a3c667-0118-548b-b166-a48e97775f87)
+          (property "Reference" "R2061" (at 424.18 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k 1%" (at 424.18 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 429.26 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 429.26 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 1bde6eb5-ae28-5d83-b2e9-fa0d89a6d467)) (pin "2" (uuid d7ddcb76-adff-56be-babc-466dbc86ff71))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2061") (unit 1))))) (wire (pts (xy 429.2600 501.6500) (xy 429.2600 496.5700)) (stroke (width 0) (type default)) (uuid 9823d77a-7c69-5c5d-a01e-ea5195f2f116)) (global_label "+5V" (shape bidirectional) (at 429.2600 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid 5e45b022-14ca-5b6a-9bdb-9e82434243f0)) (wire (pts (xy 429.2600 509.2700) (xy 429.2600 514.3500)) (stroke (width 0) (type default)) (uuid 51a21582-3a11-52a7-8bff-71d282cec6ba)) (label "KEY_MULTI_REF"  (at 429.2600 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 55503008-434f-5b98-8cd5-04c488e63b42)) (symbol (lib_id "Device:R") (at 429.26 546.1 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid ef293ca7-9439-5694-b6b3-c2462d740475)
+          (property "Reference" "R2062" (at 424.18 537.21 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "6.2k 1%" (at 424.18 539.75 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 429.26 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 429.26 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 5183d588-55d5-5f10-b85f-f8fdd29bf1bd)) (pin "2" (uuid 2979ce37-cde1-5272-b8cf-cc9583419a03))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2062") (unit 1))))) (wire (pts (xy 429.2600 542.2900) (xy 429.2600 537.2100)) (stroke (width 0) (type default)) (uuid f10777e5-32ef-5092-86f8-514c191d22c6)) (label "KEY_MULTI_REF"  (at 429.2600 537.2100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7f77ab31-cfb9-50d9-b507-b6c20856ec35)) (wire (pts (xy 429.2600 549.9100) (xy 429.2600 554.9900)) (stroke (width 0) (type default)) (uuid 6d3668c7-e476-51a4-b8db-b7da1c32213f)) (global_label "GND" (shape bidirectional) (at 429.2600 554.9900 0) (effects (font (size 1 1)) (justify left)) (uuid bccf1717-4ee5-589c-8129-eb520b3199cf)) (symbol (lib_id "Device:R") (at 482.6 505.46 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 991cdf1b-92a7-5c5c-a8b3-060234c52eea)
+          (property "Reference" "R2063" (at 477.52000000000004 496.57 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k" (at 477.52000000000004 499.11 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 482.6 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 482.6 505.46 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 3ebcecc0-4cbc-5683-8ddf-716873d15a7b)) (pin "2" (uuid 58af67a0-faca-5a86-94da-34a97df2c2ca))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2063") (unit 1))))) (wire (pts (xy 482.6000 501.6500) (xy 482.6000 496.5700)) (stroke (width 0) (type default)) (uuid 51bcd96f-a80b-5db0-a09d-641dcb7a40d4)) (global_label "+5V" (shape bidirectional) (at 482.6000 496.5700 0) (effects (font (size 1 1)) (justify left)) (uuid cd6e922e-6f45-5e99-a43a-062075ce3976)) (wire (pts (xy 482.6000 509.2700) (xy 482.6000 514.3500)) (stroke (width 0) (type default)) (uuid 91db159b-abd2-571b-96fc-ee758282d4c1)) (label "KEY_ANY_N"  (at 482.6000 514.3500 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e13b54d8-9d50-53ab-8aef-03831e92931c)) (symbol (lib_id "Device:R") (at 482.6 546.1 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 9102e07f-da1f-5f82-b6c7-ba5e6dc46f4f)
+          (property "Reference" "R2064" (at 477.52000000000004 537.21 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "10k" (at 477.52000000000004 539.75 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 482.6 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 482.6 546.1 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid dc67c164-4eda-50dc-8093-7469f29edced)) (pin "2" (uuid b392edce-465d-5865-8c4b-6b640e0d7276))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "R2064") (unit 1))))) (wire (pts (xy 482.6000 542.2900) (xy 482.6000 537.2100)) (stroke (width 0) (type default)) (uuid 5271b2ba-949e-5f81-bcec-215a117dff9e)) (global_label "+5V" (shape bidirectional) (at 482.6000 537.2100 0) (effects (font (size 1 1)) (justify left)) (uuid 51f03d82-b615-5b75-9de6-1b0f64ad294f)) (wire (pts (xy 482.6000 549.9100) (xy 482.6000 554.9900)) (stroke (width 0) (type default)) (uuid ed9d1131-c585-5a66-8126-c55d9c322542)) (label "KEY_MULTI_N"  (at 482.6000 554.9900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid f0cc251f-1f9f-5324-a8e4-4335e5287e70)) (symbol (lib_id "Comparator:LM393") (at 558.8 500.38 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 38541d73-048d-566b-b11e-5bd03bd21ef5)
+          (property "Reference" "U2003" (at 553.7199999999999 491.49 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "LM393BDR" (at 553.7199999999999 494.03000000000003 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 558.8 500.38 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf" (at 558.8 500.38 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 43dbc9e1-0761-5321-9b0c-87792f1fc802)) (pin "2" (uuid d4ac255a-a44f-5f48-a163-e5e8b9c081b0)) (pin "3" (uuid 3b600b45-194d-567c-9fca-010d381d34a3))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2003") (unit 1))))) (wire (pts (xy 566.4200 500.3800) (xy 574.0400 500.3800)) (stroke (width 0) (type default)) (uuid 428d491e-4509-56c4-a71c-0cf54180e1d5)) (label "KEY_ANY_N"  (at 574.0400 500.3800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid aaab812c-c1d7-544b-b28e-7f57a194f4b6)) (wire (pts (xy 551.1800 502.9200) (xy 543.5600 502.9200)) (stroke (width 0) (type default)) (uuid 00bbc411-43f6-5a4c-935d-345f0e97a796)) (label "KEY_ANY_REF"  (at 543.5600 502.9200 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 5a7a4bd0-f0d2-597a-aa2a-a886dda41ec7)) (wire (pts (xy 551.1800 497.8400) (xy 543.5600 497.8400)) (stroke (width 0) (type default)) (uuid c8e1e08a-ab35-5683-af13-7d58c584c3cf)) (label "KEY_SENSE_HALF"  (at 543.5600 497.8400 0) (effects (font (size 1 1)) (justify right bottom)) (uuid eef79842-795a-5daf-8bc2-0050dbb56a32)) (symbol (lib_id "Comparator:LM393") (at 558.8 528.32 0) (unit 2)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 1c232a55-f389-584a-8c8c-b1e41cd5c6c3)
+          (property "Reference" "U2003" (at 553.7199999999999 519.4300000000001 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "LM393BDR" (at 553.7199999999999 521.97 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 558.8 528.32 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf" (at 558.8 528.32 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "5" (uuid 52d9d732-a638-5d41-ae19-1785a611aee7)) (pin "6" (uuid f13f4b3f-8e55-51d6-866e-14fa3180495a)) (pin "7" (uuid 98a9d6e0-a404-51c1-a511-02199ba11a21))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2003") (unit 2))))) (wire (pts (xy 551.1800 525.7800) (xy 543.5600 525.7800)) (stroke (width 0) (type default)) (uuid 5b785dd0-bf55-5e8f-ad68-4ad7681341d8)) (label "KEY_SENSE_HALF"  (at 543.5600 525.7800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid a6b58ad2-5aa3-5ffa-99ba-d5e5bcb77347)) (wire (pts (xy 551.1800 530.8600) (xy 543.5600 530.8600)) (stroke (width 0) (type default)) (uuid 31af2510-e15f-5ced-889a-761fc9999712)) (label "KEY_MULTI_REF"  (at 543.5600 530.8600 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 5e8a7136-325f-57d2-b484-e0884fc74942)) (wire (pts (xy 566.4200 528.3200) (xy 574.0400 528.3200)) (stroke (width 0) (type default)) (uuid 4f319ea1-e576-5ac1-84d5-6b4891410ba6)) (label "KEY_MULTI_N"  (at 574.0400 528.3200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 07c0bbcf-88b3-5017-b7a2-406a35fc8d34)) (symbol (lib_id "Comparator:LM393") (at 558.8 556.26 0) (unit 3)
+          (in_bom yes) (on_board yes) (dnp no) (uuid c61cb954-e907-5806-ab7d-6d20a28d6ea3)
+          (property "Reference" "U2003" (at 553.7199999999999 547.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "LM393BDR" (at 553.7199999999999 549.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 558.8 556.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf" (at 558.8 556.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "4" (uuid 9e8a26d4-5184-514b-aa06-f36a0ed85278)) (pin "8" (uuid fa3bddb7-6e2f-50c0-88bd-a6fee09ee9c3))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2003") (unit 3))))) (wire (pts (xy 556.2600 563.8800) (xy 548.6400 563.8800)) (stroke (width 0) (type default)) (uuid 0cd605e2-da76-5f6b-9b6a-d62c4178fa75)) (global_label "GND" (shape bidirectional) (at 548.6400 563.8800 180) (effects (font (size 1 1)) (justify right)) (uuid de85a045-be1d-5f64-a7a5-28368a64c47c)) (wire (pts (xy 556.2600 548.6400) (xy 548.6400 548.6400)) (stroke (width 0) (type default)) (uuid 879720ad-741c-5286-9ee5-f43cfdb00c7c)) (global_label "+5V" (shape bidirectional) (at 548.6400 548.6400 180) (effects (font (size 1 1)) (justify right)) (uuid 79f5c7a1-b06e-5bb8-8181-b43f04ef1f30)) (symbol (lib_id "Device:C") (at 596.9 556.26 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 718761c3-2c5b-59be-b963-50c8f363a78b)
+          (property "Reference" "C2003" (at 591.8199999999999 547.37 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 591.8199999999999 549.91 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 596.9 556.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 596.9 556.26 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 42c5eee3-f77c-594a-bba2-9ef480cd73ba)) (pin "2" (uuid b6018577-4a08-52c0-885c-5706d40de487))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "C2003") (unit 1))))) (wire (pts (xy 596.9000 552.4500) (xy 596.9000 547.3700)) (stroke (width 0) (type default)) (uuid 9a94dfaf-25cf-5460-9ef8-c890bfff4166)) (global_label "+5V" (shape bidirectional) (at 596.9000 547.3700 0) (effects (font (size 1 1)) (justify left)) (uuid c4b44d2a-c277-5a18-9ead-68bd85f607c7)) (wire (pts (xy 596.9000 560.0700) (xy 596.9000 565.1500)) (stroke (width 0) (type default)) (uuid 28b2dd33-1ad2-5e70-bacd-fe88347330c0)) (global_label "GND" (shape bidirectional) (at 596.9000 565.1500 0) (effects (font (size 1 1)) (justify left)) (uuid bc80c921-f86c-574b-b6d8-a754f1b23717)) (symbol (lib_id "74xx:74HC14") (at 660.4 487.68 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid f3b8c2b0-40eb-5677-b010-25241fbcdd93)
+          (property "Reference" "U2004" (at 655.3199999999999 478.79 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC14DR" (at 655.3199999999999 481.33000000000004 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 660.4 487.68 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 660.4 487.68 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid db45d78e-c4aa-5bff-a513-dc135001bb76)) (pin "2" (uuid e485d531-e400-5a9e-80e7-69ff8d0b29f3))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2004") (unit 1))))) (wire (pts (xy 652.7800 487.6800) (xy 645.1600 487.6800)) (stroke (width 0) (type default)) (uuid a60ea791-0305-5cf4-b3df-9782fef7c72a)) (label "KEY_CODE_N_0"  (at 645.1600 487.6800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid d771bbb5-955b-5c78-9db6-6253172ed144)) (wire (pts (xy 668.0200 487.6800) (xy 675.6400 487.6800)) (stroke (width 0) (type default)) (uuid b43d2714-e21d-5212-91b2-724b9bfa57ae)) (global_label "KEY_RAW_0" (shape bidirectional) (at 675.6400 487.6800 0) (effects (font (size 1 1)) (justify left)) (uuid 0b9e5d72-faf7-5cbe-8880-eefd70a46ead)) (symbol (lib_id "74xx:74HC14") (at 723.9 487.68 0) (unit 2)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 45169ce3-5efc-5698-b06f-8ae0e843872d)
+          (property "Reference" "U2004" (at 718.8199999999999 478.79 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC14DR" (at 718.8199999999999 481.33000000000004 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 723.9 487.68 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 723.9 487.68 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "3" (uuid 78e7b908-4e91-552c-b29f-0ba1e9382969)) (pin "4" (uuid 055a56bc-5219-50a6-9b4c-b8ae61eaafa9))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2004") (unit 2))))) (wire (pts (xy 716.2800 487.6800) (xy 708.6600 487.6800)) (stroke (width 0) (type default)) (uuid f78f542d-d1a8-541a-8360-8e93deb5039f)) (label "KEY_CODE_N_1"  (at 708.6600 487.6800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid d42a88b8-c8d5-54b6-b3ee-5e625d9bc16e)) (wire (pts (xy 731.5200 487.6800) (xy 739.1400 487.6800)) (stroke (width 0) (type default)) (uuid 17ff043c-74c8-5db9-9499-f1ee80d5ff31)) (global_label "KEY_RAW_1" (shape bidirectional) (at 739.1400 487.6800 0) (effects (font (size 1 1)) (justify left)) (uuid 4d1fbd25-2321-56e6-a37c-3fa562d43f6d)) (symbol (lib_id "74xx:74HC14") (at 660.4 513.08 0) (unit 3)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 11af84d8-0855-53b1-8a7a-9ddd1e5d3886)
+          (property "Reference" "U2004" (at 655.3199999999999 504.19000000000005 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC14DR" (at 655.3199999999999 506.7300000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 660.4 513.08 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 660.4 513.08 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "5" (uuid e8b9e690-d48d-5754-a347-541dfeec32a7)) (pin "6" (uuid 51d09bda-05d3-5713-87f3-df68bdea3282))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2004") (unit 3))))) (wire (pts (xy 652.7800 513.0800) (xy 645.1600 513.0800)) (stroke (width 0) (type default)) (uuid e6f0e5e0-1986-5881-909a-73662345a7c9)) (label "KEY_CODE_N_2"  (at 645.1600 513.0800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 26dd66d1-ca37-50cb-963d-49bdb012647d)) (wire (pts (xy 668.0200 513.0800) (xy 675.6400 513.0800)) (stroke (width 0) (type default)) (uuid 924eea17-e28f-54f3-a1fb-5dc7baf63b5a)) (global_label "KEY_RAW_2" (shape bidirectional) (at 675.6400 513.0800 0) (effects (font (size 1 1)) (justify left)) (uuid 38ada1a8-7a85-501a-a2a6-15ed7b2bccf9)) (symbol (lib_id "74xx:74HC14") (at 723.9 513.08 0) (unit 4)
+          (in_bom yes) (on_board yes) (dnp no) (uuid a216bc97-9a02-5a1f-9978-23eb0b18ff49)
+          (property "Reference" "U2004" (at 718.8199999999999 504.19000000000005 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC14DR" (at 718.8199999999999 506.7300000000001 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 723.9 513.08 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 723.9 513.08 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "8" (uuid 177c66c2-3453-5ece-b7f2-85d12f0d6e7f)) (pin "9" (uuid 922db52f-1210-50b2-a7c7-8d6e12f80df3))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2004") (unit 4))))) (wire (pts (xy 731.5200 513.0800) (xy 739.1400 513.0800)) (stroke (width 0) (type default)) (uuid 780e9ecc-3dc8-5c0c-840d-7b176e3313b5)) (global_label "KEY_RAW_3" (shape bidirectional) (at 739.1400 513.0800 0) (effects (font (size 1 1)) (justify left)) (uuid 36d7919b-d17c-5df9-82e0-b940a839f551)) (wire (pts (xy 716.2800 513.0800) (xy 708.6600 513.0800)) (stroke (width 0) (type default)) (uuid 6f72d9cf-13d8-5477-8a37-c6173407d394)) (label "KEY_CODE_N_3"  (at 708.6600 513.0800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 95a292e1-e4bd-5898-98fd-3c09ef3acec3)) (symbol (lib_id "74xx:74HC14") (at 660.4 538.48 0) (unit 5)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 3278158c-48c6-5436-a471-f335c95b0bee)
+          (property "Reference" "U2004" (at 655.3199999999999 529.59 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC14DR" (at 655.3199999999999 532.13 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 660.4 538.48 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 660.4 538.48 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "10" (uuid a241d462-c328-560d-9ddc-b767757434b7)) (pin "11" (uuid 8533dec3-971a-5676-92e8-8c8980080eb6))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2004") (unit 5))))) (wire (pts (xy 668.0200 538.4800) (xy 675.6400 538.4800)) (stroke (width 0) (type default)) (uuid d4c8e080-3600-51f7-953e-d16f0f8ede91)) (global_label "KEY_RAW_4" (shape bidirectional) (at 675.6400 538.4800 0) (effects (font (size 1 1)) (justify left)) (uuid 1cde1ca3-4deb-5a4b-82ad-03d47501e508)) (wire (pts (xy 652.7800 538.4800) (xy 645.1600 538.4800)) (stroke (width 0) (type default)) (uuid 06200db1-2e5d-5551-8e42-3cc2098e808b)) (label "KEY_ANY_N"  (at 645.1600 538.4800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 42b879c7-9b57-5669-a243-9dde13a2563a)) (symbol (lib_id "74xx:74HC14") (at 723.9 538.48 0) (unit 6)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 11c5d550-2330-5386-b741-ff7fd28c0449)
+          (property "Reference" "U2004" (at 718.8199999999999 529.59 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC14DR" (at 718.8199999999999 532.13 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 723.9 538.48 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 723.9 538.48 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "12" (uuid cc92a487-a8ef-5585-b031-a5b15735144a)) (pin "13" (uuid e02f78ad-7f59-58c2-9fcd-4c92ab1798df))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2004") (unit 6))))) (wire (pts (xy 731.5200 538.4800) (xy 739.1400 538.4800)) (stroke (width 0) (type default)) (uuid e7163b41-8725-5f7c-b5ac-70d0881b7471)) (global_label "KEY_RAW_5" (shape bidirectional) (at 739.1400 538.4800 0) (effects (font (size 1 1)) (justify left)) (uuid 455a3c1f-1143-5623-9323-7b68efe124ca)) (wire (pts (xy 716.2800 538.4800) (xy 708.6600 538.4800)) (stroke (width 0) (type default)) (uuid 67c17a01-d451-5d9c-8363-4c393c68b954)) (label "KEY_MULTI_N"  (at 708.6600 538.4800 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 0bac32d2-c6cb-516a-a741-aa20d70a8967)) (symbol (lib_id "74xx:74HC14") (at 673.1 563.88 0) (unit 7)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 1b56287e-f224-55d3-a360-acfebb7884c3)
+          (property "Reference" "U2004" (at 668.02 551.18 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "SN74HC14DR" (at 668.02 553.7199999999999 0) (effects (font (size 1.1 1.1)) (justify left) (hide yes)))
+          (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (at 673.1 563.88 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 673.1 563.88 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "7" (uuid f0ed46aa-4086-50ac-b0b1-795b0aa4f866)) (pin "14" (uuid 4d906208-19b4-56ab-8f86-1f36e476b9a8))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "U2004") (unit 7))))) (wire (pts (xy 673.1000 576.5800) (xy 673.1000 581.6600)) (stroke (width 0) (type default)) (uuid a348aa66-c2d1-5b01-9260-b4c23c6f5a53)) (global_label "GND" (shape bidirectional) (at 673.1000 581.6600 0) (effects (font (size 1 1)) (justify left)) (uuid 127dea72-7aa7-55ba-b91a-6a6a61a14d89)) (wire (pts (xy 673.1000 551.1800) (xy 673.1000 546.1000)) (stroke (width 0) (type default)) (uuid ac6f3b03-0771-56ed-98fc-d46676a5094c)) (global_label "+5V" (shape bidirectional) (at 673.1000 546.1000 0) (effects (font (size 1 1)) (justify left)) (uuid b640993b-fed4-502e-8d71-d0f2246af5b1)) (symbol (lib_id "Device:C") (at 711.2 563.88 0) (unit 1)
+          (in_bom yes) (on_board yes) (dnp no) (uuid 741266a7-3beb-512c-9371-cbc6db7afb23)
+          (property "Reference" "C2004" (at 706.12 554.99 0) (effects (font (size 1.1 1.1)) (justify left)))
+          (property "Value" "100n" (at 706.12 557.53 0) (effects (font (size 1.1 1.1)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 711.2 563.88 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (property "Datasheet" "" (at 711.2 563.88 0) (effects (font (size 1.1 1.1)) (hide yes)))
+          (pin "1" (uuid 887d16e7-8660-54a0-a283-8d8d3d889840)) (pin "2" (uuid 7d895c69-b3b1-5a1b-bf5b-363f9db70e8a))
+          (instances (project "calculator" (path "/d9469cb7-d49a-49ae-833e-cecf4f62fbd2/b9dceef7-5871-5063-9359-53ba599d3b0c" (reference "C2004") (unit 1))))) (wire (pts (xy 711.2000 560.0700) (xy 711.2000 554.9900)) (stroke (width 0) (type default)) (uuid 15d95a50-3886-526f-babb-b226302bc03d)) (global_label "+5V" (shape bidirectional) (at 711.2000 554.9900 0) (effects (font (size 1 1)) (justify left)) (uuid df9740af-cce9-5e5d-80b6-a631dce802f5)) (wire (pts (xy 711.2000 567.6900) (xy 711.2000 572.7700)) (stroke (width 0) (type default)) (uuid 40919c2a-db84-536b-887f-e6769cc323ec)) (global_label "GND" (shape bidirectional) (at 711.2000 572.7700 0) (effects (font (size 1 1)) (justify left)) (uuid cb173506-ef63-51af-a3ef-40ac0fd80c2c))
+          (embedded_fonts no))

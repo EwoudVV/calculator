@@ -95,3 +95,17 @@ the keypad scanner, entry controls, display drivers, clock and power-on reset st
 ![controller outputs](images/controller-outputs.png)
 
 ![main controller](images/main-controller.png)
+
+## Moved the calculator to a PCB
+
+2026-11-05, 8 hours
+
+the breadboard version was going to take too long to wire, so i switched to a pcb. i picked surface mount versions of the logic chips and added the keypad circuit, display drivers, clock and power-on reset to the schematic.
+
+the board is 140 x 120 mm. the buttons and display are on the front, and i put parts on both sides to fit the circuit. i placed all the parts and started connecting them to 5v and ground on the inner layers.
+
+i ran 188 calculations in the circuit simulation with the new keypad logic and display latches. i checked negative results, division rounding and Clear. i still need to finish the routing and price out the full build before ordering a board.
+
+![front of the pcb in KiCad](images/pcb-front.png)
+
+![back of the pcb in KiCad](images/pcb-back.png)

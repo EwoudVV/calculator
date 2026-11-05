@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Calculator")(type "KiCad")(uri "${KIPRJMOD}/lib/Calculator.kicad_sym")(options "")(descr "calculator display"))
+)
