@@ -109,3 +109,17 @@ i ran 188 calculations in the circuit simulation with the new keypad logic and d
 ![front of the pcb in KiCad](images/pcb-front.png)
 
 ![back of the pcb in KiCad](images/pcb-back.png)
+
+## Routed power and control on the PCB
+
+2026-11-05, 15 hours
+
+i finished connecting 5V and ground across the board and routed the clock, power-on reset and Clear. the clock reaches the registers and control logic, and the reset and Clear signals reach the circuits they need to reset.
+
+i also routed a lot of the signals between chips. some traces run on the inner layers alongside the power and ground pours. KiCad went from 1,319 open connections to 506.
+
+the board still matches the schematic. KiCad flagged two spots where the copper pour gets very narrow. i still have signal traces left to route before i can order the board.
+
+![front copper in KiCad](images/routing-front.jpg)
+
+![back copper in KiCad](images/routing-back.jpg)
