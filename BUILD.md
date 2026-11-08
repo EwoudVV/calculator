@@ -8,6 +8,8 @@ J101 takes regulated 5V. pin 1 is 5V and pin 2 is ground. TP1 and TP2 are the su
 
 the full schematic passed the KiCad error check. i tested 188 calculations from key samples through the display latches. that included rounding, negative results, overflow and divide-by-zero. i also ran the key timer for a complete calculation and Clear.
 
-the 5V, ground, clock, power-on reset and Clear nets are connected. KiCad shows 506 open connections, down from 1319 before this routing pass. the board matches the schematic, and the copper check found two sliver warnings. the remaining signal routing and final board check still need to finish before ordering.
+the 5V, ground, clock, power-on reset and Clear nets are connected. i routed more of the keypad, display and control signals using 0.16 mm traces and 0.55 mm vias with 0.30 mm drills where space was tight. i added short links to reconnect parts of the power planes that the new traces cut off.
+
+KiCad shows 426 open connections, down from 506 before this pass. the board matches the schematic. the copper check found two sliver warnings, and there is still signal routing left before ordering.
 
 [parts-estimate.csv](parts-estimate.csv) is the earlier breadboard price check.

@@ -123,3 +123,53 @@ the board still matches the schematic. KiCad flagged two spots where the copper 
 ![front copper in KiCad](images/routing-front.jpg)
 
 ![back copper in KiCad](images/routing-back.jpg)
+
+## Finished routing the PCB
+
+2026-11-07, 15 hours
+
+i kept routing signals on the 4-layer board, using 0.16 mm traces and smaller vias where space was tight. i added short links where new traces cut the power planes apart. KiCad went from 506 open connections to 426, but the middle of the board was full.
+
+i checked how much wiring the board needs against how much it can fit. the chips for each section are spread across the whole board, so most signals have to cross the middle. it needs about twice what 4 layers can hold, and even 6 layers left 301 connections unrouted.
+
+i moved to a 16-layer board with finer rules: 0.105 mm spacing, 0.11 mm traces and 0.45 mm vias with 0.2 mm holes. the autorouter connected everything, and i cleaned up 172 leftover traces and vias that didn't connect to anything.
+
+KiCad now shows 0 open connections and no errors, and the board still matches the schematic. 5 small warnings are left: silkscreen overlaps and one copper sliver. i also worked out calculation times at a 96 kHz clock. addition takes 0.45 ms and 99 × 99 takes 23 ms.
+
+16 layers will cost a lot more than my budget, so i need a quote and to check the manufacturer can make the finer spacing before ordering. grouping each section's chips closer together could get it back to fewer layers.
+
+![3D view of the front](images/pcb-3d-front.png)
+
+![3D view of the back](images/pcb-3d-back.png)
+
+![front copper](images/routed-front.png)
+
+![back copper](images/routed-back.png)
+
+![inner layer 1, ground](images/routed-inner-1-ground.png)
+
+![inner layer 2](images/routed-inner-2.png)
+
+![inner layer 3](images/routed-inner-3.png)
+
+![inner layer 4](images/routed-inner-4.png)
+
+![inner layer 5](images/routed-inner-5.png)
+
+![inner layer 6, 5V](images/routed-inner-6-5v.png)
+
+![inner layer 7](images/routed-inner-7.png)
+
+![inner layer 8](images/routed-inner-8.png)
+
+![inner layer 9](images/routed-inner-9.png)
+
+![inner layer 10](images/routed-inner-10.png)
+
+![inner layer 11](images/routed-inner-11.png)
+
+![inner layer 12](images/routed-inner-12.png)
+
+![inner layer 13](images/routed-inner-13.png)
+
+![inner layer 14](images/routed-inner-14.png)
